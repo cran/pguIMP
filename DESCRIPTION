@@ -1,6 +1,6 @@
 Package: pguIMP
 Title: 'pguIMP'
-Version: 0.0.0.1
+Version: 0.0.0.2
 Authors@R: c(
     person(given = "Sebastian",
            family = "Malkusch",
@@ -22,9 +22,9 @@ BugReports: https://github.com/SMLMS/pguIMP/issues
 Imports: R6 (>= 2.4.1), DT, DataVisualizations, dbscan, dplyr, e1071,
         finalfit, ggplot2, ggthemes, Hmisc, magrittr, MASS, RWeka, VIM,
         bbmle, grid, gridExtra, mice, nortest, outliers, plotly, psych,
-        purrr, rcompanion, readr, readxl, rlang, rmarkdown, robust,
-        shiny, stats, stringr, tibble, tidyr, tidyselect, tools,
-        writexl
+        purrr, rcompanion, readr, readxl, rJava, rlang, rmarkdown,
+        robust, shiny, shinydashboard, shinyjs, shinyWidgets, stats,
+        stringr, tibble, tidyr, tidyselect, tools, writexl
 Collate: 'dLogLikelihood.R' 'importDataSet.R' 'normalDistribution.R'
         'pguCorrValidator.R' 'pguCorrelator.R' 'pguDMwR.R' 'pguFile.R'
         'pguData.R' 'pguFilter.R' 'pguLimitsOfQuantification.R'
@@ -37,8 +37,8 @@ Collate: 'dLogLikelihood.R' 'importDataSet.R' 'normalDistribution.R'
         'pguRegressor.R'
 Suggests: knitr, devtools, ellipsis (>= 0.3.2), roxygen2
 NeedsCompilation: no
-Packaged: 2021-06-30 10:57:35 UTC; malkusch
+Packaged: 2021-07-22 08:32:19 UTC; malkusch
 Author: Sebastian Malkusch [aut, cre] (<https://orcid.org/0000-0001-6766-140X>),
   Joern Loetsch [aut] (<https://orcid.org/0000-0002-5818-6958>)
 Repository: CRAN
-Date/Publication: 2021-07-01 07:40:04 UTC
+Date/Publication: 2021-07-22 10:30:02 UTC

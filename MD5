@@ -1,4 +1,4 @@
-a6b167922ef0bdf4fae42512a2f4eebe *DESCRIPTION
+d2f616f48e996f038ffe6d0d4d06deaa *DESCRIPTION
 73c6fbe95ce473c9c1a83185a5e177c8 *NAMESPACE
 ba067f8b2c65f05de96cf3a8c7efb7bc *R/dLogLikelihood.R
 e53fc9148417dd2b2453f3629fe3f778 *R/importDataSet.R
@@ -33,11 +33,11 @@ b2eff3474868cd0e84c9b8cc28c9ce9c *R/sLogLikelihood.R
 dc3ab7afe09cc0ca83c3f2058c0d847d *R/transposeTibble.R
 e3431bb04586aa9a604e3412d1790e0e *README.md
 3b6e173f86347fac857749c64e66e8de *inst/CITATION
-cbfd1e3489822d64f3671eab184e1f31 *inst/application/body.R
-a1978447d2622adebf804c6c996c8278 *inst/application/header.R
-387ac0312888c7db463171b855ee453d *inst/application/server.R
-b239ee3d1f2a79a511b7300c5d4d4320 *inst/application/sidebar.R
-88bf8fb3bd91734642b153a433ce53d5 *inst/application/ui.R
+9ab63a60a57bcde4d99e76249bb707e4 *inst/application/body.R
+bed5efe3b1b8f8e6ffed809c06355766 *inst/application/header.R
+619c66f69e724ca521e47d5b5598d6f1 *inst/application/server.R
+52465b8932065b2129c4e02299633e16 *inst/application/sidebar.R
+16e99ada64e33be227e61d58a950506a *inst/application/ui.R
 e5f2fd54d8870f69074b6770ad2693b5 *inst/application/www/_site.yml
 e16d6b11b432e2021349a5ff5b4a96ea *inst/application/www/_site/anomalies.html
 6a0d70f1cf2033422e506ad37f6d628a *inst/application/www/_site/define_loq.html
