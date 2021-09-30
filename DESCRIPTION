@@ -1,6 +1,6 @@
 Package: pguIMP
 Title: 'pguIMP'
-Version: 0.0.0.2
+Version: 0.0.0.3
 Authors@R: c(
     person(given = "Sebastian",
            family = "Malkusch",
@@ -37,8 +37,8 @@ Collate: 'dLogLikelihood.R' 'importDataSet.R' 'normalDistribution.R'
         'pguRegressor.R'
 Suggests: knitr, devtools, ellipsis (>= 0.3.2), roxygen2
 NeedsCompilation: no
-Packaged: 2021-07-22 08:32:19 UTC; malkusch
+Packaged: 2021-09-30 11:21:59 UTC; malkusch
 Author: Sebastian Malkusch [aut, cre] (<https://orcid.org/0000-0001-6766-140X>),
   Joern Loetsch [aut] (<https://orcid.org/0000-0002-5818-6958>)
 Repository: CRAN
-Date/Publication: 2021-07-22 10:30:02 UTC
+Date/Publication: 2021-09-30 11:50:02 UTC

@@ -1,4 +1,4 @@
-d2f616f48e996f038ffe6d0d4d06deaa *DESCRIPTION
+5d088d5cffe6e7b458b866fd2fd30356 *DESCRIPTION
 73c6fbe95ce473c9c1a83185a5e177c8 *NAMESPACE
 ba067f8b2c65f05de96cf3a8c7efb7bc *R/dLogLikelihood.R
 e53fc9148417dd2b2453f3629fe3f778 *R/importDataSet.R
@@ -15,7 +15,7 @@ cff2feb4fa24bc03ea765ac225340723 *R/pguExporter.R
 b991e84d9ce7623fb777eafcba4b1c31 *R/pguIMP.R
 0c4d954c1bd13574c3e5d18e860e92b5 *R/pguImporter.R
 307ed08ba22124b2389e6f05ee7960e0 *R/pguImputation.R
-f4fa9665c37f0ec0b18bcbd70d0458ae *R/pguLimitsOfQuantification.R
+b87d8545ac0a6a096219e9573c891e73 *R/pguLimitsOfQuantification.R
 400b68ec59f4a0f9b518b0b79ba79238 *R/pguMissings.R
 59cc13ad9e0b8dba109888374bcdb54e *R/pguMissingsCharacterizer.R
 6c034fcbd149c0aa3e15125f073b3449 *R/pguModel.R
@@ -32,7 +32,7 @@ a9cad93fdffb93ddbd6b0e35dcb3f32a *R/pguStatus.R
 b2eff3474868cd0e84c9b8cc28c9ce9c *R/sLogLikelihood.R
 dc3ab7afe09cc0ca83c3f2058c0d847d *R/transposeTibble.R
 e3431bb04586aa9a604e3412d1790e0e *README.md
-3b6e173f86347fac857749c64e66e8de *inst/CITATION
+e4fab961d7bd90b16725ba8147e148ca *inst/CITATION
 9ab63a60a57bcde4d99e76249bb707e4 *inst/application/body.R
 bed5efe3b1b8f8e6ffed809c06355766 *inst/application/header.R
 619c66f69e724ca521e47d5b5598d6f1 *inst/application/server.R
