@@ -36,7 +36,7 @@
 #'
 #' @include pguDMwR.R
 #'
-#' @author Sebastian Malkusch, \email{malkusch@@med.uni-frankfurt.de}
+#' @author Sebastian Malkusch
 #'
 #' @export
 #'
@@ -136,7 +136,7 @@ pgu.imputation <- R6::R6Class("pgu.imputation",
                                  #' @field setOutflux_thr
                                  #' Sets the instance variable outflux_thr.
                                  #' (numeric)
-                                 setOutflux_thr = function(value = numeric){
+                                 setOutflux_thr = function(value = "numeric"){
                                    private$.outflux_thr <- as.numeric(value)
                                  },
                                  #' @field pred_frac
@@ -242,7 +242,7 @@ pgu.imputation <- R6::R6Class("pgu.imputation",
                                  #' Initially sets the instance variable pred_frac.
                                  #' (numeric)
                                  #' @param outflux_thr
-                                 #' Initially sets the instance fariable outflux_thr
+                                 #' Initially sets the instance variable outflux_thr
                                  #' @return
                                  #' A new `pgu.imputation` object.
                                  #' (pguIMP::pgu.imputation)
@@ -327,7 +327,7 @@ pgu.imputation <- R6::R6Class("pgu.imputation",
                                        dplyr::bind_rows(outliers_df) %>%
                                        dplyr::arrange(feature,idx)
                                    } else{
-                                     print("Warning, pguImputation$gatherImputationsites got wrong inut format.")
+                                     print("Warning, pguImputation$gatherImputationsites got wrong input format.")
                                      private$.imputationSites <- tibble::tibble(idx = integer(0),
                                                                                 feature = character(0))
                                    }
@@ -582,7 +582,7 @@ pgu.imputation <- R6::R6Class("pgu.imputation",
                                  handleImputationSites = function(data_df = "tbl_df", progress = "Progress"){
                                    if(is.na(self$imputationAgent)){
                                      print("Warning: Error in pgu.imputation imputationAgent is not valid. Will be set to none.")
-                                     self$setimputationAgent <- "none"
+                                     self$setImputationAgent <- "none"
                                    }#if
                                    private$.success <- FALSE
                                    data_df <- self$insertImputationSites(data_df)
@@ -604,8 +604,8 @@ pgu.imputation <- R6::R6Class("pgu.imputation",
                                    },
                                    error = function(e) {
                                      private$.success <- FALSE
-                                     errorMesage <- sprintf("\nError in pgu.imputation during handleImputationSites routine:\n%s", e)
-                                     cat(errorMesage)
+                                     errorMessage <- sprintf("\nError in pgu.imputation during handleImputationSites routine:\n%s", e)
+                                     cat(errorMessage)
                                    }#error
                                    )#tryCatch
                                    colnames(cleanedData) <- colnames(data_df)
@@ -856,9 +856,6 @@ pgu.imputation <- R6::R6Class("pgu.imputation",
                                      sprintf("\nWarning in pgu.imputation$imputeByKnn: nNeighbors set to: %i\n", self$nNeighbors) %>%
                                        cat()
                                    }#if
-                                   data_df %>%
-                                     as.data.frame() %>%
-                                     print()
                                    data_df %>%
                                      as.data.frame() %>%
                                      pguIMP::knnImputation(k=self$nNeighbors,

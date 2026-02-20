@@ -4,7 +4,7 @@
 \alias{pgu.normDist}
 \title{pgu.normDist}
 \format{
-\link[R6:R6Class]{R6::R6Class} object.
+[R6::R6Class] object.
 }
 \description{
 Compares the distribution of a single attribute's values to normal distribution
@@ -19,7 +19,7 @@ with respect to the expectation value and standard deviation.
 This object is used by the shiny based gui and is not for use in individual R-scripts!
 }
 \author{
-Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
+Sebastian Malkusch
 }
 \section{Active bindings}{
 \if{html}{\out{<div class="r6-active-bindings">}}
@@ -101,35 +101,35 @@ Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
 \section{Methods}{
 \subsection{Public methods}{
 \itemize{
-\item \href{#method-new}{\code{pgu.normDist$new()}}
-\item \href{#method-finalize}{\code{pgu.normDist$finalize()}}
-\item \href{#method-print}{\code{pgu.normDist$print()}}
-\item \href{#method-resetNormDist}{\code{pgu.normDist$resetNormDist()}}
-\item \href{#method-resetFail}{\code{pgu.normDist$resetFail()}}
-\item \href{#method-optimize}{\code{pgu.normDist$optimize()}}
-\item \href{#method-createHistogram}{\code{pgu.normDist$createHistogram()}}
-\item \href{#method-normalQQData}{\code{pgu.normDist$normalQQData()}}
-\item \href{#method-test.shapiro}{\code{pgu.normDist$test.shapiro()}}
-\item \href{#method-test.kolmogorow}{\code{pgu.normDist$test.kolmogorow()}}
-\item \href{#method-test.anderson}{\code{pgu.normDist$test.anderson()}}
-\item \href{#method-fitResult}{\code{pgu.normDist$fitResult()}}
-\item \href{#method-testResult}{\code{pgu.normDist$testResult()}}
-\item \href{#method-testResultCompendium}{\code{pgu.normDist$testResultCompendium()}}
-\item \href{#method-plotHistogram}{\code{pgu.normDist$plotHistogram()}}
-\item \href{#method-plotResiduals}{\code{pgu.normDist$plotResiduals()}}
-\item \href{#method-plotResidualDist}{\code{pgu.normDist$plotResidualDist()}}
-\item \href{#method-plotRawResidualDist}{\code{pgu.normDist$plotRawResidualDist()}}
-\item \href{#method-plotRawDataDist}{\code{pgu.normDist$plotRawDataDist()}}
-\item \href{#method-normalQQPlot}{\code{pgu.normDist$normalQQPlot()}}
-\item \href{#method-fit}{\code{pgu.normDist$fit()}}
-\item \href{#method-clone}{\code{pgu.normDist$clone()}}
+\item \href{#method-pgu.normDist-new}{\code{pgu.normDist$new()}}
+\item \href{#method-pgu.normDist-finalize}{\code{pgu.normDist$finalize()}}
+\item \href{#method-pgu.normDist-print}{\code{pgu.normDist$print()}}
+\item \href{#method-pgu.normDist-resetNormDist}{\code{pgu.normDist$resetNormDist()}}
+\item \href{#method-pgu.normDist-resetFail}{\code{pgu.normDist$resetFail()}}
+\item \href{#method-pgu.normDist-optimize}{\code{pgu.normDist$optimize()}}
+\item \href{#method-pgu.normDist-createHistogram}{\code{pgu.normDist$createHistogram()}}
+\item \href{#method-pgu.normDist-normalQQData}{\code{pgu.normDist$normalQQData()}}
+\item \href{#method-pgu.normDist-test.shapiro}{\code{pgu.normDist$test.shapiro()}}
+\item \href{#method-pgu.normDist-test.kolmogorow}{\code{pgu.normDist$test.kolmogorow()}}
+\item \href{#method-pgu.normDist-test.anderson}{\code{pgu.normDist$test.anderson()}}
+\item \href{#method-pgu.normDist-fitResult}{\code{pgu.normDist$fitResult()}}
+\item \href{#method-pgu.normDist-testResult}{\code{pgu.normDist$testResult()}}
+\item \href{#method-pgu.normDist-testResultCompendium}{\code{pgu.normDist$testResultCompendium()}}
+\item \href{#method-pgu.normDist-plotHistogram}{\code{pgu.normDist$plotHistogram()}}
+\item \href{#method-pgu.normDist-plotResiduals}{\code{pgu.normDist$plotResiduals()}}
+\item \href{#method-pgu.normDist-plotResidualDist}{\code{pgu.normDist$plotResidualDist()}}
+\item \href{#method-pgu.normDist-plotRawResidualDist}{\code{pgu.normDist$plotRawResidualDist()}}
+\item \href{#method-pgu.normDist-plotRawDataDist}{\code{pgu.normDist$plotRawDataDist()}}
+\item \href{#method-pgu.normDist-normalQQPlot}{\code{pgu.normDist$normalQQPlot()}}
+\item \href{#method-pgu.normDist-fit}{\code{pgu.normDist$fit()}}
+\item \href{#method-pgu.normDist-clone}{\code{pgu.normDist$clone()}}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-new"></a>}}
-\if{latex}{\out{\hypertarget{method-new}{}}}
+\if{html}{\out{<a id="method-pgu.normDist-new"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normDist-new}{}}}
 \subsection{Method \code{new()}}{
-Creates and returns a new \code{pgu.normDist} object.
+Creates and returns a new `pgu.normDist` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.normDist$new(data = "tbl_df")}\if{html}{\out{</div>}}
 }
@@ -143,26 +143,26 @@ Creates and returns a new \code{pgu.normDist} object.
 \if{html}{\out{</div>}}
 }
 \subsection{Returns}{
-A new \code{pgu.normDist} object.
+A new `pgu.normDist` object.
 (pguIMP::pgu.normDist)
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-finalize"></a>}}
-\if{latex}{\out{\hypertarget{method-finalize}{}}}
+\if{html}{\out{<a id="method-pgu.normDist-finalize"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normDist-finalize}{}}}
 \subsection{Method \code{finalize()}}{
 Clears the heap and
-indicates that instance of \code{pgu.normDist} is removed from heap.
+indicates that instance of `pgu.normDist` is removed from heap.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.normDist$finalize()}\if{html}{\out{</div>}}
 }
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-print"></a>}}
-\if{latex}{\out{\hypertarget{method-print}{}}}
+\if{html}{\out{<a id="method-pgu.normDist-print"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normDist-print}{}}}
 \subsection{Method \code{print()}}{
-Prints instance variables of a \code{pgu.normDist} object.
+Prints instance variables of a `pgu.normDist` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.normDist$print()}\if{html}{\out{</div>}}
 }
@@ -172,8 +172,8 @@ string
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-resetNormDist"></a>}}
-\if{latex}{\out{\hypertarget{method-resetNormDist}{}}}
+\if{html}{\out{<a id="method-pgu.normDist-resetNormDist"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normDist-resetNormDist}{}}}
 \subsection{Method \code{resetNormDist()}}{
 Resets instance variables
 \subsection{Usage}{
@@ -190,8 +190,8 @@ Resets instance variables
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-resetFail"></a>}}
-\if{latex}{\out{\hypertarget{method-resetFail}{}}}
+\if{html}{\out{<a id="method-pgu.normDist-resetFail"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normDist-resetFail}{}}}
 \subsection{Method \code{resetFail()}}{
 Resets instance variables in case of a failed analysis.
 \subsection{Usage}{
@@ -200,88 +200,88 @@ Resets instance variables in case of a failed analysis.
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-optimize"></a>}}
-\if{latex}{\out{\hypertarget{method-optimize}{}}}
+\if{html}{\out{<a id="method-pgu.normDist-optimize"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normDist-optimize}{}}}
 \subsection{Method \code{optimize()}}{
 Optimizes the logLikelihood between the data and a normal distribution
 with respect to the expectation value and standard deviation.
-The quality of the best model ist calculated subsequently.
+The quality of the best model is calculated subsequently.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.normDist$optimize()}\if{html}{\out{</div>}}
 }
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-createHistogram"></a>}}
-\if{latex}{\out{\hypertarget{method-createHistogram}{}}}
+\if{html}{\out{<a id="method-pgu.normDist-createHistogram"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normDist-createHistogram}{}}}
 \subsection{Method \code{createHistogram()}}{
-Creates a histogram from the instance variable \code{rawData}.
-The histogram is stored in the instance variable \code{histogram}.
+Creates a histogram from the instance variable `rawData`.
+The histogram is stored in the instance variable `histogram`.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.normDist$createHistogram()}\if{html}{\out{</div>}}
 }
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-normalQQData"></a>}}
-\if{latex}{\out{\hypertarget{method-normalQQData}{}}}
+\if{html}{\out{<a id="method-pgu.normDist-normalQQData"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normDist-normalQQData}{}}}
 \subsection{Method \code{normalQQData()}}{
-Performes a qq-analysis of the instance variable \code{rawData}
-The qq-analysis is stored in the attributes \code{sample_quantile}
-and \code{theoretical_quantile} of the instance variable \code{rawData}.
+Performes a qq-analysis of the instance variable `rawData`
+The qq-analysis is stored in the attributes `sample_quantile`
+and `theoretical_quantile` of the instance variable `rawData`.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.normDist$normalQQData()}\if{html}{\out{</div>}}
 }
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-test.shapiro"></a>}}
-\if{latex}{\out{\hypertarget{method-test.shapiro}{}}}
+\if{html}{\out{<a id="method-pgu.normDist-test.shapiro"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normDist-test.shapiro}{}}}
 \subsection{Method \code{test.shapiro()}}{
 Performes Shapiro-Wilk's test for normality on the
-instance variable \code{rawData}.
+instance variable `rawData`.
 The test result is stored in the instance variable
-\code{w.shapiro}.
+`w.shapiro`.
 The p-value of the test is stored in the instance variable
-\code{p.shapiro}
+`p.shapiro`
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.normDist$test.shapiro()}\if{html}{\out{</div>}}
 }
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-test.kolmogorow"></a>}}
-\if{latex}{\out{\hypertarget{method-test.kolmogorow}{}}}
+\if{html}{\out{<a id="method-pgu.normDist-test.kolmogorow"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normDist-test.kolmogorow}{}}}
 \subsection{Method \code{test.kolmogorow()}}{
 Performes Kolmogorow-Smirnow's test for normality on the
-instance variable \code{rawData}.
+instance variable `rawData`.
 The test result is stored in the instance variable
-\code{d.kolmogorow}.
+`d.kolmogorow`.
 The p-value of the test is stored in the instance variable
-\code{p.kolmogorow}
+`p.kolmogorow`
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.normDist$test.kolmogorow()}\if{html}{\out{</div>}}
 }
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-test.anderson"></a>}}
-\if{latex}{\out{\hypertarget{method-test.anderson}{}}}
+\if{html}{\out{<a id="method-pgu.normDist-test.anderson"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normDist-test.anderson}{}}}
 \subsection{Method \code{test.anderson()}}{
 Performes Anderson-Darling's test for normality on the
-instance variable \code{rawData}.
+instance variable `rawData`.
 The test result is stored in the instance variable
-\code{a.anderson}.
+`a.anderson`.
 The p-value of the test is stored in the instance variable
-\code{p.anderson}
+`p.anderson`
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.normDist$test.anderson()}\if{html}{\out{</div>}}
 }
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-fitResult"></a>}}
-\if{latex}{\out{\hypertarget{method-fitResult}{}}}
+\if{html}{\out{<a id="method-pgu.normDist-fitResult"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normDist-fitResult}{}}}
 \subsection{Method \code{fitResult()}}{
 Returns the result of the classes optimize function
 in form of a formated string.
@@ -295,8 +295,8 @@ String of the results of the fitting routine
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-testResult"></a>}}
-\if{latex}{\out{\hypertarget{method-testResult}{}}}
+\if{html}{\out{<a id="method-pgu.normDist-testResult"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normDist-testResult}{}}}
 \subsection{Method \code{testResult()}}{
 Returns the result of the classes test functions
 in form of a formated string.
@@ -308,8 +308,8 @@ in form of a formated string.
 \if{html}{\out{<div class="arguments">}}
 \describe{
 \item{\code{testName}}{Defines the test which result shall be returned.
-Can be of type:\code{Shapiro-Wilk}, \code{Kolmogorow-Smirnow}
-or \code{Anderson-Darling}.
+Can be of type:`Shapiro-Wilk`, `Kolmogorow-Smirnow`
+or `Anderson-Darling`.
 (character)}
 }
 \if{html}{\out{</div>}}
@@ -320,12 +320,12 @@ String of the results of the testing routine
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-testResultCompendium"></a>}}
-\if{latex}{\out{\hypertarget{method-testResultCompendium}{}}}
+\if{html}{\out{<a id="method-pgu.normDist-testResultCompendium"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normDist-testResultCompendium}{}}}
 \subsection{Method \code{testResultCompendium()}}{
 Returns the result of the classes test functions
-\code{Shapiro-Wilk}, \code{Kolmogorow-Smirnow} and
-\code{Anderson-Darling}
+`Shapiro-Wilk`, `Kolmogorow-Smirnow` and
+`Anderson-Darling`
 in form of a formated string.
 (character)
 \subsection{Usage}{
@@ -338,10 +338,10 @@ String of the results of the testing routine
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-plotHistogram"></a>}}
-\if{latex}{\out{\hypertarget{method-plotHistogram}{}}}
+\if{html}{\out{<a id="method-pgu.normDist-plotHistogram"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normDist-plotHistogram}{}}}
 \subsection{Method \code{plotHistogram()}}{
-Displays the instance variable \code{histogram}
+Displays the instance variable `histogram`
 in form of a bar plot and overlays the corresponding normal distribution.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.normDist$plotHistogram()}\if{html}{\out{</div>}}
@@ -353,11 +353,11 @@ A bar plot.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-plotResiduals"></a>}}
-\if{latex}{\out{\hypertarget{method-plotResiduals}{}}}
+\if{html}{\out{<a id="method-pgu.normDist-plotResiduals"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normDist-plotResiduals}{}}}
 \subsection{Method \code{plotResiduals()}}{
 Displays the residuals between the instance variable
-\code{histogram} and the corresponding normal distribution.
+`histogram` and the corresponding normal distribution.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.normDist$plotResiduals()}\if{html}{\out{</div>}}
 }
@@ -368,11 +368,11 @@ A scatter plot.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-plotResidualDist"></a>}}
-\if{latex}{\out{\hypertarget{method-plotResidualDist}{}}}
+\if{html}{\out{<a id="method-pgu.normDist-plotResidualDist"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normDist-plotResidualDist}{}}}
 \subsection{Method \code{plotResidualDist()}}{
 Displays the distribution of the residuals between the distribution of the instance variable
-\code{histogram} in form of a histogram.
+`histogram` in form of a histogram.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.normDist$plotResidualDist()}\if{html}{\out{</div>}}
 }
@@ -383,11 +383,11 @@ A bar plot.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-plotRawResidualDist"></a>}}
-\if{latex}{\out{\hypertarget{method-plotRawResidualDist}{}}}
+\if{html}{\out{<a id="method-pgu.normDist-plotRawResidualDist"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normDist-plotRawResidualDist}{}}}
 \subsection{Method \code{plotRawResidualDist()}}{
 Displays the distribution of the residuals between the distribution of the instance variable
-\code{rawData} in form of a histogram.
+`rawData` in form of a histogram.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.normDist$plotRawResidualDist()}\if{html}{\out{</div>}}
 }
@@ -398,11 +398,11 @@ A bar plot.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-plotRawDataDist"></a>}}
-\if{latex}{\out{\hypertarget{method-plotRawDataDist}{}}}
+\if{html}{\out{<a id="method-pgu.normDist-plotRawDataDist"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normDist-plotRawDataDist}{}}}
 \subsection{Method \code{plotRawDataDist()}}{
 Displays the distribution of the instance variable
-\code{rawData} in form of a histogram.
+`rawData` in form of a histogram.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.normDist$plotRawDataDist()}\if{html}{\out{</div>}}
 }
@@ -413,11 +413,11 @@ A bar plot.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-normalQQPlot"></a>}}
-\if{latex}{\out{\hypertarget{method-normalQQPlot}{}}}
+\if{html}{\out{<a id="method-pgu.normDist-normalQQPlot"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normDist-normalQQPlot}{}}}
 \subsection{Method \code{normalQQPlot()}}{
 Displays a qqplot of the instance variable
-\code{rawData}.
+`rawData`.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.normDist$normalQQPlot()}\if{html}{\out{</div>}}
 }
@@ -428,19 +428,19 @@ A qq-plot.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-fit"></a>}}
-\if{latex}{\out{\hypertarget{method-fit}{}}}
+\if{html}{\out{<a id="method-pgu.normDist-fit"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normDist-fit}{}}}
 \subsection{Method \code{fit()}}{
 Runs the optimization process and performs all implemented quality controls.
-Additionally performs hypothesis tests for nromality.
+Additionally performs hypothesis tests for normality.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.normDist$fit()}\if{html}{\out{</div>}}
 }
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-clone"></a>}}
-\if{latex}{\out{\hypertarget{method-clone}{}}}
+\if{html}{\out{<a id="method-pgu.normDist-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normDist-clone}{}}}
 \subsection{Method \code{clone()}}{
 The objects of this class are cloneable with this method.
 \subsection{Usage}{

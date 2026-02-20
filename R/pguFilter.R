@@ -14,7 +14,7 @@
 #' @importFrom R6 R6Class
 #' @importFrom tibble is_tibble tibble
 #'
-#' @author Sebastian Malkusch, \email{malkusch@@med.uni-frankfurt.de}
+#' @author Sebastian Malkusch
 #'
 #' @export
 #'

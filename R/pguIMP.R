@@ -13,7 +13,7 @@
 #' @include transposeTibble.R
 #' @include normalDistribution.R
 #'
-#' @author Sebastian Malkusch, \email{malkusch@@med.uni-frankfurt.de}
+#' @author Sebastian Malkusch
 #'
 #' @export
 #'

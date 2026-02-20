@@ -20,7 +20,7 @@
 #' @importFrom stats as.formula lm
 #' @importFrom tibble as_tibble enframe tibble
 #'
-#' @author Sebastian Malkusch, \email{malkusch@@med.uni-frankfurt.de}
+#' @author Sebastian Malkusch
 #'
 #' @export
 #'

@@ -4,7 +4,7 @@
 \alias{pgu.explorer}
 \title{pgu.explorer}
 \format{
-\link[R6:R6Class]{R6::R6Class} object.
+[R6::R6Class] object.
 }
 \description{
 Visual exploration of the pguIMP dataset.
@@ -14,7 +14,7 @@ Pariwise anlysis of attributes from the pguIMP dataset.
 This object is used by the shiny based gui and is not for use in individual R-scripts!
 }
 \author{
-Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
+Sebastian Malkusch
 }
 \section{Active bindings}{
 \if{html}{\out{<div class="r6-active-bindings">}}
@@ -48,23 +48,23 @@ Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
 \section{Methods}{
 \subsection{Public methods}{
 \itemize{
-\item \href{#method-new}{\code{pgu.explorer$new()}}
-\item \href{#method-print}{\code{pgu.explorer$print()}}
-\item \href{#method-reset}{\code{pgu.explorer$reset()}}
-\item \href{#method-fit}{\code{pgu.explorer$fit()}}
-\item \href{#method-scatterPlot}{\code{pgu.explorer$scatterPlot()}}
-\item \href{#method-abscissaBarPlot}{\code{pgu.explorer$abscissaBarPlot()}}
-\item \href{#method-abscissaBoxPlot}{\code{pgu.explorer$abscissaBoxPlot()}}
-\item \href{#method-abscissaPlot}{\code{pgu.explorer$abscissaPlot()}}
-\item \href{#method-ordinateBarPlot}{\code{pgu.explorer$ordinateBarPlot()}}
-\item \href{#method-ordinateBoxPlot}{\code{pgu.explorer$ordinateBoxPlot()}}
-\item \href{#method-ordinatePlot}{\code{pgu.explorer$ordinatePlot()}}
-\item \href{#method-clone}{\code{pgu.explorer$clone()}}
+\item \href{#method-pgu.explorer-new}{\code{pgu.explorer$new()}}
+\item \href{#method-pgu.explorer-print}{\code{pgu.explorer$print()}}
+\item \href{#method-pgu.explorer-reset}{\code{pgu.explorer$reset()}}
+\item \href{#method-pgu.explorer-fit}{\code{pgu.explorer$fit()}}
+\item \href{#method-pgu.explorer-scatterPlot}{\code{pgu.explorer$scatterPlot()}}
+\item \href{#method-pgu.explorer-abscissaBarPlot}{\code{pgu.explorer$abscissaBarPlot()}}
+\item \href{#method-pgu.explorer-abscissaBoxPlot}{\code{pgu.explorer$abscissaBoxPlot()}}
+\item \href{#method-pgu.explorer-abscissaPlot}{\code{pgu.explorer$abscissaPlot()}}
+\item \href{#method-pgu.explorer-ordinateBarPlot}{\code{pgu.explorer$ordinateBarPlot()}}
+\item \href{#method-pgu.explorer-ordinateBoxPlot}{\code{pgu.explorer$ordinateBoxPlot()}}
+\item \href{#method-pgu.explorer-ordinatePlot}{\code{pgu.explorer$ordinatePlot()}}
+\item \href{#method-pgu.explorer-clone}{\code{pgu.explorer$clone()}}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-new"></a>}}
-\if{latex}{\out{\hypertarget{method-new}{}}}
+\if{html}{\out{<a id="method-pgu.explorer-new"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.explorer-new}{}}}
 \subsection{Method \code{new()}}{
 Tests if the abscissa attribute is of type numeric.
 
@@ -84,10 +84,10 @@ Stores the result in the instance variable ordinateStatistics.
 
 
 Clears the heap and
-indicates that instance of \code{pgu.explorer} is removed from heap.
+indicates that instance of `pgu.explorer` is removed from heap.
 
 
-Creates and returns a new \code{pgu.explorer} object.
+Creates and returns a new `pgu.explorer` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.explorer$new(data_df = "tbl_df")}\if{html}{\out{</div>}}
 }
@@ -101,15 +101,15 @@ Creates and returns a new \code{pgu.explorer} object.
 \if{html}{\out{</div>}}
 }
 \subsection{Returns}{
-A new \code{pgu.explorer} object.
+A new `pgu.explorer` object.
 (pguIMP::pgu.optimizer)
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-print"></a>}}
-\if{latex}{\out{\hypertarget{method-print}{}}}
+\if{html}{\out{<a id="method-pgu.explorer-print"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.explorer-print}{}}}
 \subsection{Method \code{print()}}{
-Prints instance variables of a \code{pgu.explorer} object.
+Prints instance variables of a `pgu.explorer` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.explorer$print()}\if{html}{\out{</div>}}
 }
@@ -119,8 +119,8 @@ string
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-reset"></a>}}
-\if{latex}{\out{\hypertarget{method-reset}{}}}
+\if{html}{\out{<a id="method-pgu.explorer-reset"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.explorer-reset}{}}}
 \subsection{Method \code{reset()}}{
 Resets the instance of the pgu.explorer class
 \subsection{Usage}{
@@ -143,8 +143,8 @@ Resets the instance of the pgu.explorer class
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-fit"></a>}}
-\if{latex}{\out{\hypertarget{method-fit}{}}}
+\if{html}{\out{<a id="method-pgu.explorer-fit"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.explorer-fit}{}}}
 \subsection{Method \code{fit()}}{
 Calculates the abscissa and ordinate statistics
 \subsection{Usage}{
@@ -153,8 +153,8 @@ Calculates the abscissa and ordinate statistics
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-scatterPlot"></a>}}
-\if{latex}{\out{\hypertarget{method-scatterPlot}{}}}
+\if{html}{\out{<a id="method-pgu.explorer-scatterPlot"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.explorer-scatterPlot}{}}}
 \subsection{Method \code{scatterPlot()}}{
 Creates and returns a scatter plot abscissa and ordinate value pairs.
 \subsection{Usage}{
@@ -167,8 +167,8 @@ Scatter plot
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-abscissaBarPlot"></a>}}
-\if{latex}{\out{\hypertarget{method-abscissaBarPlot}{}}}
+\if{html}{\out{<a id="method-pgu.explorer-abscissaBarPlot"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.explorer-abscissaBarPlot}{}}}
 \subsection{Method \code{abscissaBarPlot()}}{
 Creates and returns a histogram from the abscissa values.
 \subsection{Usage}{
@@ -181,8 +181,8 @@ Bar plot
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-abscissaBoxPlot"></a>}}
-\if{latex}{\out{\hypertarget{method-abscissaBoxPlot}{}}}
+\if{html}{\out{<a id="method-pgu.explorer-abscissaBoxPlot"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.explorer-abscissaBoxPlot}{}}}
 \subsection{Method \code{abscissaBoxPlot()}}{
 Creates and returns a box plot from the abscissa values.
 \subsection{Usage}{
@@ -195,8 +195,8 @@ Box plot
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-abscissaPlot"></a>}}
-\if{latex}{\out{\hypertarget{method-abscissaPlot}{}}}
+\if{html}{\out{<a id="method-pgu.explorer-abscissaPlot"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.explorer-abscissaPlot}{}}}
 \subsection{Method \code{abscissaPlot()}}{
 Creates and returns a compund graphical analysis of the abscissa values.
 \subsection{Usage}{
@@ -209,8 +209,8 @@ Compound plot
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-ordinateBarPlot"></a>}}
-\if{latex}{\out{\hypertarget{method-ordinateBarPlot}{}}}
+\if{html}{\out{<a id="method-pgu.explorer-ordinateBarPlot"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.explorer-ordinateBarPlot}{}}}
 \subsection{Method \code{ordinateBarPlot()}}{
 Creates and returns a histogram from the ordinate values.
 \subsection{Usage}{
@@ -223,8 +223,8 @@ Bar plot
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-ordinateBoxPlot"></a>}}
-\if{latex}{\out{\hypertarget{method-ordinateBoxPlot}{}}}
+\if{html}{\out{<a id="method-pgu.explorer-ordinateBoxPlot"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.explorer-ordinateBoxPlot}{}}}
 \subsection{Method \code{ordinateBoxPlot()}}{
 Creates and returns a box plot from the ordinate values.
 \subsection{Usage}{
@@ -237,8 +237,8 @@ Box plot
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-ordinatePlot"></a>}}
-\if{latex}{\out{\hypertarget{method-ordinatePlot}{}}}
+\if{html}{\out{<a id="method-pgu.explorer-ordinatePlot"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.explorer-ordinatePlot}{}}}
 \subsection{Method \code{ordinatePlot()}}{
 Creates and returns a compund graphical analysis of the ordinate values.
 \subsection{Usage}{
@@ -251,8 +251,8 @@ Compound plot
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-clone"></a>}}
-\if{latex}{\out{\hypertarget{method-clone}{}}}
+\if{html}{\out{<a id="method-pgu.explorer-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.explorer-clone}{}}}
 \subsection{Method \code{clone()}}{
 The objects of this class are cloneable with this method.
 \subsection{Usage}{

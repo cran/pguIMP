@@ -4,7 +4,7 @@
 \alias{pgu.regressor}
 \title{pgu.regressor}
 \format{
-\link[R6:R6Class]{R6::R6Class} object.
+[R6::R6Class] object.
 }
 \description{
 A class that performs pairwise robust regression on the pguIMP data set.
@@ -14,7 +14,7 @@ A class that performs pairwise robust regression on the pguIMP data set.
 This object is used by the shiny based gui and is not for use in individual R-scripts!
 }
 \author{
-Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
+Sebastian Malkusch
 }
 \section{Active bindings}{
 \if{html}{\out{<div class="r6-active-bindings">}}
@@ -47,34 +47,34 @@ intercept, pIntercept, slope, pSlope.
 \section{Methods}{
 \subsection{Public methods}{
 \itemize{
-\item \href{#method-new}{\code{pgu.regressor$new()}}
-\item \href{#method-finalize}{\code{pgu.regressor$finalize()}}
-\item \href{#method-print}{\code{pgu.regressor$print()}}
-\item \href{#method-resetRegressor}{\code{pgu.regressor$resetRegressor()}}
-\item \href{#method-resetDiagonal}{\code{pgu.regressor$resetDiagonal()}}
-\item \href{#method-resetMatrix}{\code{pgu.regressor$resetMatrix()}}
-\item \href{#method-featureIdx}{\code{pgu.regressor$featureIdx()}}
-\item \href{#method-featureIsValid}{\code{pgu.regressor$featureIsValid()}}
-\item \href{#method-featurePairIsValid}{\code{pgu.regressor$featurePairIsValid()}}
-\item \href{#method-createModel}{\code{pgu.regressor$createModel()}}
-\item \href{#method-createRegressionMatrix}{\code{pgu.regressor$createRegressionMatrix()}}
-\item \href{#method-printModel}{\code{pgu.regressor$printModel()}}
-\item \href{#method-printInterceptTbl}{\code{pgu.regressor$printInterceptTbl()}}
-\item \href{#method-printPInterceptTbl}{\code{pgu.regressor$printPInterceptTbl()}}
-\item \href{#method-printSlopeTbl}{\code{pgu.regressor$printSlopeTbl()}}
-\item \href{#method-printPSlopeTbl}{\code{pgu.regressor$printPSlopeTbl()}}
-\item \href{#method-plotRegression}{\code{pgu.regressor$plotRegression()}}
-\item \href{#method-plotResidualDist}{\code{pgu.regressor$plotResidualDist()}}
-\item \href{#method-plotResidualBox}{\code{pgu.regressor$plotResidualBox()}}
-\item \href{#method-plotModel}{\code{pgu.regressor$plotModel()}}
-\item \href{#method-clone}{\code{pgu.regressor$clone()}}
+\item \href{#method-pgu.regressor-new}{\code{pgu.regressor$new()}}
+\item \href{#method-pgu.regressor-finalize}{\code{pgu.regressor$finalize()}}
+\item \href{#method-pgu.regressor-print}{\code{pgu.regressor$print()}}
+\item \href{#method-pgu.regressor-resetRegressor}{\code{pgu.regressor$resetRegressor()}}
+\item \href{#method-pgu.regressor-resetDiagonal}{\code{pgu.regressor$resetDiagonal()}}
+\item \href{#method-pgu.regressor-resetMatrix}{\code{pgu.regressor$resetMatrix()}}
+\item \href{#method-pgu.regressor-featureIdx}{\code{pgu.regressor$featureIdx()}}
+\item \href{#method-pgu.regressor-featureIsValid}{\code{pgu.regressor$featureIsValid()}}
+\item \href{#method-pgu.regressor-featurePairIsValid}{\code{pgu.regressor$featurePairIsValid()}}
+\item \href{#method-pgu.regressor-createModel}{\code{pgu.regressor$createModel()}}
+\item \href{#method-pgu.regressor-createRegressionMatrix}{\code{pgu.regressor$createRegressionMatrix()}}
+\item \href{#method-pgu.regressor-printModel}{\code{pgu.regressor$printModel()}}
+\item \href{#method-pgu.regressor-printInterceptTbl}{\code{pgu.regressor$printInterceptTbl()}}
+\item \href{#method-pgu.regressor-printPInterceptTbl}{\code{pgu.regressor$printPInterceptTbl()}}
+\item \href{#method-pgu.regressor-printSlopeTbl}{\code{pgu.regressor$printSlopeTbl()}}
+\item \href{#method-pgu.regressor-printPSlopeTbl}{\code{pgu.regressor$printPSlopeTbl()}}
+\item \href{#method-pgu.regressor-plotRegression}{\code{pgu.regressor$plotRegression()}}
+\item \href{#method-pgu.regressor-plotResidualDist}{\code{pgu.regressor$plotResidualDist()}}
+\item \href{#method-pgu.regressor-plotResidualBox}{\code{pgu.regressor$plotResidualBox()}}
+\item \href{#method-pgu.regressor-plotModel}{\code{pgu.regressor$plotModel()}}
+\item \href{#method-pgu.regressor-clone}{\code{pgu.regressor$clone()}}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-new"></a>}}
-\if{latex}{\out{\hypertarget{method-new}{}}}
+\if{html}{\out{<a id="method-pgu.regressor-new"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.regressor-new}{}}}
 \subsection{Method \code{new()}}{
-Creates and returns a new \code{pgu.regressor} object.
+Creates and returns a new `pgu.regressor` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.regressor$new(data = "tbl_df")}\if{html}{\out{</div>}}
 }
@@ -88,26 +88,26 @@ Creates and returns a new \code{pgu.regressor} object.
 \if{html}{\out{</div>}}
 }
 \subsection{Returns}{
-A new \code{pgu.regressor} object.
+A new `pgu.regressor` object.
 (pguIMP::pgu.regressor)
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-finalize"></a>}}
-\if{latex}{\out{\hypertarget{method-finalize}{}}}
+\if{html}{\out{<a id="method-pgu.regressor-finalize"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.regressor-finalize}{}}}
 \subsection{Method \code{finalize()}}{
 Clears the heap and
-indicates if instance of \code{pgu.regressor} is removed from heap.
+indicates if instance of `pgu.regressor` is removed from heap.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.regressor$finalize()}\if{html}{\out{</div>}}
 }
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-print"></a>}}
-\if{latex}{\out{\hypertarget{method-print}{}}}
+\if{html}{\out{<a id="method-pgu.regressor-print"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.regressor-print}{}}}
 \subsection{Method \code{print()}}{
-Prints instance variables of a \code{pgu.regressor} object.
+Prints instance variables of a `pgu.regressor` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.regressor$print()}\if{html}{\out{</div>}}
 }
@@ -117,8 +117,8 @@ string
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-resetRegressor"></a>}}
-\if{latex}{\out{\hypertarget{method-resetRegressor}{}}}
+\if{html}{\out{<a id="method-pgu.regressor-resetRegressor"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.regressor-resetRegressor}{}}}
 \subsection{Method \code{resetRegressor()}}{
 Performes pair-wise robust linear regression on the attributes of the data tibble.
 Progresse is indicated by the progress object passed to the function.
@@ -139,8 +139,8 @@ Progresse is indicated by the progress object passed to the function.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-resetDiagonal"></a>}}
-\if{latex}{\out{\hypertarget{method-resetDiagonal}{}}}
+\if{html}{\out{<a id="method-pgu.regressor-resetDiagonal"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.regressor-resetDiagonal}{}}}
 \subsection{Method \code{resetDiagonal()}}{
 Sets the diagonal of a square matrix to NA.
 \subsection{Usage}{
@@ -161,11 +161,11 @@ A matrix with its diagonal reset to NA.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-resetMatrix"></a>}}
-\if{latex}{\out{\hypertarget{method-resetMatrix}{}}}
+\if{html}{\out{<a id="method-pgu.regressor-resetMatrix"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.regressor-resetMatrix}{}}}
 \subsection{Method \code{resetMatrix()}}{
 Creates a square matrix which dimension corresponds to the length
-of the instance variable featureNames. The matrix entries are set to a distict \code{value}.
+of the instance variable featureNames. The matrix entries are set to a distict `value`.
 The diagonal is set to NA.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.regressor$resetMatrix(value = "numeric")}\if{html}{\out{</div>}}
@@ -185,8 +185,8 @@ A square matrix.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-featureIdx"></a>}}
-\if{latex}{\out{\hypertarget{method-featureIdx}{}}}
+\if{html}{\out{<a id="method-pgu.regressor-featureIdx"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.regressor-featureIdx}{}}}
 \subsection{Method \code{featureIdx()}}{
 Determines the numerical index of the column of an attribute based on the attribute name.
 \subsection{Usage}{
@@ -207,8 +207,8 @@ The attributes column index.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-featureIsValid"></a>}}
-\if{latex}{\out{\hypertarget{method-featureIsValid}{}}}
+\if{html}{\out{<a id="method-pgu.regressor-featureIsValid"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.regressor-featureIsValid}{}}}
 \subsection{Method \code{featureIsValid()}}{
 Checks if the feature is known to the class.
 \subsection{Usage}{
@@ -229,8 +229,8 @@ The test result.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-featurePairIsValid"></a>}}
-\if{latex}{\out{\hypertarget{method-featurePairIsValid}{}}}
+\if{html}{\out{<a id="method-pgu.regressor-featurePairIsValid"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.regressor-featurePairIsValid}{}}}
 \subsection{Method \code{featurePairIsValid()}}{
 Checks a if a pair of attributes different and known to the class.
 \subsection{Usage}{
@@ -257,8 +257,8 @@ The test result.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-createModel"></a>}}
-\if{latex}{\out{\hypertarget{method-createModel}{}}}
+\if{html}{\out{<a id="method-pgu.regressor-createModel"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.regressor-createModel}{}}}
 \subsection{Method \code{createModel()}}{
 Creates a robust model of linear regression between two attributes of a dataframe.
 The model is stored as instance variable.
@@ -286,8 +286,8 @@ The model is stored as instance variable.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-createRegressionMatrix"></a>}}
-\if{latex}{\out{\hypertarget{method-createRegressionMatrix}{}}}
+\if{html}{\out{<a id="method-pgu.regressor-createRegressionMatrix"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.regressor-createRegressionMatrix}{}}}
 \subsection{Method \code{createRegressionMatrix()}}{
 Performs the actual robust linear regression routine.
 Iteratively runs through the attributes known to the class
@@ -313,8 +313,8 @@ Displays the progress if shiny is loaded.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-printModel"></a>}}
-\if{latex}{\out{\hypertarget{method-printModel}{}}}
+\if{html}{\out{<a id="method-pgu.regressor-printModel"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.regressor-printModel}{}}}
 \subsection{Method \code{printModel()}}{
 Transforms the results of the modeling procedure for a valid pair of attributes to a dataframe
 and returns it.
@@ -339,8 +339,8 @@ The analyis result as a dataframe.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-printInterceptTbl"></a>}}
-\if{latex}{\out{\hypertarget{method-printInterceptTbl}{}}}
+\if{html}{\out{<a id="method-pgu.regressor-printInterceptTbl"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.regressor-printInterceptTbl}{}}}
 \subsection{Method \code{printInterceptTbl()}}{
 Transfroms instance variable intercept to a dataframe and returns it.
 \subsection{Usage}{
@@ -353,8 +353,8 @@ Dataframe of instance variable intercept.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-printPInterceptTbl"></a>}}
-\if{latex}{\out{\hypertarget{method-printPInterceptTbl}{}}}
+\if{html}{\out{<a id="method-pgu.regressor-printPInterceptTbl"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.regressor-printPInterceptTbl}{}}}
 \subsection{Method \code{printPInterceptTbl()}}{
 Transfroms instance variable pIntercept to a dataframe and returns it.
 \subsection{Usage}{
@@ -367,8 +367,8 @@ Dataframe of instance variable pIntercept.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-printSlopeTbl"></a>}}
-\if{latex}{\out{\hypertarget{method-printSlopeTbl}{}}}
+\if{html}{\out{<a id="method-pgu.regressor-printSlopeTbl"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.regressor-printSlopeTbl}{}}}
 \subsection{Method \code{printSlopeTbl()}}{
 Transfroms instance variable slope to a dataframe and returns it.
 \subsection{Usage}{
@@ -381,8 +381,8 @@ Dataframe of instance variable slope.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-printPSlopeTbl"></a>}}
-\if{latex}{\out{\hypertarget{method-printPSlopeTbl}{}}}
+\if{html}{\out{<a id="method-pgu.regressor-printPSlopeTbl"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.regressor-printPSlopeTbl}{}}}
 \subsection{Method \code{printPSlopeTbl()}}{
 Transfroms instance variable pSlope to a dataframe and returns it.
 \subsection{Usage}{
@@ -395,8 +395,8 @@ Dataframe of instance variable pSlope.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-plotRegression"></a>}}
-\if{latex}{\out{\hypertarget{method-plotRegression}{}}}
+\if{html}{\out{<a id="method-pgu.regressor-plotRegression"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.regressor-plotRegression}{}}}
 \subsection{Method \code{plotRegression()}}{
 Creates a scatter plot of the model
 stored within the instance variable of the class.
@@ -410,8 +410,8 @@ A scatter plot.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-plotResidualDist"></a>}}
-\if{latex}{\out{\hypertarget{method-plotResidualDist}{}}}
+\if{html}{\out{<a id="method-pgu.regressor-plotResidualDist"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.regressor-plotResidualDist}{}}}
 \subsection{Method \code{plotResidualDist()}}{
 Creates a histogram of the residual distribution of the model
 stored within the instance variable of the class.
@@ -425,8 +425,8 @@ A histogram plot.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-plotResidualBox"></a>}}
-\if{latex}{\out{\hypertarget{method-plotResidualBox}{}}}
+\if{html}{\out{<a id="method-pgu.regressor-plotResidualBox"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.regressor-plotResidualBox}{}}}
 \subsection{Method \code{plotResidualBox()}}{
 Creates a box plot of the residual distribution of the model
 stored within the instance variable of the class.
@@ -440,8 +440,8 @@ A box plot.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-plotModel"></a>}}
-\if{latex}{\out{\hypertarget{method-plotModel}{}}}
+\if{html}{\out{<a id="method-pgu.regressor-plotModel"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.regressor-plotModel}{}}}
 \subsection{Method \code{plotModel()}}{
 Creates a model of robust linear regression.
 Executes all graphical exploration functions of the class
@@ -474,8 +474,8 @@ A composite graph.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-clone"></a>}}
-\if{latex}{\out{\hypertarget{method-clone}{}}}
+\if{html}{\out{<a id="method-pgu.regressor-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.regressor-clone}{}}}
 \subsection{Method \code{clone()}}{
 The objects of this class are cloneable with this method.
 \subsection{Usage}{

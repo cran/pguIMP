@@ -15,7 +15,7 @@
 #'
 #' @include pguFile.R
 #'
-#' @author Sebastian Malkusch, \email{malkusch@@med.uni-frankfurt.de}
+#' @author Sebastian Malkusch
 #'
 #' @export
 #'

@@ -16,7 +16,7 @@
 #' @importFrom tibble as_tibble is_tibble tibble
 #' @importFrom VIM aggr
 #'
-#' @author Sebastian Malkusch, \email{malkusch@@med.uni-frankfurt.de}
+#' @author Sebastian Malkusch
 #'
 #' @export
 #'

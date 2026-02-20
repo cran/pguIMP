@@ -17,5 +17,5 @@ A graphical data preprocessing toolbox, named “pguIMP”, that includes a fixe
 By implementing contemporary data processing methods including machine learning-based imputation procedures, the creation of corrected and cleaned bioanalytical datasets is ensured, which preserve data structures such as clusters better than resulting with classical methods.
 }
 \author{
-Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
+Sebastian Malkusch
 }

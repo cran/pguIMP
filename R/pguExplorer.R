@@ -20,7 +20,7 @@
 #' @importFrom tibble as_tibble is_tibble rownames_to_column tibble
 #' @importFrom tidyr gather_
 #'
-#' @author Sebastian Malkusch, \email{malkusch@@med.uni-frankfurt.de}
+#' @author Sebastian Malkusch
 #'
 #' @export
 #'

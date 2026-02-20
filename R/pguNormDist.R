@@ -30,7 +30,7 @@
 #' @include sLogLikelihood.R
 #' @include normalDistribution.R
 #'
-#' @author Sebastian Malkusch, \email{malkusch@@med.uni-frankfurt.de}
+#' @author Sebastian Malkusch
 #'
 #' @export
 #'
@@ -267,15 +267,17 @@ pgu.normDist <- R6::R6Class("pgu.normDist",
                                  #' Dataframe to be analyzed.
                                  #' (tibble::tibble)
                                  resetNormDist = function(data = "tbl_df"){
-                                   if ((ncol(data) ==1) & (is.numeric(data[[1]]))){
+                                   if ((ncol(data) == 1) & (is.numeric(data[[1]]))){
                                      private$.featureName <- colnames(data)
+                                     colnames(data) <- c("x")
+                                     private$.rawData  <- stats::na.omit(data)
                                    }#if
                                    else{
-                                     rString <- sprintf("\nWarning in pgu.normDist: rawData is not numeric\n")
+                                     rString <- sprintf("\nWarning in pgu.normDist: rawData is not numeric or has wrong dimensions\n")
                                      cat(rString)
-                                   }#else
-                                   colnames(data) <- c("x")
-                                   private$.rawData  <- stats::na.omit(data)
+                                     # Either return early or set safe defaults
+                                     private$.rawData <- tibble::tibble(x = numeric(0))
+                                   }#else                                   
                                    private$.testNames <- c("Shapiro-Wilk", "Kolmogorow-Smirnow", "Anderson-Darling")
                                    private$.testParameterNames <- c("W", "D", "A")
                                    names(private$.testParameterNames) <- self$testNames
@@ -318,7 +320,6 @@ pgu.normDist <- R6::R6Class("pgu.normDist",
                                    private$.p.kolmogorow <- NA
                                    private$.a.anderson <- NA
                                    private$.p.anderson <- NA
-                                   private$.fitSuccess <- FALSE
                                  }, #function
 
                                  #####################
@@ -327,7 +328,7 @@ pgu.normDist <- R6::R6Class("pgu.normDist",
                                  #' @description
                                  #' Optimizes the logLikelihood between the data and a normal distribution
                                  #' with respect to the expectation value and standard deviation.
-                                 #' The quality of the best model ist calculated subsequently.
+                                 #' The quality of the best model is calculated subsequently.
                                  optimize = function(){
                                    estMu <- mean(self$rawData[["x"]], na.rm=TRUE)
                                    estSigma <- sd(self$rawData[["x"]], na.rm=TRUE)
@@ -338,8 +339,8 @@ pgu.normDist <- R6::R6Class("pgu.normDist",
                                    },
                                    error = function(e) {
                                      self$resetFail()
-                                     errorMesage <- sprintf("\nError in pgu.normDist during maximum likelihood estimation:\n%s", e)
-                                     cat(errorMesage)
+                                     errorMessage <- sprintf("\nError in pgu.normDist during maximum likelihood estimation:\n%s", e)
+                                     cat(errorMessage)
                                      private$.fitSuccess <- FALSE
                                      return(NA)
                                    })#tryCatch
@@ -358,8 +359,8 @@ pgu.normDist <- R6::R6Class("pgu.normDist",
                                    # },
                                    # error = function(e) {
                                    #   self$resetFail()
-                                   #   errorMesage <- sprintf("\nError in pgu.normDist during maximum likelihood optimization:\n%s", e)
-                                   #   cat(errorMesage)
+                                   #   errorMessage <- sprintf("\nError in pgu.normDist during maximum likelihood optimization:\n%s", e)
+                                   #   cat(errorMessage)
                                    #   return(NA)
                                    # })#tryCatch
                                    # if(isS4(fit)){
@@ -659,7 +660,7 @@ pgu.normDist <- R6::R6Class("pgu.normDist",
                                  ######################
                                  #' @description
                                  #' Runs the optimization process and performs all implemented quality controls.
-                                 #' Additionally performs hypothesis tests for nromality.
+                                 #' Additionally performs hypothesis tests for normality.
                                  fit = function(){
                                    self$optimize()
                                    if(self$fitSuccess){

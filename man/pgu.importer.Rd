@@ -4,7 +4,7 @@
 \alias{pgu.importer}
 \title{pgu.importer}
 \format{
-\link[R6:R6Class]{R6::R6Class} object.
+[R6::R6Class] object.
 }
 \description{
 Handles the data import
@@ -14,7 +14,7 @@ Menages the import of the pguIMP dataset
 This object is used by the shiny based gui and is not for use in individual R-scripts!
 }
 \author{
-Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
+Sebastian Malkusch
 }
 \section{Active bindings}{
 \if{html}{\out{<div class="r6-active-bindings">}}
@@ -27,46 +27,46 @@ Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
 \section{Methods}{
 \subsection{Public methods}{
 \itemize{
-\item \href{#method-new}{\code{pgu.importer$new()}}
-\item \href{#method-finalize}{\code{pgu.importer$finalize()}}
-\item \href{#method-print}{\code{pgu.importer$print()}}
-\item \href{#method-suffixIsKnown}{\code{pgu.importer$suffixIsKnown()}}
-\item \href{#method-importData}{\code{pgu.importer$importData()}}
-\item \href{#method-importLoq}{\code{pgu.importer$importLoq()}}
-\item \href{#method-importMetadata}{\code{pgu.importer$importMetadata()}}
-\item \href{#method-clone}{\code{pgu.importer$clone()}}
+\item \href{#method-pgu.importer-new}{\code{pgu.importer$new()}}
+\item \href{#method-pgu.importer-finalize}{\code{pgu.importer$finalize()}}
+\item \href{#method-pgu.importer-print}{\code{pgu.importer$print()}}
+\item \href{#method-pgu.importer-suffixIsKnown}{\code{pgu.importer$suffixIsKnown()}}
+\item \href{#method-pgu.importer-importData}{\code{pgu.importer$importData()}}
+\item \href{#method-pgu.importer-importLoq}{\code{pgu.importer$importLoq()}}
+\item \href{#method-pgu.importer-importMetadata}{\code{pgu.importer$importMetadata()}}
+\item \href{#method-pgu.importer-clone}{\code{pgu.importer$clone()}}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-new"></a>}}
-\if{latex}{\out{\hypertarget{method-new}{}}}
+\if{html}{\out{<a id="method-pgu.importer-new"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.importer-new}{}}}
 \subsection{Method \code{new()}}{
-Creates and returns a new \code{pgu.importer} object.
+Creates and returns a new `pgu.importer` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.importer$new()}\if{html}{\out{</div>}}
 }
 
 \subsection{Returns}{
-A new \code{pgu.importer} object.
+A new `pgu.importer` object.
 (pguIMP::pgu.importer)
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-finalize"></a>}}
-\if{latex}{\out{\hypertarget{method-finalize}{}}}
+\if{html}{\out{<a id="method-pgu.importer-finalize"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.importer-finalize}{}}}
 \subsection{Method \code{finalize()}}{
 Clears the heap and
-indicates that instance of \code{pgu.importer} is removed from heap.
+indicates that instance of `pgu.importer` is removed from heap.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.importer$finalize()}\if{html}{\out{</div>}}
 }
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-print"></a>}}
-\if{latex}{\out{\hypertarget{method-print}{}}}
+\if{html}{\out{<a id="method-pgu.importer-print"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.importer-print}{}}}
 \subsection{Method \code{print()}}{
-Prints instance variables of a \code{pgu.importer} object.
+Prints instance variables of a `pgu.importer` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.importer$print()}\if{html}{\out{</div>}}
 }
@@ -76,8 +76,8 @@ string
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-suffixIsKnown"></a>}}
-\if{latex}{\out{\hypertarget{method-suffixIsKnown}{}}}
+\if{html}{\out{<a id="method-pgu.importer-suffixIsKnown"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.importer-suffixIsKnown}{}}}
 \subsection{Method \code{suffixIsKnown()}}{
 Takes an instance of pgu.file and tests if the suffix is valid.
 \subsection{Usage}{
@@ -98,8 +98,8 @@ test result
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-importData"></a>}}
-\if{latex}{\out{\hypertarget{method-importData}{}}}
+\if{html}{\out{<a id="method-pgu.importer-importData"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.importer-importData}{}}}
 \subsection{Method \code{importData()}}{
 Takes an instance of pgu.file imports a dataset.
 \subsection{Usage}{
@@ -120,8 +120,8 @@ data frame
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-importLoq"></a>}}
-\if{latex}{\out{\hypertarget{method-importLoq}{}}}
+\if{html}{\out{<a id="method-pgu.importer-importLoq"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.importer-importLoq}{}}}
 \subsection{Method \code{importLoq()}}{
 Takes an instance of pgu.file imports a loq  dataset.
 \subsection{Usage}{
@@ -142,8 +142,8 @@ data frame
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-importMetadata"></a>}}
-\if{latex}{\out{\hypertarget{method-importMetadata}{}}}
+\if{html}{\out{<a id="method-pgu.importer-importMetadata"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.importer-importMetadata}{}}}
 \subsection{Method \code{importMetadata()}}{
 Takes an instance of pgu.file imports a metadata dataset.
 \subsection{Usage}{
@@ -164,8 +164,8 @@ data frame
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-clone"></a>}}
-\if{latex}{\out{\hypertarget{method-clone}{}}}
+\if{html}{\out{<a id="method-pgu.importer-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.importer-clone}{}}}
 \subsection{Method \code{clone()}}{
 The objects of this class are cloneable with this method.
 \subsection{Usage}{

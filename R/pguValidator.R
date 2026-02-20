@@ -27,7 +27,7 @@
 #' @importFrom tibble add_row as_tibble tibble
 #' @importFrom tidyr drop_na gather
 #'
-#' @author Sebastian Malkusch, \email{malkusch@@med.uni-frankfurt.de}
+#' @author Sebastian Malkusch
 #'
 #' @export
 #'

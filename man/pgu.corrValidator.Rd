@@ -4,7 +4,7 @@
 \alias{pgu.corrValidator}
 \title{pgu.corrValidator}
 \format{
-\link[R6:R6Class]{R6::R6Class} object.
+[R6::R6Class] object.
 }
 \description{
 An R6 class that performs pairwise correlation of the features of the original and the imputed data set.
@@ -29,7 +29,7 @@ print(corr_obj)
 
 }
 \author{
-Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
+Sebastian Malkusch
 }
 \section{Active bindings}{
 \if{html}{\out{<div class="r6-active-bindings">}}
@@ -60,37 +60,37 @@ Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
 \section{Methods}{
 \subsection{Public methods}{
 \itemize{
-\item \href{#method-new}{\code{pgu.corrValidator$new()}}
-\item \href{#method-print}{\code{pgu.corrValidator$print()}}
-\item \href{#method-reset}{\code{pgu.corrValidator$reset()}}
-\item \href{#method-fit}{\code{pgu.corrValidator$fit()}}
-\item \href{#method-correlationScatterPlot}{\code{pgu.corrValidator$correlationScatterPlot()}}
-\item \href{#method-correlationBarPlot}{\code{pgu.corrValidator$correlationBarPlot()}}
-\item \href{#method-correlationBoxPlot}{\code{pgu.corrValidator$correlationBoxPlot()}}
-\item \href{#method-correlationCompoundPlot}{\code{pgu.corrValidator$correlationCompoundPlot()}}
-\item \href{#method-clone}{\code{pgu.corrValidator$clone()}}
+\item \href{#method-pgu.corrValidator-new}{\code{pgu.corrValidator$new()}}
+\item \href{#method-pgu.corrValidator-print}{\code{pgu.corrValidator$print()}}
+\item \href{#method-pgu.corrValidator-reset}{\code{pgu.corrValidator$reset()}}
+\item \href{#method-pgu.corrValidator-fit}{\code{pgu.corrValidator$fit()}}
+\item \href{#method-pgu.corrValidator-correlationScatterPlot}{\code{pgu.corrValidator$correlationScatterPlot()}}
+\item \href{#method-pgu.corrValidator-correlationBarPlot}{\code{pgu.corrValidator$correlationBarPlot()}}
+\item \href{#method-pgu.corrValidator-correlationBoxPlot}{\code{pgu.corrValidator$correlationBoxPlot()}}
+\item \href{#method-pgu.corrValidator-correlationCompoundPlot}{\code{pgu.corrValidator$correlationCompoundPlot()}}
+\item \href{#method-pgu.corrValidator-clone}{\code{pgu.corrValidator$clone()}}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-new"></a>}}
-\if{latex}{\out{\hypertarget{method-new}{}}}
+\if{html}{\out{<a id="method-pgu.corrValidator-new"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.corrValidator-new}{}}}
 \subsection{Method \code{new()}}{
 Clears the heap and
-indicates if instance of \code{pgu.corrValidator} is removed from heap.
+indicates if instance of `pgu.corrValidator` is removed from heap.
 
 
 Summary of the correlation deviation distribution.
 
 
 Creates a square matrix which dimension corresponds to the length
-of the instance variable featureNames. The matrix entries are set to a distinct \code{value}.
+of the instance variable featureNames. The matrix entries are set to a distinct `value`.
 
 
 Flattens the results transforms them into a dataframe
 and stores it into the instance variable corr_df.
 
 
-Creates and returns a new \code{pgu.corrValidator} object.
+Creates and returns a new `pgu.corrValidator` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.corrValidator$new(org_df = "tbl_df", imp_df = "tbl_df")}\if{html}{\out{</div>}}
 }
@@ -106,15 +106,15 @@ Creates and returns a new \code{pgu.corrValidator} object.
 \if{html}{\out{</div>}}
 }
 \subsection{Returns}{
-A new \code{pgu.corrValidator} object.
+A new `pgu.corrValidator` object.
 (pguIMP::pgu.corrValidator)
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-print"></a>}}
-\if{latex}{\out{\hypertarget{method-print}{}}}
+\if{html}{\out{<a id="method-pgu.corrValidator-print"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.corrValidator-print}{}}}
 \subsection{Method \code{print()}}{
-Prints instance variables of a \code{pgu.corrValidator} object.
+Prints instance variables of a `pgu.corrValidator` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.corrValidator$print()}\if{html}{\out{</div>}}
 }
@@ -124,18 +124,18 @@ string
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-reset"></a>}}
-\if{latex}{\out{\hypertarget{method-reset}{}}}
+\if{html}{\out{<a id="method-pgu.corrValidator-reset"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.corrValidator-reset}{}}}
 \subsection{Method \code{reset()}}{
-Resets the object \code{pgu.corrValidator} based on the instance variable featureNames..
+Resets the object `pgu.corrValidator` based on the instance variable featureNames..
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.corrValidator$reset()}\if{html}{\out{</div>}}
 }
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-fit"></a>}}
-\if{latex}{\out{\hypertarget{method-fit}{}}}
+\if{html}{\out{<a id="method-pgu.corrValidator-fit"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.corrValidator-fit}{}}}
 \subsection{Method \code{fit()}}{
 Runs the corraltion analysis.
 \subsection{Usage}{
@@ -155,8 +155,8 @@ Runs the corraltion analysis.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-correlationScatterPlot"></a>}}
-\if{latex}{\out{\hypertarget{method-correlationScatterPlot}{}}}
+\if{html}{\out{<a id="method-pgu.corrValidator-correlationScatterPlot"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.corrValidator-correlationScatterPlot}{}}}
 \subsection{Method \code{correlationScatterPlot()}}{
 Plots the correlation analysis results.
 \subsection{Usage}{
@@ -165,8 +165,8 @@ Plots the correlation analysis results.
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-correlationBarPlot"></a>}}
-\if{latex}{\out{\hypertarget{method-correlationBarPlot}{}}}
+\if{html}{\out{<a id="method-pgu.corrValidator-correlationBarPlot"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.corrValidator-correlationBarPlot}{}}}
 \subsection{Method \code{correlationBarPlot()}}{
 Creates and returns a histogram from the cor_delat values.
 \subsection{Usage}{
@@ -179,8 +179,8 @@ Bar plot
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-correlationBoxPlot"></a>}}
-\if{latex}{\out{\hypertarget{method-correlationBoxPlot}{}}}
+\if{html}{\out{<a id="method-pgu.corrValidator-correlationBoxPlot"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.corrValidator-correlationBoxPlot}{}}}
 \subsection{Method \code{correlationBoxPlot()}}{
 Plots the correlation analysis results.
 \subsection{Usage}{
@@ -189,8 +189,8 @@ Plots the correlation analysis results.
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-correlationCompoundPlot"></a>}}
-\if{latex}{\out{\hypertarget{method-correlationCompoundPlot}{}}}
+\if{html}{\out{<a id="method-pgu.corrValidator-correlationCompoundPlot"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.corrValidator-correlationCompoundPlot}{}}}
 \subsection{Method \code{correlationCompoundPlot()}}{
 Creates and returns a compund graphical analysis of the cor_delta values.
 \subsection{Usage}{
@@ -203,8 +203,8 @@ Compound plot
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-clone"></a>}}
-\if{latex}{\out{\hypertarget{method-clone}{}}}
+\if{html}{\out{<a id="method-pgu.corrValidator-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.corrValidator-clone}{}}}
 \subsection{Method \code{clone()}}{
 The objects of this class are cloneable with this method.
 \subsection{Usage}{

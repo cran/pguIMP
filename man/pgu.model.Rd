@@ -4,7 +4,7 @@
 \alias{pgu.model}
 \title{pgu.model}
 \format{
-\link[R6:R6Class]{R6::R6Class} object.
+[R6::R6Class] object.
 }
 \description{
 Comprises a list of models for data manipulation.
@@ -15,7 +15,7 @@ These can be used to scale data.
 This object is used by the shiny based gui and is not for use in individual R-scripts!
 }
 \author{
-Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
+Sebastian Malkusch
 }
 \section{Active bindings}{
 \if{html}{\out{<div class="r6-active-bindings">}}
@@ -31,39 +31,39 @@ Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
 \section{Methods}{
 \subsection{Public methods}{
 \itemize{
-\item \href{#method-new}{\code{pgu.model$new()}}
-\item \href{#method-finalize}{\code{pgu.model$finalize()}}
-\item \href{#method-print}{\code{pgu.model$print()}}
-\item \href{#method-resetModelParameter}{\code{pgu.model$resetModelParameter()}}
-\item \href{#method-resetModelList}{\code{pgu.model$resetModelList()}}
-\item \href{#method-resetModel}{\code{pgu.model$resetModel()}}
-\item \href{#method-setNormDist}{\code{pgu.model$setNormDist()}}
-\item \href{#method-featureIdx}{\code{pgu.model$featureIdx()}}
-\item \href{#method-fitFeature}{\code{pgu.model$fitFeature()}}
-\item \href{#method-fitData}{\code{pgu.model$fitData()}}
-\item \href{#method-logFitResultsFeature}{\code{pgu.model$logFitResultsFeature()}}
-\item \href{#method-logFailedFitResultsFeature}{\code{pgu.model$logFailedFitResultsFeature()}}
-\item \href{#method-scaleNumeric}{\code{pgu.model$scaleNumeric()}}
-\item \href{#method-scaleData}{\code{pgu.model$scaleData()}}
-\item \href{#method-rescaleNumeric}{\code{pgu.model$rescaleNumeric()}}
-\item \href{#method-rescaleData}{\code{pgu.model$rescaleData()}}
-\item \href{#method-modelParameterData}{\code{pgu.model$modelParameterData()}}
-\item \href{#method-modelParameterFeature}{\code{pgu.model$modelParameterFeature()}}
-\item \href{#method-modelQualityData}{\code{pgu.model$modelQualityData()}}
-\item \href{#method-modelQualityFeature}{\code{pgu.model$modelQualityFeature()}}
-\item \href{#method-fitResultData}{\code{pgu.model$fitResultData()}}
-\item \href{#method-fitResultFeature}{\code{pgu.model$fitResultFeature()}}
-\item \href{#method-testResultData}{\code{pgu.model$testResultData()}}
-\item \href{#method-testResultFeature}{\code{pgu.model$testResultFeature()}}
-\item \href{#method-plotModel}{\code{pgu.model$plotModel()}}
-\item \href{#method-clone}{\code{pgu.model$clone()}}
+\item \href{#method-pgu.model-new}{\code{pgu.model$new()}}
+\item \href{#method-pgu.model-finalize}{\code{pgu.model$finalize()}}
+\item \href{#method-pgu.model-print}{\code{pgu.model$print()}}
+\item \href{#method-pgu.model-resetModelParameter}{\code{pgu.model$resetModelParameter()}}
+\item \href{#method-pgu.model-resetModelList}{\code{pgu.model$resetModelList()}}
+\item \href{#method-pgu.model-resetModel}{\code{pgu.model$resetModel()}}
+\item \href{#method-pgu.model-setNormDist}{\code{pgu.model$setNormDist()}}
+\item \href{#method-pgu.model-featureIdx}{\code{pgu.model$featureIdx()}}
+\item \href{#method-pgu.model-fitFeature}{\code{pgu.model$fitFeature()}}
+\item \href{#method-pgu.model-fitData}{\code{pgu.model$fitData()}}
+\item \href{#method-pgu.model-logFitResultsFeature}{\code{pgu.model$logFitResultsFeature()}}
+\item \href{#method-pgu.model-logFailedFitResultsFeature}{\code{pgu.model$logFailedFitResultsFeature()}}
+\item \href{#method-pgu.model-scaleNumeric}{\code{pgu.model$scaleNumeric()}}
+\item \href{#method-pgu.model-scaleData}{\code{pgu.model$scaleData()}}
+\item \href{#method-pgu.model-rescaleNumeric}{\code{pgu.model$rescaleNumeric()}}
+\item \href{#method-pgu.model-rescaleData}{\code{pgu.model$rescaleData()}}
+\item \href{#method-pgu.model-modelParameterData}{\code{pgu.model$modelParameterData()}}
+\item \href{#method-pgu.model-modelParameterFeature}{\code{pgu.model$modelParameterFeature()}}
+\item \href{#method-pgu.model-modelQualityData}{\code{pgu.model$modelQualityData()}}
+\item \href{#method-pgu.model-modelQualityFeature}{\code{pgu.model$modelQualityFeature()}}
+\item \href{#method-pgu.model-fitResultData}{\code{pgu.model$fitResultData()}}
+\item \href{#method-pgu.model-fitResultFeature}{\code{pgu.model$fitResultFeature()}}
+\item \href{#method-pgu.model-testResultData}{\code{pgu.model$testResultData()}}
+\item \href{#method-pgu.model-testResultFeature}{\code{pgu.model$testResultFeature()}}
+\item \href{#method-pgu.model-plotModel}{\code{pgu.model$plotModel()}}
+\item \href{#method-pgu.model-clone}{\code{pgu.model$clone()}}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-new"></a>}}
-\if{latex}{\out{\hypertarget{method-new}{}}}
+\if{html}{\out{<a id="method-pgu.model-new"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.model-new}{}}}
 \subsection{Method \code{new()}}{
-Creates and returns a new \code{pgu.model} object.
+Creates and returns a new `pgu.model` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.model$new(data = "tbl_df")}\if{html}{\out{</div>}}
 }
@@ -77,26 +77,26 @@ Creates and returns a new \code{pgu.model} object.
 \if{html}{\out{</div>}}
 }
 \subsection{Returns}{
-A new \code{pgu.model} object.
+A new `pgu.model` object.
 (pguIMP::pgu.model)
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-finalize"></a>}}
-\if{latex}{\out{\hypertarget{method-finalize}{}}}
+\if{html}{\out{<a id="method-pgu.model-finalize"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.model-finalize}{}}}
 \subsection{Method \code{finalize()}}{
 Clears the heap and
-indicates that instance of \code{pgu.model} is removed from heap.
+indicates that instance of `pgu.model` is removed from heap.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.model$finalize()}\if{html}{\out{</div>}}
 }
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-print"></a>}}
-\if{latex}{\out{\hypertarget{method-print}{}}}
+\if{html}{\out{<a id="method-pgu.model-print"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.model-print}{}}}
 \subsection{Method \code{print()}}{
-Prints instance variables of a \code{pgu.model} object.
+Prints instance variables of a `pgu.model` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.model$print()}\if{html}{\out{</div>}}
 }
@@ -106,10 +106,10 @@ string
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-resetModelParameter"></a>}}
-\if{latex}{\out{\hypertarget{method-resetModelParameter}{}}}
+\if{html}{\out{<a id="method-pgu.model-resetModelParameter"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.model-resetModelParameter}{}}}
 \subsection{Method \code{resetModelParameter()}}{
-Resets instance variable \code{modelParameter}
+Resets instance variable `modelParameter`
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.model$resetModelParameter(data = "tbl_df")}\if{html}{\out{</div>}}
 }
@@ -124,10 +124,10 @@ Resets instance variable \code{modelParameter}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-resetModelList"></a>}}
-\if{latex}{\out{\hypertarget{method-resetModelList}{}}}
+\if{html}{\out{<a id="method-pgu.model-resetModelList"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.model-resetModelList}{}}}
 \subsection{Method \code{resetModelList()}}{
-Resets instance variable \code{modelList}
+Resets instance variable `modelList`
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.model$resetModelList(data = "tbl_df")}\if{html}{\out{</div>}}
 }
@@ -142,11 +142,11 @@ Resets instance variable \code{modelList}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-resetModel"></a>}}
-\if{latex}{\out{\hypertarget{method-resetModel}{}}}
+\if{html}{\out{<a id="method-pgu.model-resetModel"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.model-resetModel}{}}}
 \subsection{Method \code{resetModel()}}{
-Resets instance variable \code{modelList}.
-Resets instance variable \code{modelParameter}.
+Resets instance variable `modelList`.
+Resets instance variable `modelParameter`.
 Displays progress if shiny is loaded.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.model$resetModel(data = "tbl_df", progress = "Progress")}\if{html}{\out{</div>}}
@@ -165,11 +165,11 @@ Displays progress if shiny is loaded.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-setNormDist"></a>}}
-\if{latex}{\out{\hypertarget{method-setNormDist}{}}}
+\if{html}{\out{<a id="method-pgu.model-setNormDist"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.model-setNormDist}{}}}
 \subsection{Method \code{setNormDist()}}{
 Stores the information of a pgu.norDist object in an
-entry of the instance variable \code{modelList}
+entry of the instance variable `modelList`
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.model$setNormDist(data = "pgu.normDist", feature = "character")}\if{html}{\out{</div>}}
 }
@@ -187,10 +187,10 @@ entry of the instance variable \code{modelList}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-featureIdx"></a>}}
-\if{latex}{\out{\hypertarget{method-featureIdx}{}}}
+\if{html}{\out{<a id="method-pgu.model-featureIdx"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.model-featureIdx}{}}}
 \subsection{Method \code{featureIdx()}}{
-Returns the index of a pgu.normDist object wihtin the instance variable \code{modelParameter}.
+Returns the index of a pgu.normDist object wihtin the instance variable `modelParameter`.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.model$featureIdx(feature = "character")}\if{html}{\out{</div>}}
 }
@@ -209,8 +209,8 @@ Index of attribute entry in dataframe
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-fitFeature"></a>}}
-\if{latex}{\out{\hypertarget{method-fitFeature}{}}}
+\if{html}{\out{<a id="method-pgu.model-fitFeature"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.model-fitFeature}{}}}
 \subsection{Method \code{fitFeature()}}{
 Runs the fit function of a pgu.normDist object at a
 user denied position within the instance variable modelList.
@@ -228,8 +228,8 @@ user denied position within the instance variable modelList.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-fitData"></a>}}
-\if{latex}{\out{\hypertarget{method-fitData}{}}}
+\if{html}{\out{<a id="method-pgu.model-fitData"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.model-fitData}{}}}
 \subsection{Method \code{fitData()}}{
 Loops through all attributes and calls the object's
 ftiFeature function.
@@ -248,11 +248,11 @@ Displays progress if shiny is loaded.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-logFitResultsFeature"></a>}}
-\if{latex}{\out{\hypertarget{method-logFitResultsFeature}{}}}
+\if{html}{\out{<a id="method-pgu.model-logFitResultsFeature"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.model-logFitResultsFeature}{}}}
 \subsection{Method \code{logFitResultsFeature()}}{
 Stores results from fitting procedure of a user defined attribute
-into the corrsponding attribute of instance variable \code{modelParameter}.
+into the corrsponding attribute of instance variable `modelParameter`.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.model$logFitResultsFeature(feature = "character")}\if{html}{\out{</div>}}
 }
@@ -267,11 +267,11 @@ into the corrsponding attribute of instance variable \code{modelParameter}.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-logFailedFitResultsFeature"></a>}}
-\if{latex}{\out{\hypertarget{method-logFailedFitResultsFeature}{}}}
+\if{html}{\out{<a id="method-pgu.model-logFailedFitResultsFeature"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.model-logFailedFitResultsFeature}{}}}
 \subsection{Method \code{logFailedFitResultsFeature()}}{
 Stores results from fitting procedure of a user defined attribute
-into the corrsponding attribute of instance variable \code{modelParameter}
+into the corrsponding attribute of instance variable `modelParameter`
 in case of a failed fitting routine.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.model$logFailedFitResultsFeature(feature = "character")}\if{html}{\out{</div>}}
@@ -287,8 +287,8 @@ in case of a failed fitting routine.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-scaleNumeric"></a>}}
-\if{latex}{\out{\hypertarget{method-scaleNumeric}{}}}
+\if{html}{\out{<a id="method-pgu.model-scaleNumeric"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.model-scaleNumeric}{}}}
 \subsection{Method \code{scaleNumeric()}}{
 Scales numeric data based upon the model of a user defined attribute.
 \subsection{Usage}{
@@ -312,8 +312,8 @@ scaled version of the given vector
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-scaleData"></a>}}
-\if{latex}{\out{\hypertarget{method-scaleData}{}}}
+\if{html}{\out{<a id="method-pgu.model-scaleData"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.model-scaleData}{}}}
 \subsection{Method \code{scaleData()}}{
 Scales a dataframe based upon  a list of models
 stored in the instance variable modelList..
@@ -335,8 +335,8 @@ scaled version of the given dataframe
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-rescaleNumeric"></a>}}
-\if{latex}{\out{\hypertarget{method-rescaleNumeric}{}}}
+\if{html}{\out{<a id="method-pgu.model-rescaleNumeric"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.model-rescaleNumeric}{}}}
 \subsection{Method \code{rescaleNumeric()}}{
 Re-scales numeric data based upon the model of a user defined attribute.
 \subsection{Usage}{
@@ -360,8 +360,8 @@ Re-scaled version of the given vector
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-rescaleData"></a>}}
-\if{latex}{\out{\hypertarget{method-rescaleData}{}}}
+\if{html}{\out{<a id="method-pgu.model-rescaleData"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.model-rescaleData}{}}}
 \subsection{Method \code{rescaleData()}}{
 Re-scales a dataframe based upon  a list of models
 stored in the instance variable modelList..
@@ -383,8 +383,8 @@ Re-scaled version of the given dataframe
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-modelParameterData"></a>}}
-\if{latex}{\out{\hypertarget{method-modelParameterData}{}}}
+\if{html}{\out{<a id="method-pgu.model-modelParameterData"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.model-modelParameterData}{}}}
 \subsection{Method \code{modelParameterData()}}{
 Returns the model parameter (expectation value, standard deviation).
 \subsection{Usage}{
@@ -397,8 +397,8 @@ Dataframe comprising model parameter.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-modelParameterFeature"></a>}}
-\if{latex}{\out{\hypertarget{method-modelParameterFeature}{}}}
+\if{html}{\out{<a id="method-pgu.model-modelParameterFeature"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.model-modelParameterFeature}{}}}
 \subsection{Method \code{modelParameterFeature()}}{
 Returns the model parameter (expectation value, standard deviation)
 for a user deined attribute.
@@ -420,8 +420,8 @@ Dataframe comprising model parameter.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-modelQualityData"></a>}}
-\if{latex}{\out{\hypertarget{method-modelQualityData}{}}}
+\if{html}{\out{<a id="method-pgu.model-modelQualityData"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.model-modelQualityData}{}}}
 \subsection{Method \code{modelQualityData()}}{
 Returns the model parameters connected to model quality.
 \subsection{Usage}{
@@ -434,8 +434,8 @@ Dataframe comprising model parameter.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-modelQualityFeature"></a>}}
-\if{latex}{\out{\hypertarget{method-modelQualityFeature}{}}}
+\if{html}{\out{<a id="method-pgu.model-modelQualityFeature"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.model-modelQualityFeature}{}}}
 \subsection{Method \code{modelQualityFeature()}}{
 Returns the model parameters connected to model quality
 for a user deined attribute.
@@ -457,8 +457,8 @@ Dataframe comprising model parameter.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-fitResultData"></a>}}
-\if{latex}{\out{\hypertarget{method-fitResultData}{}}}
+\if{html}{\out{<a id="method-pgu.model-fitResultData"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.model-fitResultData}{}}}
 \subsection{Method \code{fitResultData()}}{
 Returns the model fit results.
 \subsection{Usage}{
@@ -471,8 +471,8 @@ Dataframe comprising model fit results.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-fitResultFeature"></a>}}
-\if{latex}{\out{\hypertarget{method-fitResultFeature}{}}}
+\if{html}{\out{<a id="method-pgu.model-fitResultFeature"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.model-fitResultFeature}{}}}
 \subsection{Method \code{fitResultFeature()}}{
 Returns the model fit results
 for a user deined attribute.
@@ -494,8 +494,8 @@ Dataframe comprising model fit results.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-testResultData"></a>}}
-\if{latex}{\out{\hypertarget{method-testResultData}{}}}
+\if{html}{\out{<a id="method-pgu.model-testResultData"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.model-testResultData}{}}}
 \subsection{Method \code{testResultData()}}{
 Returns the hypothesis test results.
 \subsection{Usage}{
@@ -508,8 +508,8 @@ Dataframe comprising the hypothesis test results.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-testResultFeature"></a>}}
-\if{latex}{\out{\hypertarget{method-testResultFeature}{}}}
+\if{html}{\out{<a id="method-pgu.model-testResultFeature"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.model-testResultFeature}{}}}
 \subsection{Method \code{testResultFeature()}}{
 Returns the hypothesis test results.
 for a user deined attribute.
@@ -531,8 +531,8 @@ Dataframe comprising the hypothesis test results.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-plotModel"></a>}}
-\if{latex}{\out{\hypertarget{method-plotModel}{}}}
+\if{html}{\out{<a id="method-pgu.model-plotModel"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.model-plotModel}{}}}
 \subsection{Method \code{plotModel()}}{
 Creates and returns a composite graphical analysis
 of the modeling procedure of
@@ -555,8 +555,8 @@ Composite result plot.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-clone"></a>}}
-\if{latex}{\out{\hypertarget{method-clone}{}}}
+\if{html}{\out{<a id="method-pgu.model-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.model-clone}{}}}
 \subsection{Method \code{clone()}}{
 The objects of this class are cloneable with this method.
 \subsection{Usage}{

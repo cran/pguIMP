@@ -12,7 +12,7 @@
 #' @return
 #' A data frame that contains the imported data
 #' (tibble::tibble)
-#' @author Sebastian Malkusch, \email{malkusch@@med.uni-frankfurt.de}
+#' @author Sebastian Malkusch
 #' @export
 #'
 

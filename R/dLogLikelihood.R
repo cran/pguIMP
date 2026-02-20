@@ -11,7 +11,7 @@
 #' @examples
 #' y <- pguIMP::dLogLikelihood(x=5, pars = c(mu=0.0, sigma=1.0))
 #' @importFrom stats dnorm
-#' @author Sebastian Malkusch, \email{malkusch@@med.uni-frankfurt.de}
+#' @author Sebastian Malkusch
 #' @export
 #'
 

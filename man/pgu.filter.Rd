@@ -4,7 +4,7 @@
 \alias{pgu.filter}
 \title{pgu.filter}
 \format{
-\link[R6:R6Class]{R6::R6Class} object.
+[R6::R6Class] object.
 }
 \description{
 Filter the pguIMP dataset.
@@ -14,7 +14,7 @@ The filtering is done by column and row indices.
 This object is used by the shiny based gui and is not for use in individual R-scripts!
 }
 \author{
-Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
+Sebastian Malkusch
 }
 \section{Active bindings}{
 \if{html}{\out{<div class="r6-active-bindings">}}
@@ -36,16 +36,16 @@ Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
 \section{Methods}{
 \subsection{Public methods}{
 \itemize{
-\item \href{#method-new}{\code{pgu.filter$new()}}
-\item \href{#method-print}{\code{pgu.filter$print()}}
-\item \href{#method-reset}{\code{pgu.filter$reset()}}
-\item \href{#method-predict}{\code{pgu.filter$predict()}}
-\item \href{#method-clone}{\code{pgu.filter$clone()}}
+\item \href{#method-pgu.filter-new}{\code{pgu.filter$new()}}
+\item \href{#method-pgu.filter-print}{\code{pgu.filter$print()}}
+\item \href{#method-pgu.filter-reset}{\code{pgu.filter$reset()}}
+\item \href{#method-pgu.filter-predict}{\code{pgu.filter$predict()}}
+\item \href{#method-pgu.filter-clone}{\code{pgu.filter$clone()}}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-new"></a>}}
-\if{latex}{\out{\hypertarget{method-new}{}}}
+\if{html}{\out{<a id="method-pgu.filter-new"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.filter-new}{}}}
 \subsection{Method \code{new()}}{
 Resets the filter parameter colIdx to the full dataframe.
 
@@ -76,8 +76,8 @@ A new pguIMP::pgu.filter object.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-print"></a>}}
-\if{latex}{\out{\hypertarget{method-print}{}}}
+\if{html}{\out{<a id="method-pgu.filter-print"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.filter-print}{}}}
 \subsection{Method \code{print()}}{
 Prints instance variables of a pguIMP::pgu.filter object.
 \subsection{Usage}{
@@ -89,8 +89,8 @@ string
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-reset"></a>}}
-\if{latex}{\out{\hypertarget{method-reset}{}}}
+\if{html}{\out{<a id="method-pgu.filter-reset"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.filter-reset}{}}}
 \subsection{Method \code{reset()}}{
 Resets the filter parameter colIdx and rowIdx to the full dataframe.
 \subsection{Usage}{
@@ -107,8 +107,8 @@ Resets the filter parameter colIdx and rowIdx to the full dataframe.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-predict"></a>}}
-\if{latex}{\out{\hypertarget{method-predict}{}}}
+\if{html}{\out{<a id="method-pgu.filter-predict"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.filter-predict}{}}}
 \subsection{Method \code{predict()}}{
 Filters and returns the given data frame.
 \subsection{Usage}{
@@ -129,8 +129,8 @@ The filtered data frame
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-clone"></a>}}
-\if{latex}{\out{\hypertarget{method-clone}{}}}
+\if{html}{\out{<a id="method-pgu.filter-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.filter-clone}{}}}
 \subsection{Method \code{clone()}}{
 The objects of this class are cloneable with this method.
 \subsection{Usage}{

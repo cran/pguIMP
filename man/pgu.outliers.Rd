@@ -4,7 +4,7 @@
 \alias{pgu.outliers}
 \title{pgu.outliers}
 \format{
-\link[R6:R6Class]{R6::R6Class} object.
+[R6::R6Class] object.
 }
 \description{
 Detects and replaces possible outliers from data set.
@@ -15,7 +15,7 @@ Replace missing values with substitutes by classical and AI-powerd substitution 
 For this purpose outliers are handled as imputation sites.
 }
 \author{
-Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
+Sebastian Malkusch
 }
 \section{Active bindings}{
 \if{html}{\out{<div class="r6-active-bindings">}}
@@ -97,40 +97,40 @@ Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
 \section{Methods}{
 \subsection{Public methods}{
 \itemize{
-\item \href{#method-new}{\code{pgu.outliers$new()}}
-\item \href{#method-finalize}{\code{pgu.outliers$finalize()}}
-\item \href{#method-print}{\code{pgu.outliers$print()}}
-\item \href{#method-resetOutliers}{\code{pgu.outliers$resetOutliers()}}
-\item \href{#method-filterFeatures}{\code{pgu.outliers$filterFeatures()}}
-\item \href{#method-checkFeatureValidity}{\code{pgu.outliers$checkFeatureValidity()}}
-\item \href{#method-detectOutliersParameter}{\code{pgu.outliers$detectOutliersParameter()}}
-\item \href{#method-outliersFeatureList}{\code{pgu.outliers$outliersFeatureList()}}
-\item \href{#method-featureOutlier}{\code{pgu.outliers$featureOutlier()}}
-\item \href{#method-one_hot}{\code{pgu.outliers$one_hot()}}
-\item \href{#method-detectOutliers}{\code{pgu.outliers$detectOutliers()}}
-\item \href{#method-detectByGrubbs}{\code{pgu.outliers$detectByGrubbs()}}
-\item \href{#method-grubbs_numeric}{\code{pgu.outliers$grubbs_numeric()}}
-\item \href{#method-detectByDbscan}{\code{pgu.outliers$detectByDbscan()}}
-\item \href{#method-dbscan_numeric}{\code{pgu.outliers$dbscan_numeric()}}
-\item \href{#method-detectBySvm}{\code{pgu.outliers$detectBySvm()}}
-\item \href{#method-svm_numeric}{\code{pgu.outliers$svm_numeric()}}
-\item \href{#method-detectByKnn}{\code{pgu.outliers$detectByKnn()}}
-\item \href{#method-knn_numeric}{\code{pgu.outliers$knn_numeric()}}
-\item \href{#method-setImputationSites}{\code{pgu.outliers$setImputationSites()}}
-\item \href{#method-calcOutliersStatistics}{\code{pgu.outliers$calcOutliersStatistics()}}
-\item \href{#method-outlierTable}{\code{pgu.outliers$outlierTable()}}
-\item \href{#method-plotOutliersDistribution}{\code{pgu.outliers$plotOutliersDistribution()}}
-\item \href{#method-featureBarPlot}{\code{pgu.outliers$featureBarPlot()}}
-\item \href{#method-featureBoxPlotWithSubset}{\code{pgu.outliers$featureBoxPlotWithSubset()}}
-\item \href{#method-featurePlot}{\code{pgu.outliers$featurePlot()}}
-\item \href{#method-clone}{\code{pgu.outliers$clone()}}
+\item \href{#method-pgu.outliers-new}{\code{pgu.outliers$new()}}
+\item \href{#method-pgu.outliers-finalize}{\code{pgu.outliers$finalize()}}
+\item \href{#method-pgu.outliers-print}{\code{pgu.outliers$print()}}
+\item \href{#method-pgu.outliers-resetOutliers}{\code{pgu.outliers$resetOutliers()}}
+\item \href{#method-pgu.outliers-filterFeatures}{\code{pgu.outliers$filterFeatures()}}
+\item \href{#method-pgu.outliers-checkFeatureValidity}{\code{pgu.outliers$checkFeatureValidity()}}
+\item \href{#method-pgu.outliers-detectOutliersParameter}{\code{pgu.outliers$detectOutliersParameter()}}
+\item \href{#method-pgu.outliers-outliersFeatureList}{\code{pgu.outliers$outliersFeatureList()}}
+\item \href{#method-pgu.outliers-featureOutlier}{\code{pgu.outliers$featureOutlier()}}
+\item \href{#method-pgu.outliers-one_hot}{\code{pgu.outliers$one_hot()}}
+\item \href{#method-pgu.outliers-detectOutliers}{\code{pgu.outliers$detectOutliers()}}
+\item \href{#method-pgu.outliers-detectByGrubbs}{\code{pgu.outliers$detectByGrubbs()}}
+\item \href{#method-pgu.outliers-grubbs_numeric}{\code{pgu.outliers$grubbs_numeric()}}
+\item \href{#method-pgu.outliers-detectByDbscan}{\code{pgu.outliers$detectByDbscan()}}
+\item \href{#method-pgu.outliers-dbscan_numeric}{\code{pgu.outliers$dbscan_numeric()}}
+\item \href{#method-pgu.outliers-detectBySvm}{\code{pgu.outliers$detectBySvm()}}
+\item \href{#method-pgu.outliers-svm_numeric}{\code{pgu.outliers$svm_numeric()}}
+\item \href{#method-pgu.outliers-detectByKnn}{\code{pgu.outliers$detectByKnn()}}
+\item \href{#method-pgu.outliers-knn_numeric}{\code{pgu.outliers$knn_numeric()}}
+\item \href{#method-pgu.outliers-setImputationSites}{\code{pgu.outliers$setImputationSites()}}
+\item \href{#method-pgu.outliers-calcOutliersStatistics}{\code{pgu.outliers$calcOutliersStatistics()}}
+\item \href{#method-pgu.outliers-outlierTable}{\code{pgu.outliers$outlierTable()}}
+\item \href{#method-pgu.outliers-plotOutliersDistribution}{\code{pgu.outliers$plotOutliersDistribution()}}
+\item \href{#method-pgu.outliers-featureBarPlot}{\code{pgu.outliers$featureBarPlot()}}
+\item \href{#method-pgu.outliers-featureBoxPlotWithSubset}{\code{pgu.outliers$featureBoxPlotWithSubset()}}
+\item \href{#method-pgu.outliers-featurePlot}{\code{pgu.outliers$featurePlot()}}
+\item \href{#method-pgu.outliers-clone}{\code{pgu.outliers$clone()}}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-new"></a>}}
-\if{latex}{\out{\hypertarget{method-new}{}}}
+\if{html}{\out{<a id="method-pgu.outliers-new"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.outliers-new}{}}}
 \subsection{Method \code{new()}}{
-Creates and returns a new \code{pgu.outliers} object.
+Creates and returns a new `pgu.outliers` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.outliers$new(
   data_df = "tbl_df",
@@ -178,26 +178,26 @@ Creates and returns a new \code{pgu.outliers} object.
 \if{html}{\out{</div>}}
 }
 \subsection{Returns}{
-A new \code{pgu.outliers} object.
+A new `pgu.outliers` object.
 (pguIMP::pgu.outliers)
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-finalize"></a>}}
-\if{latex}{\out{\hypertarget{method-finalize}{}}}
+\if{html}{\out{<a id="method-pgu.outliers-finalize"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.outliers-finalize}{}}}
 \subsection{Method \code{finalize()}}{
 Clears the heap and
-indicates that instance of \code{pgu.outliers} is removed from heap.
+indicates that instance of `pgu.outliers` is removed from heap.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.outliers$finalize()}\if{html}{\out{</div>}}
 }
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-print"></a>}}
-\if{latex}{\out{\hypertarget{method-print}{}}}
+\if{html}{\out{<a id="method-pgu.outliers-print"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.outliers-print}{}}}
 \subsection{Method \code{print()}}{
-Prints instance variables of a \code{pgu.outliers} object.
+Prints instance variables of a `pgu.outliers` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.outliers$print()}\if{html}{\out{</div>}}
 }
@@ -207,8 +207,8 @@ string
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-resetOutliers"></a>}}
-\if{latex}{\out{\hypertarget{method-resetOutliers}{}}}
+\if{html}{\out{<a id="method-pgu.outliers-resetOutliers"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.outliers-resetOutliers}{}}}
 \subsection{Method \code{resetOutliers()}}{
 Resets instance variables and
 performes Grubb's test for outliers to detect outliers in the normalized and Z-score transfromed data set.
@@ -227,8 +227,8 @@ Progresse is indicated by the progress object passed to the function.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-filterFeatures"></a>}}
-\if{latex}{\out{\hypertarget{method-filterFeatures}{}}}
+\if{html}{\out{<a id="method-pgu.outliers-filterFeatures"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.outliers-filterFeatures}{}}}
 \subsection{Method \code{filterFeatures()}}{
 Filters attributes from the given dataframe that are known to the class.
 \subsection{Usage}{
@@ -249,8 +249,8 @@ A filterd dataframe.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-checkFeatureValidity"></a>}}
-\if{latex}{\out{\hypertarget{method-checkFeatureValidity}{}}}
+\if{html}{\out{<a id="method-pgu.outliers-checkFeatureValidity"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.outliers-checkFeatureValidity}{}}}
 \subsection{Method \code{checkFeatureValidity()}}{
 Checks if the feature consists of a sufficient number of instances.
 \subsection{Usage}{
@@ -270,8 +270,8 @@ Checks if the feature consists of a sufficient number of instances.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-detectOutliersParameter"></a>}}
-\if{latex}{\out{\hypertarget{method-detectOutliersParameter}{}}}
+\if{html}{\out{<a id="method-pgu.outliers-detectOutliersParameter"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.outliers-detectOutliersParameter}{}}}
 \subsection{Method \code{detectOutliersParameter()}}{
 determines the outliers parameter by analyzing the
 tibble data_df and the instance variable outliers.
@@ -290,12 +290,12 @@ Results are stored to instance variable outliersParameter.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-outliersFeatureList"></a>}}
-\if{latex}{\out{\hypertarget{method-outliersFeatureList}{}}}
+\if{html}{\out{<a id="method-pgu.outliers-outliersFeatureList"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.outliers-outliersFeatureList}{}}}
 \subsection{Method \code{outliersFeatureList()}}{
-Characterizes each row of the data frame as either \code{complete}
+Characterizes each row of the data frame as either `complete`
 or indicates which attribute has been identified as an outlier within the row.
-If multiple attributes' row entries were identified as outliers, the row is characterized by \code{multiple}.
+If multiple attributes' row entries were identified as outliers, the row is characterized by `multiple`.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.outliers$outliersFeatureList(data_df = "tbl_df")}\if{html}{\out{</div>}}
 }
@@ -314,8 +314,8 @@ Vector of row characteristics.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-featureOutlier"></a>}}
-\if{latex}{\out{\hypertarget{method-featureOutlier}{}}}
+\if{html}{\out{<a id="method-pgu.outliers-featureOutlier"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.outliers-featureOutlier}{}}}
 \subsection{Method \code{featureOutlier()}}{
 Returns the detected outliers of a given attribute.
 \subsection{Usage}{
@@ -336,8 +336,8 @@ The attribute's outliers
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-one_hot"></a>}}
-\if{latex}{\out{\hypertarget{method-one_hot}{}}}
+\if{html}{\out{<a id="method-pgu.outliers-one_hot"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.outliers-one_hot}{}}}
 \subsection{Method \code{one_hot()}}{
 Gathers statistical information about missing values
 in one hot format.
@@ -356,10 +356,10 @@ The result is stored in the instance variable one_hot_df.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-detectOutliers"></a>}}
-\if{latex}{\out{\hypertarget{method-detectOutliers}{}}}
+\if{html}{\out{<a id="method-pgu.outliers-detectOutliers"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.outliers-detectOutliers}{}}}
 \subsection{Method \code{detectOutliers()}}{
-Chooses a method for identification of anomalies based upon the instance variable \code{outliersAgent}
+Chooses a method for identification of anomalies based upon the instance variable `outliersAgent`
 Detects anomalies in a data frame by one-dimensional analysis of each feature.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.outliers$detectOutliers(data_df = "tbl_df", progress = "Progress")}\if{html}{\out{</div>}}
@@ -378,13 +378,13 @@ Detects anomalies in a data frame by one-dimensional analysis of each feature.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-detectByGrubbs"></a>}}
-\if{latex}{\out{\hypertarget{method-detectByGrubbs}{}}}
+\if{html}{\out{<a id="method-pgu.outliers-detectByGrubbs"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.outliers-detectByGrubbs}{}}}
 \subsection{Method \code{detectByGrubbs()}}{
 Identifies anomalies in the data frame based on Grubb's test.
 Iterates over the whole data frame. Calls the object's public function
-\code{grubbs_numeric} until no more anomalies are identified.
-The threshold for anomaly detection is defined in the instance variable \code{alpha}.
+`grubbs_numeric` until no more anomalies are identified.
+The threshold for anomaly detection is defined in the instance variable `alpha`.
 Display the progress if shiny is loaded.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.outliers$detectByGrubbs(data_df = "tbl_df", progress = "Progress")}\if{html}{\out{</div>}}
@@ -403,12 +403,12 @@ Display the progress if shiny is loaded.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-grubbs_numeric"></a>}}
-\if{latex}{\out{\hypertarget{method-grubbs_numeric}{}}}
+\if{html}{\out{<a id="method-pgu.outliers-grubbs_numeric"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.outliers-grubbs_numeric}{}}}
 \subsection{Method \code{grubbs_numeric()}}{
 Performs Grubb's test for anomalies to detect a single outlier in the provided attributes data.
-If an outlier is found, it is added to the instance variable \code{outliers}.
-The threshold for anomaly detection is difined in the instance variable \code{alpha}.
+If an outlier is found, it is added to the instance variable `outliers`.
+The threshold for anomaly detection is difined in the instance variable `alpha`.
 The function indicates a find by a positive feedback.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.outliers$grubbs_numeric(data_df = "tbl_df", feature = "character")}\if{html}{\out{</div>}}
@@ -430,14 +430,14 @@ Feedback if an outlier was found.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-detectByDbscan"></a>}}
-\if{latex}{\out{\hypertarget{method-detectByDbscan}{}}}
+\if{html}{\out{<a id="method-pgu.outliers-detectByDbscan"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.outliers-detectByDbscan}{}}}
 \subsection{Method \code{detectByDbscan()}}{
 Identifies anomalies in the data frame based on DBSCAN.
 Iterates over the whole data frame. Calls the object's public function
-\code{dbscan_numeric} until all features are analyzed.
-The cluster hyper parameter are defined in the instance variables \code{epsilon} and \code{minSamples}.
-The results of the \code{dbscan_numeric} routine are added to the instance variable \code{outliers}.
+`dbscan_numeric` until all features are analyzed.
+The cluster hyper parameter are defined in the instance variables `epsilon` and `minSamples`.
+The results of the `dbscan_numeric` routine are added to the instance variable `outliers`.
 Display the progress if shiny is loaded.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.outliers$detectByDbscan(data_df = "tbl_df", progress = "Progress")}\if{html}{\out{</div>}}
@@ -456,11 +456,11 @@ Display the progress if shiny is loaded.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-dbscan_numeric"></a>}}
-\if{latex}{\out{\hypertarget{method-dbscan_numeric}{}}}
+\if{html}{\out{<a id="method-pgu.outliers-dbscan_numeric"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.outliers-dbscan_numeric}{}}}
 \subsection{Method \code{dbscan_numeric()}}{
 Identifies anomalies in a single feature of a data frame based on DBSCAN.
-The cluster hyperparameter are defined in the instance variables \code{epsilon} and \code{minSamples}.
+The cluster hyperparameter are defined in the instance variables `epsilon` and `minSamples`.
 Display the progress if shiny is loaded.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.outliers$dbscan_numeric(data_df = "tbl_df", feature = "character")}\if{html}{\out{</div>}}
@@ -486,14 +486,14 @@ A data frame comprising the information about detected anomalies of the feature.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-detectBySvm"></a>}}
-\if{latex}{\out{\hypertarget{method-detectBySvm}{}}}
+\if{html}{\out{<a id="method-pgu.outliers-detectBySvm"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.outliers-detectBySvm}{}}}
 \subsection{Method \code{detectBySvm()}}{
 Identifies anomalies in the data frame based on one class SVM.
 Iterates over the whole data frame. Calls the object's public function
-\code{svm_numeric} until all features are analyzed.
-The cluster hyper parameter are defined in the instance variables \code{gamma} and \code{nu}.
-The results of the \code{svm_numeric} routine are added to the instance variable \code{outliers}.
+`svm_numeric` until all features are analyzed.
+The cluster hyper parameter are defined in the instance variables `gamma` and `nu`.
+The results of the `svm_numeric` routine are added to the instance variable `outliers`.
 Display the progress if shiny is loaded.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.outliers$detectBySvm(data_df = "tbl_df", progress = "Process")}\if{html}{\out{</div>}}
@@ -512,11 +512,11 @@ Display the progress if shiny is loaded.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-svm_numeric"></a>}}
-\if{latex}{\out{\hypertarget{method-svm_numeric}{}}}
+\if{html}{\out{<a id="method-pgu.outliers-svm_numeric"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.outliers-svm_numeric}{}}}
 \subsection{Method \code{svm_numeric()}}{
 Identifies anomalies in a single feature of a data frame based on one class SVM.
-The cluster hyperparameter are defined in the instance variables \code{gamma} and \code{nu}.
+The cluster hyperparameter are defined in the instance variables `gamma` and `nu`.
 Display the progress if shiny is loaded.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.outliers$svm_numeric(data_df = "tbl_df", feature = "character")}\if{html}{\out{</div>}}
@@ -542,14 +542,14 @@ A data frame comprising the information about detected anomalies of the feature.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-detectByKnn"></a>}}
-\if{latex}{\out{\hypertarget{method-detectByKnn}{}}}
+\if{html}{\out{<a id="method-pgu.outliers-detectByKnn"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.outliers-detectByKnn}{}}}
 \subsection{Method \code{detectByKnn()}}{
 Identifies anomalies in the data frame based on knnO.
 Iterates over the whole data frame. Calls the object's public function
-\code{svm_numeric} until all features are analyzed.
-The cluster hyper parameter are defined in the instance variables \code{alpha} and \code{minSamples}.
-The results of the \code{knn_numeric} routine are added to the instance variable \code{outliers}.
+`svm_numeric` until all features are analyzed.
+The cluster hyper parameter are defined in the instance variables `alpha` and `minSamples`.
+The results of the `knn_numeric` routine are added to the instance variable `outliers`.
 Display the progress if shiny is loaded.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.outliers$detectByKnn(data_df = "tbl_df", progress = "Process")}\if{html}{\out{</div>}}
@@ -568,11 +568,11 @@ Display the progress if shiny is loaded.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-knn_numeric"></a>}}
-\if{latex}{\out{\hypertarget{method-knn_numeric}{}}}
+\if{html}{\out{<a id="method-pgu.outliers-knn_numeric"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.outliers-knn_numeric}{}}}
 \subsection{Method \code{knn_numeric()}}{
 Identifies anomalies in a single feature of a data frame based on knnO.
-The cluster hyperparameter are defined in the instance variables \code{alpha} and \code{minSmaples}.
+The cluster hyperparameter are defined in the instance variables `alpha` and `minSmaples`.
 Display the progress if shiny is loaded.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.outliers$knn_numeric(data_df = "tbl_df", feature = "character")}\if{html}{\out{</div>}}
@@ -598,10 +598,10 @@ A data frame comprising the information about detected anomalies of the feature.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-setImputationSites"></a>}}
-\if{latex}{\out{\hypertarget{method-setImputationSites}{}}}
+\if{html}{\out{<a id="method-pgu.outliers-setImputationSites"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.outliers-setImputationSites}{}}}
 \subsection{Method \code{setImputationSites()}}{
-Replaces the detected anomalies of a user provided data frame with \code{NA} for further imputation routines.
+Replaces the detected anomalies of a user provided data frame with `NA` for further imputation routines.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.outliers$setImputationSites(data_df = "tbl_df")}\if{html}{\out{</div>}}
 }
@@ -615,16 +615,16 @@ Replaces the detected anomalies of a user provided data frame with \code{NA} for
 \if{html}{\out{</div>}}
 }
 \subsection{Returns}{
-A data frame with anomalies replaced by \code{NA}.
+A data frame with anomalies replaced by `NA`.
 (tibble::tibble)
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-calcOutliersStatistics"></a>}}
-\if{latex}{\out{\hypertarget{method-calcOutliersStatistics}{}}}
+\if{html}{\out{<a id="method-pgu.outliers-calcOutliersStatistics"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.outliers-calcOutliersStatistics}{}}}
 \subsection{Method \code{calcOutliersStatistics()}}{
 Calculates the statistics on the previously performed outlier detection analysis
-and stores the results in the instance variable \code{outliersStatistcs}.
+and stores the results in the instance variable `outliersStatistcs`.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.outliers$calcOutliersStatistics(data_df = "tbl_df")}\if{html}{\out{</div>}}
 }
@@ -639,8 +639,8 @@ and stores the results in the instance variable \code{outliersStatistcs}.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-outlierTable"></a>}}
-\if{latex}{\out{\hypertarget{method-outlierTable}{}}}
+\if{html}{\out{<a id="method-pgu.outliers-outlierTable"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.outliers-outlierTable}{}}}
 \subsection{Method \code{outlierTable()}}{
 Creates a datatable with substituted outliers highlightes by colored background.
 \subsection{Usage}{
@@ -661,8 +661,8 @@ A colored datatable
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-plotOutliersDistribution"></a>}}
-\if{latex}{\out{\hypertarget{method-plotOutliersDistribution}{}}}
+\if{html}{\out{<a id="method-pgu.outliers-plotOutliersDistribution"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.outliers-plotOutliersDistribution}{}}}
 \subsection{Method \code{plotOutliersDistribution()}}{
 Displays the occurrence of outlier candidates per attribute as bar plot.
 \subsection{Usage}{
@@ -675,8 +675,8 @@ A bar plot.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-featureBarPlot"></a>}}
-\if{latex}{\out{\hypertarget{method-featureBarPlot}{}}}
+\if{html}{\out{<a id="method-pgu.outliers-featureBarPlot"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.outliers-featureBarPlot}{}}}
 \subsection{Method \code{featureBarPlot()}}{
 Displays the distribution of an attribute's values as histogram.
 \subsection{Usage}{
@@ -700,8 +700,8 @@ A histogram.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-featureBoxPlotWithSubset"></a>}}
-\if{latex}{\out{\hypertarget{method-featureBoxPlotWithSubset}{}}}
+\if{html}{\out{<a id="method-pgu.outliers-featureBoxPlotWithSubset"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.outliers-featureBoxPlotWithSubset}{}}}
 \subsection{Method \code{featureBoxPlotWithSubset()}}{
 Displays the distribution of an attribute's vlues as box plot.
 \subsection{Usage}{
@@ -728,8 +728,8 @@ A box plot.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-featurePlot"></a>}}
-\if{latex}{\out{\hypertarget{method-featurePlot}{}}}
+\if{html}{\out{<a id="method-pgu.outliers-featurePlot"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.outliers-featurePlot}{}}}
 \subsection{Method \code{featurePlot()}}{
 Displays the distribution of an attribute's values as a composition of a box plot and a histogram.
 \subsection{Usage}{
@@ -753,8 +753,8 @@ A composite plot.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-clone"></a>}}
-\if{latex}{\out{\hypertarget{method-clone}{}}}
+\if{html}{\out{<a id="method-pgu.outliers-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.outliers-clone}{}}}
 \subsection{Method \code{clone()}}{
 The objects of this class are cloneable with this method.
 \subsection{Usage}{

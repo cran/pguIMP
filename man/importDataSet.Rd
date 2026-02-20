@@ -19,5 +19,5 @@ Extracts import options from a 'pguIMP::file' instance
 and imports the desired record based on the passed information.
 }
 \author{
-Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
+Sebastian Malkusch
 }

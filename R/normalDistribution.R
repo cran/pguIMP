@@ -10,7 +10,7 @@
 #' @return The probability of observing event x given mu and sigma. (numeric)
 #' @examples
 #' y <- pguIMP::normalDistribution(x=5, mu=0.0, sigma=1.0)
-#' @author Sebastian Malkusch, \email{malkusch@@med.uni-frankfurt.de}
+#' @author Sebastian Malkusch
 #' @export
 #'
 

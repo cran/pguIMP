@@ -4,7 +4,7 @@
 \alias{pgu.normalizer}
 \title{pgu.normalizer}
 \format{
-\link[R6:R6Class]{R6::R6Class} object.
+[R6::R6Class] object.
 }
 \description{
 Normalization of data. Part of pguIMP.
@@ -14,7 +14,7 @@ Performs a data normalization in order to achieve a standardized version of the 
 This object is used by the shiny based gui and is not for use in individual R-scripts!
 }
 \author{
-Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
+Sebastian Malkusch
 }
 \section{Active bindings}{
 \if{html}{\out{<div class="r6-active-bindings">}}
@@ -37,35 +37,35 @@ Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
 \section{Methods}{
 \subsection{Public methods}{
 \itemize{
-\item \href{#method-new}{\code{pgu.normalizer$new()}}
-\item \href{#method-finalize}{\code{pgu.normalizer$finalize()}}
-\item \href{#method-print}{\code{pgu.normalizer$print()}}
-\item \href{#method-detectNormParameter}{\code{pgu.normalizer$detectNormParameter()}}
-\item \href{#method-scale_data}{\code{pgu.normalizer$scale_data()}}
-\item \href{#method-scale_minMax}{\code{pgu.normalizer$scale_minMax()}}
-\item \href{#method-scale_minMax_numeric}{\code{pgu.normalizer$scale_minMax_numeric()}}
-\item \href{#method-scale_mean}{\code{pgu.normalizer$scale_mean()}}
-\item \href{#method-scale_mean_numeric}{\code{pgu.normalizer$scale_mean_numeric()}}
-\item \href{#method-scale_zScore}{\code{pgu.normalizer$scale_zScore()}}
-\item \href{#method-scale_zScore_numeric}{\code{pgu.normalizer$scale_zScore_numeric()}}
-\item \href{#method-rescale_data}{\code{pgu.normalizer$rescale_data()}}
-\item \href{#method-rescale_minMax}{\code{pgu.normalizer$rescale_minMax()}}
-\item \href{#method-rescale_minMax_numeric}{\code{pgu.normalizer$rescale_minMax_numeric()}}
-\item \href{#method-rescale_mean}{\code{pgu.normalizer$rescale_mean()}}
-\item \href{#method-rescale_mean_numeric}{\code{pgu.normalizer$rescale_mean_numeric()}}
-\item \href{#method-rescale_zScore}{\code{pgu.normalizer$rescale_zScore()}}
-\item \href{#method-rescale_zScore_numeric}{\code{pgu.normalizer$rescale_zScore_numeric()}}
-\item \href{#method-featureBarPlot}{\code{pgu.normalizer$featureBarPlot()}}
-\item \href{#method-featureBoxPlotWithSubset}{\code{pgu.normalizer$featureBoxPlotWithSubset()}}
-\item \href{#method-featurePlot}{\code{pgu.normalizer$featurePlot()}}
-\item \href{#method-clone}{\code{pgu.normalizer$clone()}}
+\item \href{#method-pgu.normalizer-new}{\code{pgu.normalizer$new()}}
+\item \href{#method-pgu.normalizer-finalize}{\code{pgu.normalizer$finalize()}}
+\item \href{#method-pgu.normalizer-print}{\code{pgu.normalizer$print()}}
+\item \href{#method-pgu.normalizer-detectNormParameter}{\code{pgu.normalizer$detectNormParameter()}}
+\item \href{#method-pgu.normalizer-scale_data}{\code{pgu.normalizer$scale_data()}}
+\item \href{#method-pgu.normalizer-scale_minMax}{\code{pgu.normalizer$scale_minMax()}}
+\item \href{#method-pgu.normalizer-scale_minMax_numeric}{\code{pgu.normalizer$scale_minMax_numeric()}}
+\item \href{#method-pgu.normalizer-scale_mean}{\code{pgu.normalizer$scale_mean()}}
+\item \href{#method-pgu.normalizer-scale_mean_numeric}{\code{pgu.normalizer$scale_mean_numeric()}}
+\item \href{#method-pgu.normalizer-scale_zScore}{\code{pgu.normalizer$scale_zScore()}}
+\item \href{#method-pgu.normalizer-scale_zScore_numeric}{\code{pgu.normalizer$scale_zScore_numeric()}}
+\item \href{#method-pgu.normalizer-rescale_data}{\code{pgu.normalizer$rescale_data()}}
+\item \href{#method-pgu.normalizer-rescale_minMax}{\code{pgu.normalizer$rescale_minMax()}}
+\item \href{#method-pgu.normalizer-rescale_minMax_numeric}{\code{pgu.normalizer$rescale_minMax_numeric()}}
+\item \href{#method-pgu.normalizer-rescale_mean}{\code{pgu.normalizer$rescale_mean()}}
+\item \href{#method-pgu.normalizer-rescale_mean_numeric}{\code{pgu.normalizer$rescale_mean_numeric()}}
+\item \href{#method-pgu.normalizer-rescale_zScore}{\code{pgu.normalizer$rescale_zScore()}}
+\item \href{#method-pgu.normalizer-rescale_zScore_numeric}{\code{pgu.normalizer$rescale_zScore_numeric()}}
+\item \href{#method-pgu.normalizer-featureBarPlot}{\code{pgu.normalizer$featureBarPlot()}}
+\item \href{#method-pgu.normalizer-featureBoxPlotWithSubset}{\code{pgu.normalizer$featureBoxPlotWithSubset()}}
+\item \href{#method-pgu.normalizer-featurePlot}{\code{pgu.normalizer$featurePlot()}}
+\item \href{#method-pgu.normalizer-clone}{\code{pgu.normalizer$clone()}}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-new"></a>}}
-\if{latex}{\out{\hypertarget{method-new}{}}}
+\if{html}{\out{<a id="method-pgu.normalizer-new"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normalizer-new}{}}}
 \subsection{Method \code{new()}}{
-Creates and returns a new \code{pgu.normalizer} object.
+Creates and returns a new `pgu.normalizer` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.normalizer$new(data_df = "tbl_df")}\if{html}{\out{</div>}}
 }
@@ -79,26 +79,26 @@ Creates and returns a new \code{pgu.normalizer} object.
 \if{html}{\out{</div>}}
 }
 \subsection{Returns}{
-A new \code{pgu.normalizer} object.
+A new `pgu.normalizer` object.
 (pguIMP::pgu.normalizer)
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-finalize"></a>}}
-\if{latex}{\out{\hypertarget{method-finalize}{}}}
+\if{html}{\out{<a id="method-pgu.normalizer-finalize"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normalizer-finalize}{}}}
 \subsection{Method \code{finalize()}}{
 Clears the heap and
-indicates that instance of \code{pgu.normalizer} is removed from heap.
+indicates that instance of `pgu.normalizer` is removed from heap.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.normalizer$finalize()}\if{html}{\out{</div>}}
 }
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-print"></a>}}
-\if{latex}{\out{\hypertarget{method-print}{}}}
+\if{html}{\out{<a id="method-pgu.normalizer-print"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normalizer-print}{}}}
 \subsection{Method \code{print()}}{
-Prints instance variables of a \code{pgu.normalizer} object.
+Prints instance variables of a `pgu.normalizer` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.normalizer$print()}\if{html}{\out{</div>}}
 }
@@ -108,10 +108,10 @@ string
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-detectNormParameter"></a>}}
-\if{latex}{\out{\hypertarget{method-detectNormParameter}{}}}
+\if{html}{\out{<a id="method-pgu.normalizer-detectNormParameter"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normalizer-detectNormParameter}{}}}
 \subsection{Method \code{detectNormParameter()}}{
-Resets instance variable \code{normParameter}
+Resets instance variable `normParameter`
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.normalizer$detectNormParameter(data_df = "tbl_df")}\if{html}{\out{</div>}}
 }
@@ -126,8 +126,8 @@ Resets instance variable \code{normParameter}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-scale_data"></a>}}
-\if{latex}{\out{\hypertarget{method-scale_data}{}}}
+\if{html}{\out{<a id="method-pgu.normalizer-scale_data"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normalizer-scale_data}{}}}
 \subsection{Method \code{scale_data()}}{
 Scales a tibble using the method defined by the instance variable normAgent
 \subsection{Usage}{
@@ -148,8 +148,8 @@ A normalized version of the dataframe.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-scale_minMax"></a>}}
-\if{latex}{\out{\hypertarget{method-scale_minMax}{}}}
+\if{html}{\out{<a id="method-pgu.normalizer-scale_minMax"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normalizer-scale_minMax}{}}}
 \subsection{Method \code{scale_minMax()}}{
 Scales a tibble using min-max normalization
 \subsection{Usage}{
@@ -169,8 +169,8 @@ A min-max normalized version of the dataframe
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-scale_minMax_numeric"></a>}}
-\if{latex}{\out{\hypertarget{method-scale_minMax_numeric}{}}}
+\if{html}{\out{<a id="method-pgu.normalizer-scale_minMax_numeric"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normalizer-scale_minMax_numeric}{}}}
 \subsection{Method \code{scale_minMax_numeric()}}{
 Scales a numeric object using min-max normalization
 \subsection{Usage}{
@@ -193,8 +193,8 @@ A min-max normalized version of the numeric object
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-scale_mean"></a>}}
-\if{latex}{\out{\hypertarget{method-scale_mean}{}}}
+\if{html}{\out{<a id="method-pgu.normalizer-scale_mean"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normalizer-scale_mean}{}}}
 \subsection{Method \code{scale_mean()}}{
 Scales a tibble using mean normalization
 \subsection{Usage}{
@@ -214,8 +214,8 @@ A mean normalized version of the dataframe
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-scale_mean_numeric"></a>}}
-\if{latex}{\out{\hypertarget{method-scale_mean_numeric}{}}}
+\if{html}{\out{<a id="method-pgu.normalizer-scale_mean_numeric"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normalizer-scale_mean_numeric}{}}}
 \subsection{Method \code{scale_mean_numeric()}}{
 Scales a numeric object using mean normalization
 \subsection{Usage}{
@@ -238,8 +238,8 @@ A mean normalized version of the numeric object
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-scale_zScore"></a>}}
-\if{latex}{\out{\hypertarget{method-scale_zScore}{}}}
+\if{html}{\out{<a id="method-pgu.normalizer-scale_zScore"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normalizer-scale_zScore}{}}}
 \subsection{Method \code{scale_zScore()}}{
 Scales a tibble using z-score normalization
 \subsection{Usage}{
@@ -259,8 +259,8 @@ A z-score normalized version of the dataframe
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-scale_zScore_numeric"></a>}}
-\if{latex}{\out{\hypertarget{method-scale_zScore_numeric}{}}}
+\if{html}{\out{<a id="method-pgu.normalizer-scale_zScore_numeric"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normalizer-scale_zScore_numeric}{}}}
 \subsection{Method \code{scale_zScore_numeric()}}{
 Scales a numeric object using z-score normalization
 \subsection{Usage}{
@@ -283,8 +283,8 @@ A z-score normalized version of the numeric object
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-rescale_data"></a>}}
-\if{latex}{\out{\hypertarget{method-rescale_data}{}}}
+\if{html}{\out{<a id="method-pgu.normalizer-rescale_data"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normalizer-rescale_data}{}}}
 \subsection{Method \code{rescale_data()}}{
 Rescales a tibble using the method defined by the instance variable normAgent
 \subsection{Usage}{
@@ -305,8 +305,8 @@ A rescaled version of the normalized dataframe.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-rescale_minMax"></a>}}
-\if{latex}{\out{\hypertarget{method-rescale_minMax}{}}}
+\if{html}{\out{<a id="method-pgu.normalizer-rescale_minMax"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normalizer-rescale_minMax}{}}}
 \subsection{Method \code{rescale_minMax()}}{
 Rescales a tibble using min-max normalization
 \subsection{Usage}{
@@ -326,8 +326,8 @@ A rescaled version of a min-max normalized dataframe
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-rescale_minMax_numeric"></a>}}
-\if{latex}{\out{\hypertarget{method-rescale_minMax_numeric}{}}}
+\if{html}{\out{<a id="method-pgu.normalizer-rescale_minMax_numeric"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normalizer-rescale_minMax_numeric}{}}}
 \subsection{Method \code{rescale_minMax_numeric()}}{
 Rescales a numeric object using min-max normalization
 \subsection{Usage}{
@@ -350,8 +350,8 @@ Rescaled version of min-max normalized numeric object
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-rescale_mean"></a>}}
-\if{latex}{\out{\hypertarget{method-rescale_mean}{}}}
+\if{html}{\out{<a id="method-pgu.normalizer-rescale_mean"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normalizer-rescale_mean}{}}}
 \subsection{Method \code{rescale_mean()}}{
 Rescales a tibble using mean normalization
 \subsection{Usage}{
@@ -371,8 +371,8 @@ A rescaled version of a mean normalized dataframe
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-rescale_mean_numeric"></a>}}
-\if{latex}{\out{\hypertarget{method-rescale_mean_numeric}{}}}
+\if{html}{\out{<a id="method-pgu.normalizer-rescale_mean_numeric"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normalizer-rescale_mean_numeric}{}}}
 \subsection{Method \code{rescale_mean_numeric()}}{
 Rescales a numeric object using mean normalization
 \subsection{Usage}{
@@ -395,8 +395,8 @@ Rescaled version of mean normalized numeric object
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-rescale_zScore"></a>}}
-\if{latex}{\out{\hypertarget{method-rescale_zScore}{}}}
+\if{html}{\out{<a id="method-pgu.normalizer-rescale_zScore"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normalizer-rescale_zScore}{}}}
 \subsection{Method \code{rescale_zScore()}}{
 Rescales a tibble using z-score normalization
 \subsection{Usage}{
@@ -416,8 +416,8 @@ A rescaled version of a z-score normalized dataframe
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-rescale_zScore_numeric"></a>}}
-\if{latex}{\out{\hypertarget{method-rescale_zScore_numeric}{}}}
+\if{html}{\out{<a id="method-pgu.normalizer-rescale_zScore_numeric"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normalizer-rescale_zScore_numeric}{}}}
 \subsection{Method \code{rescale_zScore_numeric()}}{
 Rescales a numeric object using z-score normalization
 \subsection{Usage}{
@@ -440,8 +440,8 @@ Rescaled version of z-score normalized numeric object
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-featureBarPlot"></a>}}
-\if{latex}{\out{\hypertarget{method-featureBarPlot}{}}}
+\if{html}{\out{<a id="method-pgu.normalizer-featureBarPlot"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normalizer-featureBarPlot}{}}}
 \subsection{Method \code{featureBarPlot()}}{
 Displays the distribution of an attribute values as histogram.
 \subsection{Usage}{
@@ -465,8 +465,8 @@ A histogram.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-featureBoxPlotWithSubset"></a>}}
-\if{latex}{\out{\hypertarget{method-featureBoxPlotWithSubset}{}}}
+\if{html}{\out{<a id="method-pgu.normalizer-featureBoxPlotWithSubset"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normalizer-featureBoxPlotWithSubset}{}}}
 \subsection{Method \code{featureBoxPlotWithSubset()}}{
 Displays the distribution of an attribute's values as box plot.
 \subsection{Usage}{
@@ -493,8 +493,8 @@ A box plot.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-featurePlot"></a>}}
-\if{latex}{\out{\hypertarget{method-featurePlot}{}}}
+\if{html}{\out{<a id="method-pgu.normalizer-featurePlot"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normalizer-featurePlot}{}}}
 \subsection{Method \code{featurePlot()}}{
 Displays the distribution of an attribute's values as a composition of a box plot and a histogram.
 \subsection{Usage}{
@@ -518,8 +518,8 @@ A composite plot.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-clone"></a>}}
-\if{latex}{\out{\hypertarget{method-clone}{}}}
+\if{html}{\out{<a id="method-pgu.normalizer-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.normalizer-clone}{}}}
 \subsection{Method \code{clone()}}{
 The objects of this class are cloneable with this method.
 \subsection{Usage}{

@@ -19,7 +19,7 @@
 #' @include pguTransformator.R
 #' @include pguModel.R
 #'
-#' @author Sebastian Malkusch, \email{malkusch@@med.uni-frankfurt.de}
+#' @author Sebastian Malkusch
 #'
 #' @export
 #'
@@ -97,7 +97,7 @@ pgu.optimizer <- R6::R6Class("pgu.optimizer",
                                 #' A new `pgu.optimizer` object.
                                 #' (pguIMP::pgu.optimizer)
                                 initialize = function(data = "tbl_df"){
-                                  if(class(data) != "tbl_df"){
+                                  if (!inherits(data, "tbl_df") && !inherits(data, "tbl")) {
                                     data <- tibble::tibble(names <- "none",
                                                            values <- c(NA))
                                   }#if

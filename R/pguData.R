@@ -23,7 +23,7 @@
 #' data_df <- iris %>%
 #'   tibble::as_tibble()
 #' data_obj = pguIMP::pgu.data$new(data_df)
-#' @author Sebastian Malkusch, \email{malkusch@@med.uni-frankfurt.de}
+#' @author Sebastian Malkusch
 #' @export
 #'
 

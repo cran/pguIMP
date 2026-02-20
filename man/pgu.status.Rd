@@ -4,7 +4,7 @@
 \alias{pgu.status}
 \title{pgu.status}
 \format{
-\link[R6:R6Class]{R6::R6Class} object.
+[R6::R6Class] object.
 }
 \description{
 A class that keeps track of the pguIMP analysis process.
@@ -20,7 +20,7 @@ step are available.
 This object is used by the shiny based gui and is not for use in individual R-scripts!
 }
 \author{
-Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
+Sebastian Malkusch
 }
 \section{Active bindings}{
 \if{html}{\out{<div class="r6-active-bindings">}}
@@ -37,18 +37,18 @@ the pguIMP analysis routine.
 \section{Methods}{
 \subsection{Public methods}{
 \itemize{
-\item \href{#method-new}{\code{pgu.status$new()}}
-\item \href{#method-finalize}{\code{pgu.status$finalize()}}
-\item \href{#method-print}{\code{pgu.status$print()}}
-\item \href{#method-reset}{\code{pgu.status$reset()}}
-\item \href{#method-update}{\code{pgu.status$update()}}
-\item \href{#method-query}{\code{pgu.status$query()}}
-\item \href{#method-clone}{\code{pgu.status$clone()}}
+\item \href{#method-pgu.status-new}{\code{pgu.status$new()}}
+\item \href{#method-pgu.status-finalize}{\code{pgu.status$finalize()}}
+\item \href{#method-pgu.status-print}{\code{pgu.status$print()}}
+\item \href{#method-pgu.status-reset}{\code{pgu.status$reset()}}
+\item \href{#method-pgu.status-update}{\code{pgu.status$update()}}
+\item \href{#method-pgu.status-query}{\code{pgu.status$query()}}
+\item \href{#method-pgu.status-clone}{\code{pgu.status$clone()}}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-new"></a>}}
-\if{latex}{\out{\hypertarget{method-new}{}}}
+\if{html}{\out{<a id="method-pgu.status-new"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.status-new}{}}}
 \subsection{Method \code{new()}}{
 Creates and returns a new `pgu.status`` object.
 \subsection{Usage}{
@@ -56,26 +56,26 @@ Creates and returns a new `pgu.status`` object.
 }
 
 \subsection{Returns}{
-A new \code{pgu.status} object.
+A new `pgu.status` object.
 (pguIMP::pgu.status)
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-finalize"></a>}}
-\if{latex}{\out{\hypertarget{method-finalize}{}}}
+\if{html}{\out{<a id="method-pgu.status-finalize"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.status-finalize}{}}}
 \subsection{Method \code{finalize()}}{
 Clears the heap and
-indicates if instance of \code{pgu.status} is removed from heap.
+indicates if instance of `pgu.status` is removed from heap.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.status$finalize()}\if{html}{\out{</div>}}
 }
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-print"></a>}}
-\if{latex}{\out{\hypertarget{method-print}{}}}
+\if{html}{\out{<a id="method-pgu.status-print"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.status-print}{}}}
 \subsection{Method \code{print()}}{
-Prints instance variables of a \code{pgu.status} object.
+Prints instance variables of a `pgu.status` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.status$print()}\if{html}{\out{</div>}}
 }
@@ -85,18 +85,18 @@ string
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-reset"></a>}}
-\if{latex}{\out{\hypertarget{method-reset}{}}}
+\if{html}{\out{<a id="method-pgu.status-reset"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.status-reset}{}}}
 \subsection{Method \code{reset()}}{
-resets the intance variables \code{processAlphabet} and \code{processStatus} to their initial values (FALSE).
+resets the intance variables `processAlphabet` and `processStatus` to their initial values (FALSE).
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.status$reset()}\if{html}{\out{</div>}}
 }
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-update"></a>}}
-\if{latex}{\out{\hypertarget{method-update}{}}}
+\if{html}{\out{<a id="method-pgu.status-update"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.status-update}{}}}
 \subsection{Method \code{update()}}{
 updates the process status
 \subsection{Usage}{
@@ -106,7 +106,7 @@ updates the process status
 \subsection{Arguments}{
 \if{html}{\out{<div class="arguments">}}
 \describe{
-\item{\code{processName}}{The name of the \code{pguIMP} process that has been performed.
+\item{\code{processName}}{The name of the `pguIMP` process that has been performed.
 (character)}
 
 \item{\code{value}}{Indicates if the process ended with success.
@@ -116,8 +116,8 @@ updates the process status
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-query"></a>}}
-\if{latex}{\out{\hypertarget{method-query}{}}}
+\if{html}{\out{<a id="method-pgu.status-query"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.status-query}{}}}
 \subsection{Method \code{query()}}{
 Queries if a process has already been performed successfully.
 \subsection{Usage}{
@@ -138,8 +138,8 @@ Status of the queried process
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-clone"></a>}}
-\if{latex}{\out{\hypertarget{method-clone}{}}}
+\if{html}{\out{<a id="method-pgu.status-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.status-clone}{}}}
 \subsection{Method \code{clone()}}{
 The objects of this class are cloneable with this method.
 \subsection{Usage}{

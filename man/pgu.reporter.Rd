@@ -4,7 +4,7 @@
 \alias{pgu.reporter}
 \title{pgu.reporter}
 \format{
-\link[R6:R6Class]{R6::R6Class} object.
+[R6::R6Class] object.
 }
 \description{
 Creates a human readable report file of the pguIMP analysis in odf format via rmarkdown and latex.
@@ -14,7 +14,7 @@ This object is used by the shiny based gui and is not for use in individual R-sc
 I run at the end of the analysis.
 }
 \author{
-Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
+Sebastian Malkusch
 }
 \section{Active bindings}{
 \if{html}{\out{<div class="r6-active-bindings">}}
@@ -30,18 +30,18 @@ Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
 \section{Methods}{
 \subsection{Public methods}{
 \itemize{
-\item \href{#method-new}{\code{pgu.reporter$new()}}
-\item \href{#method-finalize}{\code{pgu.reporter$finalize()}}
-\item \href{#method-print}{\code{pgu.reporter$print()}}
-\item \href{#method-write_report}{\code{pgu.reporter$write_report()}}
-\item \href{#method-clone}{\code{pgu.reporter$clone()}}
+\item \href{#method-pgu.reporter-new}{\code{pgu.reporter$new()}}
+\item \href{#method-pgu.reporter-finalize}{\code{pgu.reporter$finalize()}}
+\item \href{#method-pgu.reporter-print}{\code{pgu.reporter$print()}}
+\item \href{#method-pgu.reporter-write_report}{\code{pgu.reporter$write_report()}}
+\item \href{#method-pgu.reporter-clone}{\code{pgu.reporter$clone()}}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-new"></a>}}
-\if{latex}{\out{\hypertarget{method-new}{}}}
+\if{html}{\out{<a id="method-pgu.reporter-new"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.reporter-new}{}}}
 \subsection{Method \code{new()}}{
-Creates and returns a new \code{pgu.reporter} object.
+Creates and returns a new `pgu.reporter` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.reporter$new(name = "character")}\if{html}{\out{</div>}}
 }
@@ -55,26 +55,26 @@ Creates and returns a new \code{pgu.reporter} object.
 \if{html}{\out{</div>}}
 }
 \subsection{Returns}{
-A new \code{pgu.reporter} object.
+A new `pgu.reporter` object.
 (pguIMP::pgu.report)
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-finalize"></a>}}
-\if{latex}{\out{\hypertarget{method-finalize}{}}}
+\if{html}{\out{<a id="method-pgu.reporter-finalize"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.reporter-finalize}{}}}
 \subsection{Method \code{finalize()}}{
 Clears the heap and
-indicates that instance of \code{pgu.reporter} is removed from heap.
+indicates that instance of `pgu.reporter` is removed from heap.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.reporter$finalize()}\if{html}{\out{</div>}}
 }
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-print"></a>}}
-\if{latex}{\out{\hypertarget{method-print}{}}}
+\if{html}{\out{<a id="method-pgu.reporter-print"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.reporter-print}{}}}
 \subsection{Method \code{print()}}{
-Prints instance variables of a \code{pgu.reporter} object.
+Prints instance variables of a `pgu.reporter` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.reporter$print()}\if{html}{\out{</div>}}
 }
@@ -84,8 +84,8 @@ string
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-write_report"></a>}}
-\if{latex}{\out{\hypertarget{method-write_report}{}}}
+\if{html}{\out{<a id="method-pgu.reporter-write_report"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.reporter-write_report}{}}}
 \subsection{Method \code{write_report()}}{
 Writes a report of the pguIMP analysis to a pdf file.
 \subsection{Usage}{
@@ -104,8 +104,8 @@ t.b.a.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-clone"></a>}}
-\if{latex}{\out{\hypertarget{method-clone}{}}}
+\if{html}{\out{<a id="method-pgu.reporter-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.reporter-clone}{}}}
 \subsection{Method \code{clone()}}{
 The objects of this class are cloneable with this method.
 \subsection{Usage}{

@@ -4,7 +4,7 @@
 \alias{pgu.imputation}
 \title{pgu.imputation}
 \format{
-\link[R6:R6Class]{R6::R6Class} object.
+[R6::R6Class] object.
 }
 \description{
 Analyses and substitutes imputation sites in a data set.
@@ -16,7 +16,7 @@ by classical and ML-powered substitution algorithms.
 This object is used by the shiny based gui and is not for use in individual R-scripts!
 }
 \author{
-Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
+Sebastian Malkusch
 }
 \section{Active bindings}{
 \if{html}{\out{<div class="r6-active-bindings">}}
@@ -92,40 +92,40 @@ Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
 \section{Methods}{
 \subsection{Public methods}{
 \itemize{
-\item \href{#method-new}{\code{pgu.imputation$new()}}
-\item \href{#method-finalize}{\code{pgu.imputation$finalize()}}
-\item \href{#method-print}{\code{pgu.imputation$print()}}
-\item \href{#method-gatherImputationSites}{\code{pgu.imputation$gatherImputationSites()}}
-\item \href{#method-gatherImputationSiteStatistics}{\code{pgu.imputation$gatherImputationSiteStatistics()}}
-\item \href{#method-gatherImputationSiteDistribution}{\code{pgu.imputation$gatherImputationSiteDistribution()}}
-\item \href{#method-insertImputationSites}{\code{pgu.imputation$insertImputationSites()}}
-\item \href{#method-one_hot}{\code{pgu.imputation$one_hot()}}
-\item \href{#method-analyzeImputationSites}{\code{pgu.imputation$analyzeImputationSites()}}
-\item \href{#method-imputationSiteIdxByFeature}{\code{pgu.imputation$imputationSiteIdxByFeature()}}
-\item \href{#method-nanFeatureList}{\code{pgu.imputation$nanFeatureList()}}
-\item \href{#method-average_number_of_predictors}{\code{pgu.imputation$average_number_of_predictors()}}
-\item \href{#method-detectPredictors}{\code{pgu.imputation$detectPredictors()}}
-\item \href{#method-handleImputationSites}{\code{pgu.imputation$handleImputationSites()}}
-\item \href{#method-imputeByMedian}{\code{pgu.imputation$imputeByMedian()}}
-\item \href{#method-imputeByMean}{\code{pgu.imputation$imputeByMean()}}
-\item \href{#method-imputeByExpectationValue}{\code{pgu.imputation$imputeByExpectationValue()}}
-\item \href{#method-imputeByMC}{\code{pgu.imputation$imputeByMC()}}
-\item \href{#method-imputeByKnn}{\code{pgu.imputation$imputeByKnn()}}
-\item \href{#method-imputeByMice}{\code{pgu.imputation$imputeByMice()}}
-\item \href{#method-imputeByM5P}{\code{pgu.imputation$imputeByM5P()}}
-\item \href{#method-imputationSiteHeatMap}{\code{pgu.imputation$imputationSiteHeatMap()}}
-\item \href{#method-featureBarPlot}{\code{pgu.imputation$featureBarPlot()}}
-\item \href{#method-featureBoxPlotWithSubset}{\code{pgu.imputation$featureBoxPlotWithSubset()}}
-\item \href{#method-featurePlot}{\code{pgu.imputation$featurePlot()}}
-\item \href{#method-fluxPlot}{\code{pgu.imputation$fluxPlot()}}
-\item \href{#method-clone}{\code{pgu.imputation$clone()}}
+\item \href{#method-pgu.imputation-new}{\code{pgu.imputation$new()}}
+\item \href{#method-pgu.imputation-finalize}{\code{pgu.imputation$finalize()}}
+\item \href{#method-pgu.imputation-print}{\code{pgu.imputation$print()}}
+\item \href{#method-pgu.imputation-gatherImputationSites}{\code{pgu.imputation$gatherImputationSites()}}
+\item \href{#method-pgu.imputation-gatherImputationSiteStatistics}{\code{pgu.imputation$gatherImputationSiteStatistics()}}
+\item \href{#method-pgu.imputation-gatherImputationSiteDistribution}{\code{pgu.imputation$gatherImputationSiteDistribution()}}
+\item \href{#method-pgu.imputation-insertImputationSites}{\code{pgu.imputation$insertImputationSites()}}
+\item \href{#method-pgu.imputation-one_hot}{\code{pgu.imputation$one_hot()}}
+\item \href{#method-pgu.imputation-analyzeImputationSites}{\code{pgu.imputation$analyzeImputationSites()}}
+\item \href{#method-pgu.imputation-imputationSiteIdxByFeature}{\code{pgu.imputation$imputationSiteIdxByFeature()}}
+\item \href{#method-pgu.imputation-nanFeatureList}{\code{pgu.imputation$nanFeatureList()}}
+\item \href{#method-pgu.imputation-average_number_of_predictors}{\code{pgu.imputation$average_number_of_predictors()}}
+\item \href{#method-pgu.imputation-detectPredictors}{\code{pgu.imputation$detectPredictors()}}
+\item \href{#method-pgu.imputation-handleImputationSites}{\code{pgu.imputation$handleImputationSites()}}
+\item \href{#method-pgu.imputation-imputeByMedian}{\code{pgu.imputation$imputeByMedian()}}
+\item \href{#method-pgu.imputation-imputeByMean}{\code{pgu.imputation$imputeByMean()}}
+\item \href{#method-pgu.imputation-imputeByExpectationValue}{\code{pgu.imputation$imputeByExpectationValue()}}
+\item \href{#method-pgu.imputation-imputeByMC}{\code{pgu.imputation$imputeByMC()}}
+\item \href{#method-pgu.imputation-imputeByKnn}{\code{pgu.imputation$imputeByKnn()}}
+\item \href{#method-pgu.imputation-imputeByMice}{\code{pgu.imputation$imputeByMice()}}
+\item \href{#method-pgu.imputation-imputeByM5P}{\code{pgu.imputation$imputeByM5P()}}
+\item \href{#method-pgu.imputation-imputationSiteHeatMap}{\code{pgu.imputation$imputationSiteHeatMap()}}
+\item \href{#method-pgu.imputation-featureBarPlot}{\code{pgu.imputation$featureBarPlot()}}
+\item \href{#method-pgu.imputation-featureBoxPlotWithSubset}{\code{pgu.imputation$featureBoxPlotWithSubset()}}
+\item \href{#method-pgu.imputation-featurePlot}{\code{pgu.imputation$featurePlot()}}
+\item \href{#method-pgu.imputation-fluxPlot}{\code{pgu.imputation$fluxPlot()}}
+\item \href{#method-pgu.imputation-clone}{\code{pgu.imputation$clone()}}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-new"></a>}}
-\if{latex}{\out{\hypertarget{method-new}{}}}
+\if{html}{\out{<a id="method-pgu.imputation-new"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.imputation-new}{}}}
 \subsection{Method \code{new()}}{
-Creates and returns a new \code{pgu.imputation} object.
+Creates and returns a new `pgu.imputation` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.imputation$new(
   seed = 42,
@@ -159,31 +159,31 @@ Options are: ""none", "median", "mean", "expValue", "monteCarlo", "knn", "pmm", 
 \item{\code{pred_frac}}{Initially sets the instance variable pred_frac.
 (numeric)}
 
-\item{\code{outflux_thr}}{Initially sets the instance fariable outflux_thr}
+\item{\code{outflux_thr}}{Initially sets the instance variable outflux_thr}
 }
 \if{html}{\out{</div>}}
 }
 \subsection{Returns}{
-A new \code{pgu.imputation} object.
+A new `pgu.imputation` object.
 (pguIMP::pgu.imputation)
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-finalize"></a>}}
-\if{latex}{\out{\hypertarget{method-finalize}{}}}
+\if{html}{\out{<a id="method-pgu.imputation-finalize"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.imputation-finalize}{}}}
 \subsection{Method \code{finalize()}}{
 Clears the heap and
-indicates that instance of \code{pgu.imputation} is removed from heap.
+indicates that instance of `pgu.imputation` is removed from heap.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.imputation$finalize()}\if{html}{\out{</div>}}
 }
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-print"></a>}}
-\if{latex}{\out{\hypertarget{method-print}{}}}
+\if{html}{\out{<a id="method-pgu.imputation-print"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.imputation-print}{}}}
 \subsection{Method \code{print()}}{
-Prints instance variables of a \code{pgu.imputation} object.
+Prints instance variables of a `pgu.imputation` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.imputation$print()}\if{html}{\out{</div>}}
 }
@@ -193,8 +193,8 @@ string
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-gatherImputationSites"></a>}}
-\if{latex}{\out{\hypertarget{method-gatherImputationSites}{}}}
+\if{html}{\out{<a id="method-pgu.imputation-gatherImputationSites"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.imputation-gatherImputationSites}{}}}
 \subsection{Method \code{gatherImputationSites()}}{
 Gathers imputation sites from pguIMP's missings and outliers class.
 \subsection{Usage}{
@@ -217,11 +217,11 @@ Gathers imputation sites from pguIMP's missings and outliers class.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-gatherImputationSiteStatistics"></a>}}
-\if{latex}{\out{\hypertarget{method-gatherImputationSiteStatistics}{}}}
+\if{html}{\out{<a id="method-pgu.imputation-gatherImputationSiteStatistics"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.imputation-gatherImputationSiteStatistics}{}}}
 \subsection{Method \code{gatherImputationSiteStatistics()}}{
 Gathers statistical information about imputation sites
-The information is stored within the classes instance variable \code{imputationStatistics}
+The information is stored within the classes instance variable `imputationStatistics`
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.imputation$gatherImputationSiteStatistics(data_df = "tbl_df")}\if{html}{\out{</div>}}
 }
@@ -236,8 +236,8 @@ The information is stored within the classes instance variable \code{imputationS
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-gatherImputationSiteDistribution"></a>}}
-\if{latex}{\out{\hypertarget{method-gatherImputationSiteDistribution}{}}}
+\if{html}{\out{<a id="method-pgu.imputation-gatherImputationSiteDistribution"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.imputation-gatherImputationSiteDistribution}{}}}
 \subsection{Method \code{gatherImputationSiteDistribution()}}{
 Gathers the distribution of imputation sites within the data frame.
 The information is stored within the classes instance variable imputationSiteDistribution.
@@ -259,10 +259,10 @@ A data frame
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-insertImputationSites"></a>}}
-\if{latex}{\out{\hypertarget{method-insertImputationSites}{}}}
+\if{html}{\out{<a id="method-pgu.imputation-insertImputationSites"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.imputation-insertImputationSites}{}}}
 \subsection{Method \code{insertImputationSites()}}{
-Takes a dataframe, replaces the imputation sites indicated by the instance variable \code{imputationsites} by NA,
+Takes a dataframe, replaces the imputation sites indicated by the instance variable `imputationsites` by NA,
 and returns the mutated dataframe.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.imputation$insertImputationSites(data_df = "tbl_df")}\if{html}{\out{</div>}}
@@ -282,8 +282,8 @@ A mutated version of data_df.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-one_hot"></a>}}
-\if{latex}{\out{\hypertarget{method-one_hot}{}}}
+\if{html}{\out{<a id="method-pgu.imputation-one_hot"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.imputation-one_hot}{}}}
 \subsection{Method \code{one_hot()}}{
 Gathers statistical information about missing values
 in one hot format.
@@ -302,8 +302,8 @@ The result is stored in the instance variable one_hot_df.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-analyzeImputationSites"></a>}}
-\if{latex}{\out{\hypertarget{method-analyzeImputationSites}{}}}
+\if{html}{\out{<a id="method-pgu.imputation-analyzeImputationSites"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.imputation-analyzeImputationSites}{}}}
 \subsection{Method \code{analyzeImputationSites()}}{
 Takes a dataframe and analyses the imputation sites.
 \subsection{Usage}{
@@ -320,8 +320,8 @@ Takes a dataframe and analyses the imputation sites.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-imputationSiteIdxByFeature"></a>}}
-\if{latex}{\out{\hypertarget{method-imputationSiteIdxByFeature}{}}}
+\if{html}{\out{<a id="method-pgu.imputation-imputationSiteIdxByFeature"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.imputation-imputationSiteIdxByFeature}{}}}
 \subsection{Method \code{imputationSiteIdxByFeature()}}{
 Returns the position of an attribute's imputation sites within a data frame.
 \subsection{Usage}{
@@ -342,12 +342,12 @@ The postion of the imputation sites.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-nanFeatureList"></a>}}
-\if{latex}{\out{\hypertarget{method-nanFeatureList}{}}}
+\if{html}{\out{<a id="method-pgu.imputation-nanFeatureList"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.imputation-nanFeatureList}{}}}
 \subsection{Method \code{nanFeatureList()}}{
-Characterizes each row of the data frame as either \code{complete}
+Characterizes each row of the data frame as either `complete`
 or indicates which attribute are missing within the row.
-If multiple attributes' row entries are missing, the row is characterized by \code{multiple}.
+If multiple attributes' row entries are missing, the row is characterized by `multiple`.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.imputation$nanFeatureList(data_df = "tbl_df")}\if{html}{\out{</div>}}
 }
@@ -366,8 +366,8 @@ Vector of row characteristics.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-average_number_of_predictors"></a>}}
-\if{latex}{\out{\hypertarget{method-average_number_of_predictors}{}}}
+\if{html}{\out{<a id="method-pgu.imputation-average_number_of_predictors"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.imputation-average_number_of_predictors}{}}}
 \subsection{Method \code{average_number_of_predictors()}}{
 Calculates the average number of predictors for a given dataframe and minpuc and mincor variables
 using the mice::quickpred routine.
@@ -399,8 +399,8 @@ Average_number_of_predictors.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-detectPredictors"></a>}}
-\if{latex}{\out{\hypertarget{method-detectPredictors}{}}}
+\if{html}{\out{<a id="method-pgu.imputation-detectPredictors"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.imputation-detectPredictors}{}}}
 \subsection{Method \code{detectPredictors()}}{
 Identifies possible predictors for each feature.
 Analysis results are written to the instance variable pred_mat.
@@ -423,10 +423,10 @@ instance variable exclude_vec.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-handleImputationSites"></a>}}
-\if{latex}{\out{\hypertarget{method-handleImputationSites}{}}}
+\if{html}{\out{<a id="method-pgu.imputation-handleImputationSites"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.imputation-handleImputationSites}{}}}
 \subsection{Method \code{handleImputationSites()}}{
-Chooses a cleaning method based upon the instance variable \code{imputationAgent}
+Chooses a cleaning method based upon the instance variable `imputationAgent`
 and handles the imputation sites in the dataframe.
 Returns a cleaned data set.
 Display the progress if shiny is loaded.
@@ -451,8 +451,8 @@ Cleaned dataframe.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-imputeByMedian"></a>}}
-\if{latex}{\out{\hypertarget{method-imputeByMedian}{}}}
+\if{html}{\out{<a id="method-pgu.imputation-imputeByMedian"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.imputation-imputeByMedian}{}}}
 \subsection{Method \code{imputeByMedian()}}{
 Substitutes imputation sites by the median of the respective attribute.
 Returns the cleaned dataframe.
@@ -478,8 +478,8 @@ Cleaned dataframe.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-imputeByMean"></a>}}
-\if{latex}{\out{\hypertarget{method-imputeByMean}{}}}
+\if{html}{\out{<a id="method-pgu.imputation-imputeByMean"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.imputation-imputeByMean}{}}}
 \subsection{Method \code{imputeByMean()}}{
 Substitutes imputation sites by the aritmertic mean of the respective attribute.
 Returns the cleaned dataframe.
@@ -505,8 +505,8 @@ Cleaned dataframe.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-imputeByExpectationValue"></a>}}
-\if{latex}{\out{\hypertarget{method-imputeByExpectationValue}{}}}
+\if{html}{\out{<a id="method-pgu.imputation-imputeByExpectationValue"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.imputation-imputeByExpectationValue}{}}}
 \subsection{Method \code{imputeByExpectationValue()}}{
 Substitutes imputation sites by the expectation value of the respective attribute.
 Returns the cleaned dataframe.
@@ -535,11 +535,11 @@ Cleaned dataframe.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-imputeByMC"></a>}}
-\if{latex}{\out{\hypertarget{method-imputeByMC}{}}}
+\if{html}{\out{<a id="method-pgu.imputation-imputeByMC"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.imputation-imputeByMC}{}}}
 \subsection{Method \code{imputeByMC()}}{
 Substitutes imputation sites by values generated by a monte carlo simulation.
-The procedure runs several times as defined by the instance variable \code{iterations}.
+The procedure runs several times as defined by the instance variable `iterations`.
 The run with the best result is identified and used for substitution.
 Returns the cleaned dataframe.
 Display the progress if shiny is loaded.
@@ -564,8 +564,8 @@ Cleaned dataframe.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-imputeByKnn"></a>}}
-\if{latex}{\out{\hypertarget{method-imputeByKnn}{}}}
+\if{html}{\out{<a id="method-pgu.imputation-imputeByKnn"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.imputation-imputeByKnn}{}}}
 \subsection{Method \code{imputeByKnn()}}{
 Substitutes imputation sites by predictions of a KNN analysis of the whole dataframe.
 Returns the cleaned dataframe.
@@ -591,11 +591,11 @@ Cleaned dataframe.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-imputeByMice"></a>}}
-\if{latex}{\out{\hypertarget{method-imputeByMice}{}}}
+\if{html}{\out{<a id="method-pgu.imputation-imputeByMice"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.imputation-imputeByMice}{}}}
 \subsection{Method \code{imputeByMice()}}{
 Substitutes imputation sites by values generated by a different methods of the mice package.
-The procedure runs several times as defined by the instance variable \code{iterations}.
+The procedure runs several times as defined by the instance variable `iterations`.
 The run with the best result is identified and used for substitution.
 Returns the cleaned dataframe.
 Display the progress if shiny is loaded.
@@ -620,8 +620,8 @@ Cleaned dataframe.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-imputeByM5P"></a>}}
-\if{latex}{\out{\hypertarget{method-imputeByM5P}{}}}
+\if{html}{\out{<a id="method-pgu.imputation-imputeByM5P"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.imputation-imputeByM5P}{}}}
 \subsection{Method \code{imputeByM5P()}}{
 Substitutes imputation sites by predictions of a M5P tree trained on the whole dataframe.
 Returns the cleaned dataframe.
@@ -647,8 +647,8 @@ Cleaned dataframe.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-imputationSiteHeatMap"></a>}}
-\if{latex}{\out{\hypertarget{method-imputationSiteHeatMap}{}}}
+\if{html}{\out{<a id="method-pgu.imputation-imputationSiteHeatMap"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.imputation-imputationSiteHeatMap}{}}}
 \subsection{Method \code{imputationSiteHeatMap()}}{
 Displays the distribution of missing values in form of a heatmap.
 \subsection{Usage}{
@@ -661,8 +661,8 @@ A heatmap plot.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-featureBarPlot"></a>}}
-\if{latex}{\out{\hypertarget{method-featureBarPlot}{}}}
+\if{html}{\out{<a id="method-pgu.imputation-featureBarPlot"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.imputation-featureBarPlot}{}}}
 \subsection{Method \code{featureBarPlot()}}{
 Displays the distribution of an attribute values as histogram.
 \subsection{Usage}{
@@ -686,8 +686,8 @@ A histogram.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-featureBoxPlotWithSubset"></a>}}
-\if{latex}{\out{\hypertarget{method-featureBoxPlotWithSubset}{}}}
+\if{html}{\out{<a id="method-pgu.imputation-featureBoxPlotWithSubset"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.imputation-featureBoxPlotWithSubset}{}}}
 \subsection{Method \code{featureBoxPlotWithSubset()}}{
 Displays the distribution of an attribute's values as box plot.
 \subsection{Usage}{
@@ -714,8 +714,8 @@ A box plot.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-featurePlot"></a>}}
-\if{latex}{\out{\hypertarget{method-featurePlot}{}}}
+\if{html}{\out{<a id="method-pgu.imputation-featurePlot"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.imputation-featurePlot}{}}}
 \subsection{Method \code{featurePlot()}}{
 Displays the distribution of an attribute's values as a composition of a box plot and a histogram.
 \subsection{Usage}{
@@ -739,8 +739,8 @@ A composite plot.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-fluxPlot"></a>}}
-\if{latex}{\out{\hypertarget{method-fluxPlot}{}}}
+\if{html}{\out{<a id="method-pgu.imputation-fluxPlot"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.imputation-fluxPlot}{}}}
 \subsection{Method \code{fluxPlot()}}{
 Displays an influx/outflux plot
 \subsection{Usage}{
@@ -753,8 +753,8 @@ A composite plot.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-clone"></a>}}
-\if{latex}{\out{\hypertarget{method-clone}{}}}
+\if{html}{\out{<a id="method-pgu.imputation-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.imputation-clone}{}}}
 \subsection{Method \code{clone()}}{
 The objects of this class are cloneable with this method.
 \subsection{Usage}{

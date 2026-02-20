@@ -4,7 +4,7 @@
 \alias{pgu.validator}
 \title{pgu.validator}
 \format{
-\link[R6:R6Class]{R6::R6Class} object.
+[R6::R6Class] object.
 }
 \description{
 Validates that the distribution is not significantly altered by the imputation process.
@@ -16,24 +16,24 @@ Performs a Wilcoxon-Mann-Whitney U test.
 Performs a Kolmogorow-Smirnow test.
 }
 \author{
-Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
+Sebastian Malkusch
 }
 \section{Active bindings}{
 \if{html}{\out{<div class="r6-active-bindings">}}
 \describe{
-\item{\code{testStatistics_df}}{Returns the instance variable \code{testStatistics_df}.
+\item{\code{testStatistics_df}}{Returns the instance variable `testStatistics_df`.
 (tibble::tibble)}
 
-\item{\code{centralMoments_org}}{Returns the instance variable \code{centralMoments_org}
+\item{\code{centralMoments_org}}{Returns the instance variable `centralMoments_org`
 (tibble::tibble)}
 
-\item{\code{centralMoments_imp}}{Returns the instance variable \code{centralMoments_imp}
+\item{\code{centralMoments_imp}}{Returns the instance variable `centralMoments_imp`
 (tibble::tibble)}
 
-\item{\code{centralMoments_delta}}{Returns the instance variable \code{centralMoments_delta}
+\item{\code{centralMoments_delta}}{Returns the instance variable `centralMoments_delta`
 (tibble::tibble)}
 
-\item{\code{features}}{Returns the instance variable \code{features}
+\item{\code{features}}{Returns the instance variable `features`
 (character)}
 
 \item{\code{seed}}{Returns the instance variable seed
@@ -47,27 +47,27 @@ Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
 \section{Methods}{
 \subsection{Public methods}{
 \itemize{
-\item \href{#method-new}{\code{pgu.validator$new()}}
-\item \href{#method-finalize}{\code{pgu.validator$finalize()}}
-\item \href{#method-print}{\code{pgu.validator$print()}}
-\item \href{#method-resetValidator}{\code{pgu.validator$resetValidator()}}
-\item \href{#method-kolmogorowTestFeature}{\code{pgu.validator$kolmogorowTestFeature()}}
-\item \href{#method-wilcoxonTestFeature}{\code{pgu.validator$wilcoxonTestFeature()}}
-\item \href{#method-centralMomentsFeature}{\code{pgu.validator$centralMomentsFeature()}}
-\item \href{#method-validate}{\code{pgu.validator$validate()}}
-\item \href{#method-featurePdf}{\code{pgu.validator$featurePdf()}}
-\item \href{#method-featureCdf}{\code{pgu.validator$featureCdf()}}
-\item \href{#method-featureVs}{\code{pgu.validator$featureVs()}}
-\item \href{#method-featureBoxPlot}{\code{pgu.validator$featureBoxPlot()}}
-\item \href{#method-featurePlot}{\code{pgu.validator$featurePlot()}}
-\item \href{#method-clone}{\code{pgu.validator$clone()}}
+\item \href{#method-pgu.validator-new}{\code{pgu.validator$new()}}
+\item \href{#method-pgu.validator-finalize}{\code{pgu.validator$finalize()}}
+\item \href{#method-pgu.validator-print}{\code{pgu.validator$print()}}
+\item \href{#method-pgu.validator-resetValidator}{\code{pgu.validator$resetValidator()}}
+\item \href{#method-pgu.validator-kolmogorowTestFeature}{\code{pgu.validator$kolmogorowTestFeature()}}
+\item \href{#method-pgu.validator-wilcoxonTestFeature}{\code{pgu.validator$wilcoxonTestFeature()}}
+\item \href{#method-pgu.validator-centralMomentsFeature}{\code{pgu.validator$centralMomentsFeature()}}
+\item \href{#method-pgu.validator-validate}{\code{pgu.validator$validate()}}
+\item \href{#method-pgu.validator-featurePdf}{\code{pgu.validator$featurePdf()}}
+\item \href{#method-pgu.validator-featureCdf}{\code{pgu.validator$featureCdf()}}
+\item \href{#method-pgu.validator-featureVs}{\code{pgu.validator$featureVs()}}
+\item \href{#method-pgu.validator-featureBoxPlot}{\code{pgu.validator$featureBoxPlot()}}
+\item \href{#method-pgu.validator-featurePlot}{\code{pgu.validator$featurePlot()}}
+\item \href{#method-pgu.validator-clone}{\code{pgu.validator$clone()}}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-new"></a>}}
-\if{latex}{\out{\hypertarget{method-new}{}}}
+\if{html}{\out{<a id="method-pgu.validator-new"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.validator-new}{}}}
 \subsection{Method \code{new()}}{
-Creates and returns a new \code{pgu.validator} object.
+Creates and returns a new `pgu.validator` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.validator$new(seed = 42)}\if{html}{\out{</div>}}
 }
@@ -75,32 +75,32 @@ Creates and returns a new \code{pgu.validator} object.
 \subsection{Arguments}{
 \if{html}{\out{<div class="arguments">}}
 \describe{
-\item{\code{seed}}{Set the instance variable \code{seed}.
+\item{\code{seed}}{Set the instance variable `seed`.
 (integer)}
 }
 \if{html}{\out{</div>}}
 }
 \subsection{Returns}{
-A new \code{pgu.validator} object.
+A new `pgu.validator` object.
 (pguIMP::pgu.validator)
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-finalize"></a>}}
-\if{latex}{\out{\hypertarget{method-finalize}{}}}
+\if{html}{\out{<a id="method-pgu.validator-finalize"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.validator-finalize}{}}}
 \subsection{Method \code{finalize()}}{
 Clears the heap and
-indicates that instance of \code{pgu.validator} is removed from heap.
+indicates that instance of `pgu.validator` is removed from heap.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.validator$finalize()}\if{html}{\out{</div>}}
 }
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-print"></a>}}
-\if{latex}{\out{\hypertarget{method-print}{}}}
+\if{html}{\out{<a id="method-pgu.validator-print"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.validator-print}{}}}
 \subsection{Method \code{print()}}{
-Prints instance variables of a \code{pgu.validator} object.
+Prints instance variables of a `pgu.validator` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.validator$print()}\if{html}{\out{</div>}}
 }
@@ -110,8 +110,8 @@ string
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-resetValidator"></a>}}
-\if{latex}{\out{\hypertarget{method-resetValidator}{}}}
+\if{html}{\out{<a id="method-pgu.validator-resetValidator"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.validator-resetValidator}{}}}
 \subsection{Method \code{resetValidator()}}{
 Resets instance variables
 \subsection{Usage}{
@@ -120,8 +120,8 @@ Resets instance variables
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-kolmogorowTestFeature"></a>}}
-\if{latex}{\out{\hypertarget{method-kolmogorowTestFeature}{}}}
+\if{html}{\out{<a id="method-pgu.validator-kolmogorowTestFeature"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.validator-kolmogorowTestFeature}{}}}
 \subsection{Method \code{kolmogorowTestFeature()}}{
 Performs a comparison between the original and the imputated distribution of a given feature
 using a two-sided Kolmorogow-Smirnow test with simulated p-vaue distribution.
@@ -153,8 +153,8 @@ One row dataframe comprising the test results.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-wilcoxonTestFeature"></a>}}
-\if{latex}{\out{\hypertarget{method-wilcoxonTestFeature}{}}}
+\if{html}{\out{<a id="method-pgu.validator-wilcoxonTestFeature"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.validator-wilcoxonTestFeature}{}}}
 \subsection{Method \code{wilcoxonTestFeature()}}{
 Performs a comparison between the original and the imputated distribution of a given feature
 using a two-sided Wilcoxon/Mann-Whitney test.
@@ -186,8 +186,8 @@ One row dataframe comprising the test results.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-centralMomentsFeature"></a>}}
-\if{latex}{\out{\hypertarget{method-centralMomentsFeature}{}}}
+\if{html}{\out{<a id="method-pgu.validator-centralMomentsFeature"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.validator-centralMomentsFeature}{}}}
 \subsection{Method \code{centralMomentsFeature()}}{
 Estimates estimates the central moments of the given distribution.
 \subsection{Usage}{
@@ -211,12 +211,12 @@ One row dataframe comprising the statistics.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-validate"></a>}}
-\if{latex}{\out{\hypertarget{method-validate}{}}}
+\if{html}{\out{<a id="method-pgu.validator-validate"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.validator-validate}{}}}
 \subsection{Method \code{validate()}}{
 Validates the feature distributions of the original and the imputated dataframe``
 using a two-sided Kolmorogow-Smirnow test and a two-sided Wilcoxon/Mann-Whitney test.
-The result is stored in the instance variables \code{testStatistics_df}and `distributionStatistics_df`.
+The result is stored in the instance variables `testStatistics_df`and `distributionStatistics_df`.
 Displays the progress if shiny is loaded.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.validator$validate(
@@ -242,8 +242,8 @@ Displays the progress if shiny is loaded.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-featurePdf"></a>}}
-\if{latex}{\out{\hypertarget{method-featurePdf}{}}}
+\if{html}{\out{<a id="method-pgu.validator-featurePdf"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.validator-featurePdf}{}}}
 \subsection{Method \code{featurePdf()}}{
 Receives a dataframe and plots the pareto density of the features 'org_pdf' and 'imp_pdf'.
 Returns the plot
@@ -265,8 +265,8 @@ A ggplot2 object
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-featureCdf"></a>}}
-\if{latex}{\out{\hypertarget{method-featureCdf}{}}}
+\if{html}{\out{<a id="method-pgu.validator-featureCdf"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.validator-featureCdf}{}}}
 \subsection{Method \code{featureCdf()}}{
 Receives a dataframe and plost the feature 'x' against the features 'org_cdf' and 'imp_cdf'.
 Returns the plot
@@ -288,8 +288,8 @@ A ggplot2 object
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-featureVs"></a>}}
-\if{latex}{\out{\hypertarget{method-featureVs}{}}}
+\if{html}{\out{<a id="method-pgu.validator-featureVs"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.validator-featureVs}{}}}
 \subsection{Method \code{featureVs()}}{
 Receives two numeric vectors 'org' and 'imp'. Plots the qq-plot of both vectors.
 Returns the plot
@@ -314,8 +314,8 @@ A ggplot2 object
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-featureBoxPlot"></a>}}
-\if{latex}{\out{\hypertarget{method-featureBoxPlot}{}}}
+\if{html}{\out{<a id="method-pgu.validator-featureBoxPlot"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.validator-featureBoxPlot}{}}}
 \subsection{Method \code{featureBoxPlot()}}{
 Receives a dataframe and information about the lloq and uloq and retuns a boxplot
 \subsection{Usage}{
@@ -350,8 +350,8 @@ A ggplot2 object
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-featurePlot"></a>}}
-\if{latex}{\out{\hypertarget{method-featurePlot}{}}}
+\if{html}{\out{<a id="method-pgu.validator-featurePlot"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.validator-featurePlot}{}}}
 \subsection{Method \code{featurePlot()}}{
 Receives two numeric dataframes 'org_df' and 'imp_df', and a feature name.
 Creates a compund plot of the validation results for the given feature..
@@ -396,8 +396,8 @@ A ggplot2 object
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-clone"></a>}}
-\if{latex}{\out{\hypertarget{method-clone}{}}}
+\if{html}{\out{<a id="method-pgu.validator-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.validator-clone}{}}}
 \subsection{Method \code{clone()}}{
 The objects of this class are cloneable with this method.
 \subsection{Usage}{

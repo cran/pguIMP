@@ -4,7 +4,7 @@
 \alias{pgu.data}
 \title{pgu.data}
 \format{
-\link[R6:R6Class]{R6::R6Class} object.
+[R6::R6Class] object.
 }
 \description{
 Handles the pguIMP dataset.
@@ -23,7 +23,7 @@ data_df <- iris \%>\%
 data_obj = pguIMP::pgu.data$new(data_df)
 }
 \author{
-Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
+Sebastian Malkusch
 }
 \section{Active bindings}{
 \if{html}{\out{<div class="r6-active-bindings">}}
@@ -60,18 +60,18 @@ Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
 \section{Methods}{
 \subsection{Public methods}{
 \itemize{
-\item \href{#method-new}{\code{pgu.data$new()}}
-\item \href{#method-print}{\code{pgu.data$print()}}
-\item \href{#method-fit}{\code{pgu.data$fit()}}
-\item \href{#method-attribute_index}{\code{pgu.data$attribute_index()}}
-\item \href{#method-numerical_data}{\code{pgu.data$numerical_data()}}
-\item \href{#method-categorical_data}{\code{pgu.data$categorical_data()}}
-\item \href{#method-clone}{\code{pgu.data$clone()}}
+\item \href{#method-pgu.data-new}{\code{pgu.data$new()}}
+\item \href{#method-pgu.data-print}{\code{pgu.data$print()}}
+\item \href{#method-pgu.data-fit}{\code{pgu.data$fit()}}
+\item \href{#method-pgu.data-attribute_index}{\code{pgu.data$attribute_index()}}
+\item \href{#method-pgu.data-numerical_data}{\code{pgu.data$numerical_data()}}
+\item \href{#method-pgu.data-categorical_data}{\code{pgu.data$categorical_data()}}
+\item \href{#method-pgu.data-clone}{\code{pgu.data$clone()}}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-new"></a>}}
-\if{latex}{\out{\hypertarget{method-new}{}}}
+\if{html}{\out{<a id="method-pgu.data-new"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.data-new}{}}}
 \subsection{Method \code{new()}}{
 Clears the heap and
 indicates that instance of pguIMP::pgu.data is removed from heap.
@@ -120,8 +120,8 @@ A new pguIMP::pgu.data object.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-print"></a>}}
-\if{latex}{\out{\hypertarget{method-print}{}}}
+\if{html}{\out{<a id="method-pgu.data-print"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.data-print}{}}}
 \subsection{Method \code{print()}}{
 Prints instance variables of a pguIMP::pgu.data object.
 \subsection{Usage}{
@@ -133,8 +133,8 @@ string
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-fit"></a>}}
-\if{latex}{\out{\hypertarget{method-fit}{}}}
+\if{html}{\out{<a id="method-pgu.data-fit"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.data-fit}{}}}
 \subsection{Method \code{fit()}}{
 Extracts information about the instance variable rawData.
 \subsection{Usage}{
@@ -143,8 +143,8 @@ Extracts information about the instance variable rawData.
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-attribute_index"></a>}}
-\if{latex}{\out{\hypertarget{method-attribute_index}{}}}
+\if{html}{\out{<a id="method-pgu.data-attribute_index"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.data-attribute_index}{}}}
 \subsection{Method \code{attribute_index()}}{
 Returns the index of an attribute within the instance variable attributeNames.
 \subsection{Usage}{
@@ -165,8 +165,8 @@ Index of attribute's name in rawData
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-numerical_data"></a>}}
-\if{latex}{\out{\hypertarget{method-numerical_data}{}}}
+\if{html}{\out{<a id="method-pgu.data-numerical_data"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.data-numerical_data}{}}}
 \subsection{Method \code{numerical_data()}}{
 Returns the numeric attributes of the instance variable rawData.
 \subsection{Usage}{
@@ -179,8 +179,8 @@ A data frame
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-categorical_data"></a>}}
-\if{latex}{\out{\hypertarget{method-categorical_data}{}}}
+\if{html}{\out{<a id="method-pgu.data-categorical_data"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.data-categorical_data}{}}}
 \subsection{Method \code{categorical_data()}}{
 Returns the categorical attributes of the instance variable rawData.
 \subsection{Usage}{
@@ -193,8 +193,8 @@ A data frame
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-clone"></a>}}
-\if{latex}{\out{\hypertarget{method-clone}{}}}
+\if{html}{\out{<a id="method-pgu.data-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.data-clone}{}}}
 \subsection{Method \code{clone()}}{
 The objects of this class are cloneable with this method.
 \subsection{Usage}{

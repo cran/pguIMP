@@ -4,7 +4,7 @@
 \alias{pgu.transformator}
 \title{pgu.transformator}
 \format{
-\link[R6:R6Class]{R6::R6Class} object.
+[R6::R6Class] object.
 }
 \description{
 Transforms the data of pguIMP.
@@ -14,7 +14,7 @@ Performs a data transformation in order to achieve a normally distributed versio
 This object is used by the shiny based gui and is not for use in individual R-scripts!
 }
 \author{
-Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
+Sebastian Malkusch
 }
 \section{Active bindings}{
 \if{html}{\out{<div class="r6-active-bindings">}}
@@ -28,63 +28,63 @@ Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
 \section{Methods}{
 \subsection{Public methods}{
 \itemize{
-\item \href{#method-new}{\code{pgu.transformator$new()}}
-\item \href{#method-finalize}{\code{pgu.transformator$finalize()}}
-\item \href{#method-print}{\code{pgu.transformator$print()}}
-\item \href{#method-resetTrafoParameter}{\code{pgu.transformator$resetTrafoParameter()}}
-\item \href{#method-trafoType}{\code{pgu.transformator$trafoType()}}
-\item \href{#method-setTrafoType}{\code{pgu.transformator$setTrafoType()}}
-\item \href{#method-addConstant}{\code{pgu.transformator$addConstant()}}
-\item \href{#method-mirrorLogic}{\code{pgu.transformator$mirrorLogic()}}
-\item \href{#method-setMirrorLogic}{\code{pgu.transformator$setMirrorLogic()}}
-\item \href{#method-lambdaLOP}{\code{pgu.transformator$lambdaLOP()}}
-\item \href{#method-setLambdaLOP}{\code{pgu.transformator$setLambdaLOP()}}
-\item \href{#method-lambdaBC}{\code{pgu.transformator$lambdaBC()}}
-\item \href{#method-lambdaAS}{\code{pgu.transformator$lambdaAS()}}
-\item \href{#method-featureIdx}{\code{pgu.transformator$featureIdx()}}
-\item \href{#method-addConstGenerator}{\code{pgu.transformator$addConstGenerator()}}
-\item \href{#method-mirrorNumeric}{\code{pgu.transformator$mirrorNumeric()}}
-\item \href{#method-mirrorData}{\code{pgu.transformator$mirrorData()}}
-\item \href{#method-calculateAddConst}{\code{pgu.transformator$calculateAddConst()}}
-\item \href{#method-translateNumeric}{\code{pgu.transformator$translateNumeric()}}
-\item \href{#method-translateData}{\code{pgu.transformator$translateData()}}
-\item \href{#method-backTranslateNumeric}{\code{pgu.transformator$backTranslateNumeric()}}
-\item \href{#method-backTranslateData}{\code{pgu.transformator$backTranslateData()}}
-\item \href{#method-lambdaEstimator}{\code{pgu.transformator$lambdaEstimator()}}
-\item \href{#method-estimateLambda_temp}{\code{pgu.transformator$estimateLambda_temp()}}
-\item \href{#method-estimateLambda}{\code{pgu.transformator$estimateLambda()}}
-\item \href{#method-normalizeArcSine}{\code{pgu.transformator$normalizeArcSine()}}
-\item \href{#method-optimizeTukeyLadderOfPowers}{\code{pgu.transformator$optimizeTukeyLadderOfPowers()}}
-\item \href{#method-optimizeBoxCox}{\code{pgu.transformator$optimizeBoxCox()}}
-\item \href{#method-transformNumeric}{\code{pgu.transformator$transformNumeric()}}
-\item \href{#method-transformData}{\code{pgu.transformator$transformData()}}
-\item \href{#method-transformLogModulus}{\code{pgu.transformator$transformLogModulus()}}
-\item \href{#method-transformSquareRoot}{\code{pgu.transformator$transformSquareRoot()}}
-\item \href{#method-transformCubeRoot}{\code{pgu.transformator$transformCubeRoot()}}
-\item \href{#method-transformArcsine}{\code{pgu.transformator$transformArcsine()}}
-\item \href{#method-transformInverse}{\code{pgu.transformator$transformInverse()}}
-\item \href{#method-transformTukeyLadderOfPowers}{\code{pgu.transformator$transformTukeyLadderOfPowers()}}
-\item \href{#method-transformBoxCox}{\code{pgu.transformator$transformBoxCox()}}
-\item \href{#method-inverseTransformNumeric}{\code{pgu.transformator$inverseTransformNumeric()}}
-\item \href{#method-inverseTransformData}{\code{pgu.transformator$inverseTransformData()}}
-\item \href{#method-inverseTransformLogModulus}{\code{pgu.transformator$inverseTransformLogModulus()}}
-\item \href{#method-inverseTransformSquareRoot}{\code{pgu.transformator$inverseTransformSquareRoot()}}
-\item \href{#method-inverseTransformCubeRoot}{\code{pgu.transformator$inverseTransformCubeRoot()}}
-\item \href{#method-inverseTransformArcsine}{\code{pgu.transformator$inverseTransformArcsine()}}
-\item \href{#method-inverseTransformInverse}{\code{pgu.transformator$inverseTransformInverse()}}
-\item \href{#method-inverseTransformTukeyLadderOfPowers}{\code{pgu.transformator$inverseTransformTukeyLadderOfPowers()}}
-\item \href{#method-inverseTransformBoxCox}{\code{pgu.transformator$inverseTransformBoxCox()}}
-\item \href{#method-fit}{\code{pgu.transformator$fit()}}
-\item \href{#method-mutateData}{\code{pgu.transformator$mutateData()}}
-\item \href{#method-reverseMutateData}{\code{pgu.transformator$reverseMutateData()}}
-\item \href{#method-clone}{\code{pgu.transformator$clone()}}
+\item \href{#method-pgu.transformator-new}{\code{pgu.transformator$new()}}
+\item \href{#method-pgu.transformator-finalize}{\code{pgu.transformator$finalize()}}
+\item \href{#method-pgu.transformator-print}{\code{pgu.transformator$print()}}
+\item \href{#method-pgu.transformator-resetTrafoParameter}{\code{pgu.transformator$resetTrafoParameter()}}
+\item \href{#method-pgu.transformator-trafoType}{\code{pgu.transformator$trafoType()}}
+\item \href{#method-pgu.transformator-setTrafoType}{\code{pgu.transformator$setTrafoType()}}
+\item \href{#method-pgu.transformator-addConstant}{\code{pgu.transformator$addConstant()}}
+\item \href{#method-pgu.transformator-mirrorLogic}{\code{pgu.transformator$mirrorLogic()}}
+\item \href{#method-pgu.transformator-setMirrorLogic}{\code{pgu.transformator$setMirrorLogic()}}
+\item \href{#method-pgu.transformator-lambdaLOP}{\code{pgu.transformator$lambdaLOP()}}
+\item \href{#method-pgu.transformator-setLambdaLOP}{\code{pgu.transformator$setLambdaLOP()}}
+\item \href{#method-pgu.transformator-lambdaBC}{\code{pgu.transformator$lambdaBC()}}
+\item \href{#method-pgu.transformator-lambdaAS}{\code{pgu.transformator$lambdaAS()}}
+\item \href{#method-pgu.transformator-featureIdx}{\code{pgu.transformator$featureIdx()}}
+\item \href{#method-pgu.transformator-addConstGenerator}{\code{pgu.transformator$addConstGenerator()}}
+\item \href{#method-pgu.transformator-mirrorNumeric}{\code{pgu.transformator$mirrorNumeric()}}
+\item \href{#method-pgu.transformator-mirrorData}{\code{pgu.transformator$mirrorData()}}
+\item \href{#method-pgu.transformator-calculateAddConst}{\code{pgu.transformator$calculateAddConst()}}
+\item \href{#method-pgu.transformator-translateNumeric}{\code{pgu.transformator$translateNumeric()}}
+\item \href{#method-pgu.transformator-translateData}{\code{pgu.transformator$translateData()}}
+\item \href{#method-pgu.transformator-backTranslateNumeric}{\code{pgu.transformator$backTranslateNumeric()}}
+\item \href{#method-pgu.transformator-backTranslateData}{\code{pgu.transformator$backTranslateData()}}
+\item \href{#method-pgu.transformator-lambdaEstimator}{\code{pgu.transformator$lambdaEstimator()}}
+\item \href{#method-pgu.transformator-estimateLambda_temp}{\code{pgu.transformator$estimateLambda_temp()}}
+\item \href{#method-pgu.transformator-estimateLambda}{\code{pgu.transformator$estimateLambda()}}
+\item \href{#method-pgu.transformator-normalizeArcSine}{\code{pgu.transformator$normalizeArcSine()}}
+\item \href{#method-pgu.transformator-optimizeTukeyLadderOfPowers}{\code{pgu.transformator$optimizeTukeyLadderOfPowers()}}
+\item \href{#method-pgu.transformator-optimizeBoxCox}{\code{pgu.transformator$optimizeBoxCox()}}
+\item \href{#method-pgu.transformator-transformNumeric}{\code{pgu.transformator$transformNumeric()}}
+\item \href{#method-pgu.transformator-transformData}{\code{pgu.transformator$transformData()}}
+\item \href{#method-pgu.transformator-transformLogModulus}{\code{pgu.transformator$transformLogModulus()}}
+\item \href{#method-pgu.transformator-transformSquareRoot}{\code{pgu.transformator$transformSquareRoot()}}
+\item \href{#method-pgu.transformator-transformCubeRoot}{\code{pgu.transformator$transformCubeRoot()}}
+\item \href{#method-pgu.transformator-transformArcsine}{\code{pgu.transformator$transformArcsine()}}
+\item \href{#method-pgu.transformator-transformInverse}{\code{pgu.transformator$transformInverse()}}
+\item \href{#method-pgu.transformator-transformTukeyLadderOfPowers}{\code{pgu.transformator$transformTukeyLadderOfPowers()}}
+\item \href{#method-pgu.transformator-transformBoxCox}{\code{pgu.transformator$transformBoxCox()}}
+\item \href{#method-pgu.transformator-inverseTransformNumeric}{\code{pgu.transformator$inverseTransformNumeric()}}
+\item \href{#method-pgu.transformator-inverseTransformData}{\code{pgu.transformator$inverseTransformData()}}
+\item \href{#method-pgu.transformator-inverseTransformLogModulus}{\code{pgu.transformator$inverseTransformLogModulus()}}
+\item \href{#method-pgu.transformator-inverseTransformSquareRoot}{\code{pgu.transformator$inverseTransformSquareRoot()}}
+\item \href{#method-pgu.transformator-inverseTransformCubeRoot}{\code{pgu.transformator$inverseTransformCubeRoot()}}
+\item \href{#method-pgu.transformator-inverseTransformArcsine}{\code{pgu.transformator$inverseTransformArcsine()}}
+\item \href{#method-pgu.transformator-inverseTransformInverse}{\code{pgu.transformator$inverseTransformInverse()}}
+\item \href{#method-pgu.transformator-inverseTransformTukeyLadderOfPowers}{\code{pgu.transformator$inverseTransformTukeyLadderOfPowers()}}
+\item \href{#method-pgu.transformator-inverseTransformBoxCox}{\code{pgu.transformator$inverseTransformBoxCox()}}
+\item \href{#method-pgu.transformator-fit}{\code{pgu.transformator$fit()}}
+\item \href{#method-pgu.transformator-mutateData}{\code{pgu.transformator$mutateData()}}
+\item \href{#method-pgu.transformator-reverseMutateData}{\code{pgu.transformator$reverseMutateData()}}
+\item \href{#method-pgu.transformator-clone}{\code{pgu.transformator$clone()}}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-new"></a>}}
-\if{latex}{\out{\hypertarget{method-new}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-new"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-new}{}}}
 \subsection{Method \code{new()}}{
-Creates and returns a new \code{pgu.transformator} object.
+Creates and returns a new `pgu.transformator` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.transformator$new(data_df = "tbl_df")}\if{html}{\out{</div>}}
 }
@@ -98,26 +98,26 @@ Creates and returns a new \code{pgu.transformator} object.
 \if{html}{\out{</div>}}
 }
 \subsection{Returns}{
-A new \code{pgu.transformator} object.
+A new `pgu.transformator` object.
 (pguIMP::pgu.transformator)
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-finalize"></a>}}
-\if{latex}{\out{\hypertarget{method-finalize}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-finalize"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-finalize}{}}}
 \subsection{Method \code{finalize()}}{
 Clears the heap and
-indicates that instance of \code{pgu.transformator} is removed from heap.
+indicates that instance of `pgu.transformator` is removed from heap.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.transformator$finalize()}\if{html}{\out{</div>}}
 }
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-print"></a>}}
-\if{latex}{\out{\hypertarget{method-print}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-print"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-print}{}}}
 \subsection{Method \code{print()}}{
-Prints instance variables of a \code{pgu.transformator} object.
+Prints instance variables of a `pgu.transformator` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.transformator$print()}\if{html}{\out{</div>}}
 }
@@ -127,10 +127,10 @@ string
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-resetTrafoParameter"></a>}}
-\if{latex}{\out{\hypertarget{method-resetTrafoParameter}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-resetTrafoParameter"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-resetTrafoParameter}{}}}
 \subsection{Method \code{resetTrafoParameter()}}{
-Resets instance variable \code{trafoParameter}
+Resets instance variable `trafoParameter`
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.transformator$resetTrafoParameter(data = "tbl_df")}\if{html}{\out{</div>}}
 }
@@ -145,10 +145,10 @@ Resets instance variable \code{trafoParameter}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-trafoType"></a>}}
-\if{latex}{\out{\hypertarget{method-trafoType}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-trafoType"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-trafoType}{}}}
 \subsection{Method \code{trafoType()}}{
-Returns entry of \code{trafoType}
+Returns entry of `trafoType`
 for user defined attribute.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.transformator$trafoType(feature = "character")}\if{html}{\out{</div>}}
@@ -168,10 +168,10 @@ Value of entry.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-setTrafoType"></a>}}
-\if{latex}{\out{\hypertarget{method-setTrafoType}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-setTrafoType"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-setTrafoType}{}}}
 \subsection{Method \code{setTrafoType()}}{
-Sets entry of \code{trafoType}
+Sets entry of `trafoType`
 for user defined attribute.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.transformator$setTrafoType(feature = "character", type = "character")}\if{html}{\out{</div>}}
@@ -191,10 +191,10 @@ for user defined attribute.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-addConstant"></a>}}
-\if{latex}{\out{\hypertarget{method-addConstant}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-addConstant"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-addConstant}{}}}
 \subsection{Method \code{addConstant()}}{
-Returns entry of \code{addConst}
+Returns entry of `addConst`
 for user defined attribute.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.transformator$addConstant(feature = "character")}\if{html}{\out{</div>}}
@@ -214,10 +214,10 @@ Value of entry.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-mirrorLogic"></a>}}
-\if{latex}{\out{\hypertarget{method-mirrorLogic}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-mirrorLogic"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-mirrorLogic}{}}}
 \subsection{Method \code{mirrorLogic()}}{
-Returns entry of \code{mirrorLogic}
+Returns entry of `mirrorLogic`
 for user defined attribute.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.transformator$mirrorLogic(feature = "character")}\if{html}{\out{</div>}}
@@ -237,10 +237,10 @@ Value of entry.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-setMirrorLogic"></a>}}
-\if{latex}{\out{\hypertarget{method-setMirrorLogic}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-setMirrorLogic"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-setMirrorLogic}{}}}
 \subsection{Method \code{setMirrorLogic()}}{
-Sets entry of \code{mirrorLogic}
+Sets entry of `mirrorLogic`
 for user defined attribute.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.transformator$setMirrorLogic(feature = "character", logic = "logical")}\if{html}{\out{</div>}}
@@ -259,10 +259,10 @@ for user defined attribute.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-lambdaLOP"></a>}}
-\if{latex}{\out{\hypertarget{method-lambdaLOP}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-lambdaLOP"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-lambdaLOP}{}}}
 \subsection{Method \code{lambdaLOP()}}{
-Returns entry of \code{lambda_lop}
+Returns entry of `lambda_lop`
 for user defined attribute.
 Lambda is a specific optimization parameter
 that is derived from the Tukey-LOP
@@ -285,10 +285,10 @@ Value of entry.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-setLambdaLOP"></a>}}
-\if{latex}{\out{\hypertarget{method-setLambdaLOP}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-setLambdaLOP"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-setLambdaLOP}{}}}
 \subsection{Method \code{setLambdaLOP()}}{
-Sets entry of \code{lambda_lop}
+Sets entry of `lambda_lop`
 for user defined attribute.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.transformator$setLambdaLOP(feature = "character", lambda = "numeric")}\if{html}{\out{</div>}}
@@ -307,10 +307,10 @@ for user defined attribute.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-lambdaBC"></a>}}
-\if{latex}{\out{\hypertarget{method-lambdaBC}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-lambdaBC"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-lambdaBC}{}}}
 \subsection{Method \code{lambdaBC()}}{
-Returns entry of \code{lambda_bc}
+Returns entry of `lambda_bc`
 for user defined attribute.
 Lambda is a specific optimization parameter
 that is derived from the Box-Cox
@@ -333,10 +333,10 @@ Value of entry.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-lambdaAS"></a>}}
-\if{latex}{\out{\hypertarget{method-lambdaAS}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-lambdaAS"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-lambdaAS}{}}}
 \subsection{Method \code{lambdaAS()}}{
-Returns entry of \code{lambda_as}
+Returns entry of `lambda_as`
 for user defined attribute.
 Lambda is a specific optimization parameter
 that is derived from the arcsine
@@ -359,10 +359,10 @@ Value of entry.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-featureIdx"></a>}}
-\if{latex}{\out{\hypertarget{method-featureIdx}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-featureIdx"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-featureIdx}{}}}
 \subsection{Method \code{featureIdx()}}{
-Returns the index of a pgu.normDist object wihtin the instance variable \code{trafoParameter}.
+Returns the index of a pgu.normDist object wihtin the instance variable `trafoParameter`.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.transformator$featureIdx(feature = "character")}\if{html}{\out{</div>}}
 }
@@ -381,8 +381,8 @@ Index of attribute entry in dataframe
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-addConstGenerator"></a>}}
-\if{latex}{\out{\hypertarget{method-addConstGenerator}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-addConstGenerator"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-addConstGenerator}{}}}
 \subsection{Method \code{addConstGenerator()}}{
 Calculates and returns the addConst.
 A constant that prevents the occurrence of negative values as well as zero,
@@ -405,8 +405,8 @@ The addConst for the attribute
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-mirrorNumeric"></a>}}
-\if{latex}{\out{\hypertarget{method-mirrorNumeric}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-mirrorNumeric"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-mirrorNumeric}{}}}
 \subsection{Method \code{mirrorNumeric()}}{
 Mirrors the assigned values at the coordinate origin.
 \subsection{Usage}{
@@ -427,8 +427,8 @@ Value or vector of values.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-mirrorData"></a>}}
-\if{latex}{\out{\hypertarget{method-mirrorData}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-mirrorData"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-mirrorData}{}}}
 \subsection{Method \code{mirrorData()}}{
 Calls the class' mirrorNumeric function on all numeric attributes of a data frame.
 \subsection{Usage}{
@@ -449,8 +449,8 @@ A data frame
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-calculateAddConst"></a>}}
-\if{latex}{\out{\hypertarget{method-calculateAddConst}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-calculateAddConst"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-calculateAddConst}{}}}
 \subsection{Method \code{calculateAddConst()}}{
 Calculates the addConst value for each attribute of the assigned data frame,
 by calling the class' addConstGenerator function.
@@ -469,8 +469,8 @@ The results are stored in addConst attribute of the trafoParameter instance vari
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-translateNumeric"></a>}}
-\if{latex}{\out{\hypertarget{method-translateNumeric}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-translateNumeric"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-translateNumeric}{}}}
 \subsection{Method \code{translateNumeric()}}{
 Translates the assigned values by a constant.
 \subsection{Usage}{
@@ -494,8 +494,8 @@ A numeric or a vector of numerics.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-translateData"></a>}}
-\if{latex}{\out{\hypertarget{method-translateData}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-translateData"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-translateData}{}}}
 \subsection{Method \code{translateData()}}{
 Translates each attribute of the assigned data frame,
 by calling the class' translateNumeric function.
@@ -519,8 +519,8 @@ A data frame.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-backTranslateNumeric"></a>}}
-\if{latex}{\out{\hypertarget{method-backTranslateNumeric}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-backTranslateNumeric"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-backTranslateNumeric}{}}}
 \subsection{Method \code{backTranslateNumeric()}}{
 Back-translates the assigned values by a constant.
 \subsection{Usage}{
@@ -544,8 +544,8 @@ A numeric or a vector of numerics.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-backTranslateData"></a>}}
-\if{latex}{\out{\hypertarget{method-backTranslateData}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-backTranslateData"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-backTranslateData}{}}}
 \subsection{Method \code{backTranslateData()}}{
 Back-translates each attribute of the assigned data frame,
 by calling the class' backTranslateNumeric function.
@@ -569,8 +569,8 @@ A data frame.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-lambdaEstimator"></a>}}
-\if{latex}{\out{\hypertarget{method-lambdaEstimator}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-lambdaEstimator"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-lambdaEstimator}{}}}
 \subsection{Method \code{lambdaEstimator()}}{
 Estimates the lambda factor for the given values,
 that are assigned to a user defined attribute..
@@ -595,8 +595,8 @@ The specific lambda factor.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-estimateLambda_temp"></a>}}
-\if{latex}{\out{\hypertarget{method-estimateLambda_temp}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-estimateLambda_temp"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-estimateLambda_temp}{}}}
 \subsection{Method \code{estimateLambda_temp()}}{
 Estimates the lambda factor for each attribute of the assigned data frame,
 by calling the class' lambdaEstimator function.
@@ -616,8 +616,8 @@ are stored in the lambda attribute of the instance variable trafoParameter.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-estimateLambda"></a>}}
-\if{latex}{\out{\hypertarget{method-estimateLambda}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-estimateLambda"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-estimateLambda}{}}}
 \subsection{Method \code{estimateLambda()}}{
 Estimates the arcsine transformation lambda factor
 for each attribute of the assigned data frame.
@@ -637,8 +637,8 @@ are stored in the lambda attribute of the instance variable trafoParameter.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-normalizeArcSine"></a>}}
-\if{latex}{\out{\hypertarget{method-normalizeArcSine}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-normalizeArcSine"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-normalizeArcSine}{}}}
 \subsection{Method \code{normalizeArcSine()}}{
 Estimates the lambda factor for an arcsine transformation for the given values,
 \subsection{Usage}{
@@ -659,8 +659,8 @@ The specific lambda factor.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-optimizeTukeyLadderOfPowers"></a>}}
-\if{latex}{\out{\hypertarget{method-optimizeTukeyLadderOfPowers}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-optimizeTukeyLadderOfPowers"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-optimizeTukeyLadderOfPowers}{}}}
 \subsection{Method \code{optimizeTukeyLadderOfPowers()}}{
 Estimates the lambda factor for a tukeyLOP transformation for the given values,
 \subsection{Usage}{
@@ -681,8 +681,8 @@ The specific lambda factor.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-optimizeBoxCox"></a>}}
-\if{latex}{\out{\hypertarget{method-optimizeBoxCox}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-optimizeBoxCox"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-optimizeBoxCox}{}}}
 \subsection{Method \code{optimizeBoxCox()}}{
 Estimates the lambda factor for a boxcox transformation for the given values,
 \subsection{Usage}{
@@ -703,8 +703,8 @@ The specific lambda factor.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-transformNumeric"></a>}}
-\if{latex}{\out{\hypertarget{method-transformNumeric}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-transformNumeric"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-transformNumeric}{}}}
 \subsection{Method \code{transformNumeric()}}{
 Transforms the given numeric values,
 that are assigned to a user defined attribute.
@@ -729,8 +729,8 @@ A transfromed version of the given numeric or vector of numerics.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-transformData"></a>}}
-\if{latex}{\out{\hypertarget{method-transformData}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-transformData"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-transformData}{}}}
 \subsection{Method \code{transformData()}}{
 Transforms each attribute of the assigned data frame,
 by calling the class' tranformNumeric function.
@@ -750,8 +750,8 @@ are read from the lambda attribute of the instance variable trafoParameter.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-transformLogModulus"></a>}}
-\if{latex}{\out{\hypertarget{method-transformLogModulus}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-transformLogModulus"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-transformLogModulus}{}}}
 \subsection{Method \code{transformLogModulus()}}{
 Performes a log transformation for the given values,
 based on a user defined base value.
@@ -776,8 +776,8 @@ The transformed values.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-transformSquareRoot"></a>}}
-\if{latex}{\out{\hypertarget{method-transformSquareRoot}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-transformSquareRoot"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-transformSquareRoot}{}}}
 \subsection{Method \code{transformSquareRoot()}}{
 Performes a square root transformation for the given values.
 \subsection{Usage}{
@@ -798,8 +798,8 @@ The transformed values.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-transformCubeRoot"></a>}}
-\if{latex}{\out{\hypertarget{method-transformCubeRoot}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-transformCubeRoot"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-transformCubeRoot}{}}}
 \subsection{Method \code{transformCubeRoot()}}{
 Performes a cube root transformation for the given values.
 \subsection{Usage}{
@@ -820,8 +820,8 @@ The transformed values.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-transformArcsine"></a>}}
-\if{latex}{\out{\hypertarget{method-transformArcsine}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-transformArcsine"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-transformArcsine}{}}}
 \subsection{Method \code{transformArcsine()}}{
 Performes an arcsine transformation for the given values.
 \subsection{Usage}{
@@ -845,8 +845,8 @@ The transformed values.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-transformInverse"></a>}}
-\if{latex}{\out{\hypertarget{method-transformInverse}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-transformInverse"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-transformInverse}{}}}
 \subsection{Method \code{transformInverse()}}{
 Performes an inverse transformation for the given values.
 \subsection{Usage}{
@@ -867,8 +867,8 @@ The transformed values.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-transformTukeyLadderOfPowers"></a>}}
-\if{latex}{\out{\hypertarget{method-transformTukeyLadderOfPowers}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-transformTukeyLadderOfPowers"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-transformTukeyLadderOfPowers}{}}}
 \subsection{Method \code{transformTukeyLadderOfPowers()}}{
 Performes a tukeyLOP transformation for the given values.
 \subsection{Usage}{
@@ -895,8 +895,8 @@ The transformed values.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-transformBoxCox"></a>}}
-\if{latex}{\out{\hypertarget{method-transformBoxCox}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-transformBoxCox"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-transformBoxCox}{}}}
 \subsection{Method \code{transformBoxCox()}}{
 Performes a boxcox transformation for the given values.
 \subsection{Usage}{
@@ -920,8 +920,8 @@ The transformed values.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-inverseTransformNumeric"></a>}}
-\if{latex}{\out{\hypertarget{method-inverseTransformNumeric}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-inverseTransformNumeric"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-inverseTransformNumeric}{}}}
 \subsection{Method \code{inverseTransformNumeric()}}{
 Inverse transforms the given numeric values,
 that are assigned to a user defined attribute.
@@ -949,8 +949,8 @@ An inverse transfromed version of the given numeric or vector of numerics.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-inverseTransformData"></a>}}
-\if{latex}{\out{\hypertarget{method-inverseTransformData}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-inverseTransformData"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-inverseTransformData}{}}}
 \subsection{Method \code{inverseTransformData()}}{
 Inverse transforms each attribute of the assigned data frame,
 by calling the class' tranformNumeric function.
@@ -970,8 +970,8 @@ are read from the lambda attribute of the instance variable trafoParameter.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-inverseTransformLogModulus"></a>}}
-\if{latex}{\out{\hypertarget{method-inverseTransformLogModulus}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-inverseTransformLogModulus"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-inverseTransformLogModulus}{}}}
 \subsection{Method \code{inverseTransformLogModulus()}}{
 Performes an inverse log transformation for the given values,
 based on a user defined base value.
@@ -999,8 +999,8 @@ The transformed values.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-inverseTransformSquareRoot"></a>}}
-\if{latex}{\out{\hypertarget{method-inverseTransformSquareRoot}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-inverseTransformSquareRoot"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-inverseTransformSquareRoot}{}}}
 \subsection{Method \code{inverseTransformSquareRoot()}}{
 Performes an inverse square root transformation for the given values.
 \subsection{Usage}{
@@ -1021,8 +1021,8 @@ The transformed values.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-inverseTransformCubeRoot"></a>}}
-\if{latex}{\out{\hypertarget{method-inverseTransformCubeRoot}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-inverseTransformCubeRoot"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-inverseTransformCubeRoot}{}}}
 \subsection{Method \code{inverseTransformCubeRoot()}}{
 Performes an inverse cube root transformation for the given values.
 \subsection{Usage}{
@@ -1043,8 +1043,8 @@ The transformed values.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-inverseTransformArcsine"></a>}}
-\if{latex}{\out{\hypertarget{method-inverseTransformArcsine}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-inverseTransformArcsine"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-inverseTransformArcsine}{}}}
 \subsection{Method \code{inverseTransformArcsine()}}{
 Performes an inverse arcsine transformation for the given values.
 \subsection{Usage}{
@@ -1071,8 +1071,8 @@ The transformed values.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-inverseTransformInverse"></a>}}
-\if{latex}{\out{\hypertarget{method-inverseTransformInverse}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-inverseTransformInverse"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-inverseTransformInverse}{}}}
 \subsection{Method \code{inverseTransformInverse()}}{
 Performes an inverse inverse-transformation for the given values.
 \subsection{Usage}{
@@ -1093,8 +1093,8 @@ The transformed values.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-inverseTransformTukeyLadderOfPowers"></a>}}
-\if{latex}{\out{\hypertarget{method-inverseTransformTukeyLadderOfPowers}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-inverseTransformTukeyLadderOfPowers"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-inverseTransformTukeyLadderOfPowers}{}}}
 \subsection{Method \code{inverseTransformTukeyLadderOfPowers()}}{
 Performes an inverse tukeyLOP transformation for the given values.
 \subsection{Usage}{
@@ -1121,8 +1121,8 @@ The transformed values.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-inverseTransformBoxCox"></a>}}
-\if{latex}{\out{\hypertarget{method-inverseTransformBoxCox}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-inverseTransformBoxCox"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-inverseTransformBoxCox}{}}}
 \subsection{Method \code{inverseTransformBoxCox()}}{
 Performes an inverse boxcox transformation for the given values.
 \subsection{Usage}{
@@ -1146,8 +1146,8 @@ The transformed values.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-fit"></a>}}
-\if{latex}{\out{\hypertarget{method-fit}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-fit"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-fit}{}}}
 \subsection{Method \code{fit()}}{
 Estimate all transformation parameters(lambda, addConst,...)
 for each attribute of a given data frame.
@@ -1167,8 +1167,8 @@ The results are stored in the respective attributes of the instance variable tra
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-mutateData"></a>}}
-\if{latex}{\out{\hypertarget{method-mutateData}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-mutateData"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-mutateData}{}}}
 \subsection{Method \code{mutateData()}}{
 Mutates the values of each attribute of a given data frame.
 Here, mutation is defined as the cesecutive sequence of the class'
@@ -1191,8 +1191,8 @@ A mutated data frame.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-reverseMutateData"></a>}}
-\if{latex}{\out{\hypertarget{method-reverseMutateData}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-reverseMutateData"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-reverseMutateData}{}}}
 \subsection{Method \code{reverseMutateData()}}{
 Re-mutates the values of each attribute of a given data frame.
 Here, re-mutation is defined as the cesecutive sequence of the class'
@@ -1215,8 +1215,8 @@ A mutated data frame.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-clone"></a>}}
-\if{latex}{\out{\hypertarget{method-clone}{}}}
+\if{html}{\out{<a id="method-pgu.transformator-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.transformator-clone}{}}}
 \subsection{Method \code{clone()}}{
 The objects of this class are cloneable with this method.
 \subsection{Usage}{

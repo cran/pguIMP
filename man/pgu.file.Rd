@@ -4,7 +4,7 @@
 \alias{pgu.file}
 \title{pgu.fie}
 \format{
-\link[R6:R6Class]{R6::R6Class} object.
+[R6::R6Class] object.
 }
 \description{
 Handles file names for the pguIMP shiny web interface.
@@ -14,7 +14,7 @@ The class stores filenames and upload specifications for the pguIMP shiny web in
 This object is used by the shiny based gui and is not for use in individual R-scripts!
 }
 \author{
-Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
+Sebastian Malkusch
 }
 \section{Active bindings}{
 \if{html}{\out{<div class="r6-active-bindings">}}
@@ -60,21 +60,21 @@ Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
 \section{Methods}{
 \subsection{Public methods}{
 \itemize{
-\item \href{#method-new}{\code{pgu.file$new()}}
-\item \href{#method-print}{\code{pgu.file$print()}}
-\item \href{#method-reset}{\code{pgu.file$reset()}}
-\item \href{#method-fit}{\code{pgu.file$fit()}}
-\item \href{#method-predict}{\code{pgu.file$predict()}}
-\item \href{#method-fit_predict}{\code{pgu.file$fit_predict()}}
-\item \href{#method-clone}{\code{pgu.file$clone()}}
+\item \href{#method-pgu.file-new}{\code{pgu.file$new()}}
+\item \href{#method-pgu.file-print}{\code{pgu.file$print()}}
+\item \href{#method-pgu.file-reset}{\code{pgu.file$reset()}}
+\item \href{#method-pgu.file-fit}{\code{pgu.file$fit()}}
+\item \href{#method-pgu.file-predict}{\code{pgu.file$predict()}}
+\item \href{#method-pgu.file-fit_predict}{\code{pgu.file$fit_predict()}}
+\item \href{#method-pgu.file-clone}{\code{pgu.file$clone()}}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-new"></a>}}
-\if{latex}{\out{\hypertarget{method-new}{}}}
+\if{html}{\out{<a id="method-pgu.file-new"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.file-new}{}}}
 \subsection{Method \code{new()}}{
 Clears the heap and
-indicates that instance of \code{pgu.file} is removed from heap.
+indicates that instance of `pgu.file` is removed from heap.
 
 
 Splits fileName and writes the results in the class' instance variables
@@ -129,8 +129,8 @@ A new pgu.file object.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-print"></a>}}
-\if{latex}{\out{\hypertarget{method-print}{}}}
+\if{html}{\out{<a id="method-pgu.file-print"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.file-print}{}}}
 \subsection{Method \code{print()}}{
 Prints the instance variables of the object.
 \subsection{Usage}{
@@ -142,8 +142,8 @@ string
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-reset"></a>}}
-\if{latex}{\out{\hypertarget{method-reset}{}}}
+\if{html}{\out{<a id="method-pgu.file-reset"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.file-reset}{}}}
 \subsection{Method \code{reset()}}{
 Resets the instance variables of the object.
 \subsection{Usage}{
@@ -186,8 +186,8 @@ Resets the instance variables of the object.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-fit"></a>}}
-\if{latex}{\out{\hypertarget{method-fit}{}}}
+\if{html}{\out{<a id="method-pgu.file-fit"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.file-fit}{}}}
 \subsection{Method \code{fit()}}{
 Extracts information about upload specifications from the instance variables.
 \subsection{Usage}{
@@ -196,8 +196,8 @@ Extracts information about upload specifications from the instance variables.
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-predict"></a>}}
-\if{latex}{\out{\hypertarget{method-predict}{}}}
+\if{html}{\out{<a id="method-pgu.file-predict"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.file-predict}{}}}
 \subsection{Method \code{predict()}}{
 Predicts an export file name.
 \subsection{Usage}{
@@ -218,8 +218,8 @@ A file name.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-fit_predict"></a>}}
-\if{latex}{\out{\hypertarget{method-fit_predict}{}}}
+\if{html}{\out{<a id="method-pgu.file-fit_predict"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.file-fit_predict}{}}}
 \subsection{Method \code{fit_predict()}}{
 Extracts information about upload specifications from the instance variables
 and predicts an export file name.
@@ -241,8 +241,8 @@ A file name.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-clone"></a>}}
-\if{latex}{\out{\hypertarget{method-clone}{}}}
+\if{html}{\out{<a id="method-pgu.file-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.file-clone}{}}}
 \subsection{Method \code{clone()}}{
 The objects of this class are cloneable with this method.
 \subsection{Usage}{

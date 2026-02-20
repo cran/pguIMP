@@ -14,7 +14,7 @@
 #' @importFrom tools file_ext
 #' @importFrom writexl write_xlsx
 #'
-#' @author Sebastian Malkusch, \email{malkusch@@med.uni-frankfurt.de}
+#' @author Sebastian Malkusch
 #'
 #' @export
 #'

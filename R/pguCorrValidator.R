@@ -29,7 +29,7 @@
 #' corr_obj$fit(data_df, comp_df)
 #' print(corr_obj)
 #'
-#' @author Sebastian Malkusch, \email{malkusch@@med.uni-frankfurt.de}
+#' @author Sebastian Malkusch
 #'
 #' @export
 #'

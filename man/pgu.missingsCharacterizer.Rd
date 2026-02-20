@@ -4,7 +4,7 @@
 \alias{pgu.missingsCharacterizer}
 \title{pgu.missingsCharacterizer}
 \format{
-\link[R6:R6Class]{R6::R6Class} object.
+[R6::R6Class] object.
 }
 \description{
 A class that characterizes the origin of missing values.
@@ -14,7 +14,7 @@ A class that characterizes the origin of missing values.
 This object is used by the shiny based gui and is not for use in individual R-scripts!
 }
 \author{
-Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
+Sebastian Malkusch
 }
 \section{Active bindings}{
 \if{html}{\out{<div class="r6-active-bindings">}}
@@ -36,20 +36,20 @@ Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
 \section{Methods}{
 \subsection{Public methods}{
 \itemize{
-\item \href{#method-new}{\code{pgu.missingsCharacterizer$new()}}
-\item \href{#method-finalize}{\code{pgu.missingsCharacterizer$finalize()}}
-\item \href{#method-print}{\code{pgu.missingsCharacterizer$print()}}
-\item \href{#method-reset}{\code{pgu.missingsCharacterizer$reset()}}
-\item \href{#method-analyze}{\code{pgu.missingsCharacterizer$analyze()}}
-\item \href{#method-plot_pair_dist}{\code{pgu.missingsCharacterizer$plot_pair_dist()}}
-\item \href{#method-clone}{\code{pgu.missingsCharacterizer$clone()}}
+\item \href{#method-pgu.missingsCharacterizer-new}{\code{pgu.missingsCharacterizer$new()}}
+\item \href{#method-pgu.missingsCharacterizer-finalize}{\code{pgu.missingsCharacterizer$finalize()}}
+\item \href{#method-pgu.missingsCharacterizer-print}{\code{pgu.missingsCharacterizer$print()}}
+\item \href{#method-pgu.missingsCharacterizer-reset}{\code{pgu.missingsCharacterizer$reset()}}
+\item \href{#method-pgu.missingsCharacterizer-analyze}{\code{pgu.missingsCharacterizer$analyze()}}
+\item \href{#method-pgu.missingsCharacterizer-plot_pair_dist}{\code{pgu.missingsCharacterizer$plot_pair_dist()}}
+\item \href{#method-pgu.missingsCharacterizer-clone}{\code{pgu.missingsCharacterizer$clone()}}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-new"></a>}}
-\if{latex}{\out{\hypertarget{method-new}{}}}
+\if{html}{\out{<a id="method-pgu.missingsCharacterizer-new"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.missingsCharacterizer-new}{}}}
 \subsection{Method \code{new()}}{
-Creates and returns a new \code{pgu.missingsCharacterizer} object.
+Creates and returns a new `pgu.missingsCharacterizer` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.missingsCharacterizer$new(data_df = "tbl_df")}\if{html}{\out{</div>}}
 }
@@ -63,26 +63,26 @@ Creates and returns a new \code{pgu.missingsCharacterizer} object.
 \if{html}{\out{</div>}}
 }
 \subsection{Returns}{
-A new \code{pgu.missingsCharacterizer} object.
+A new `pgu.missingsCharacterizer` object.
 (pguIMP::pgu.missingsCharacterizer)
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-finalize"></a>}}
-\if{latex}{\out{\hypertarget{method-finalize}{}}}
+\if{html}{\out{<a id="method-pgu.missingsCharacterizer-finalize"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.missingsCharacterizer-finalize}{}}}
 \subsection{Method \code{finalize()}}{
 Clears the heap and
-indicates if instance of \code{pgu.missingsCharacterizer} is removed from heap.
+indicates if instance of `pgu.missingsCharacterizer` is removed from heap.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.missingsCharacterizer$finalize()}\if{html}{\out{</div>}}
 }
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-print"></a>}}
-\if{latex}{\out{\hypertarget{method-print}{}}}
+\if{html}{\out{<a id="method-pgu.missingsCharacterizer-print"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.missingsCharacterizer-print}{}}}
 \subsection{Method \code{print()}}{
-Prints instance variables of a \code{pgu.missingsCharacterizer} object.
+Prints instance variables of a `pgu.missingsCharacterizer` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.missingsCharacterizer$print()}\if{html}{\out{</div>}}
 }
@@ -92,8 +92,8 @@ string
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-reset"></a>}}
-\if{latex}{\out{\hypertarget{method-reset}{}}}
+\if{html}{\out{<a id="method-pgu.missingsCharacterizer-reset"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.missingsCharacterizer-reset}{}}}
 \subsection{Method \code{reset()}}{
 Takes a dataframe that will be analyzed using the analyze function
 and resets the instance variables.
@@ -111,8 +111,8 @@ and resets the instance variables.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-analyze"></a>}}
-\if{latex}{\out{\hypertarget{method-analyze}{}}}
+\if{html}{\out{<a id="method-pgu.missingsCharacterizer-analyze"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.missingsCharacterizer-analyze}{}}}
 \subsection{Method \code{analyze()}}{
 resets the instance variables and analyzes a dataframe.
 \subsection{Usage}{
@@ -132,8 +132,8 @@ resets the instance variables and analyzes a dataframe.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-plot_pair_dist"></a>}}
-\if{latex}{\out{\hypertarget{method-plot_pair_dist}{}}}
+\if{html}{\out{<a id="method-pgu.missingsCharacterizer-plot_pair_dist"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.missingsCharacterizer-plot_pair_dist}{}}}
 \subsection{Method \code{plot_pair_dist()}}{
 Plots the analysis result.
 \subsection{Usage}{
@@ -150,8 +150,8 @@ Plots the analysis result.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-clone"></a>}}
-\if{latex}{\out{\hypertarget{method-clone}{}}}
+\if{html}{\out{<a id="method-pgu.missingsCharacterizer-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.missingsCharacterizer-clone}{}}}
 \subsection{Method \code{clone()}}{
 The objects of this class are cloneable with this method.
 \subsection{Usage}{

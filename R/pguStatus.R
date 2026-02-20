@@ -17,7 +17,7 @@
 #'
 #' @importFrom R6 R6Class
 #'
-#' @author Sebastian Malkusch, \email{malkusch@@med.uni-frankfurt.de}
+#' @author Sebastian Malkusch
 #'
 #' @export
 #'

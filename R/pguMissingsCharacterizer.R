@@ -19,7 +19,7 @@
 #' @importFrom tibble is_tibble tibble
 #' @importFrom rlang sym
 #'
-#' @author Sebastian Malkusch, \email{malkusch@@med.uni-frankfurt.de}
+#' @author Sebastian Malkusch
 #'
 #' @export
 #'

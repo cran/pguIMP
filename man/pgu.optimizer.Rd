@@ -4,7 +4,7 @@
 \alias{pgu.optimizer}
 \title{pgu.optimizer}
 \format{
-\link[R6:R6Class]{R6::R6Class} object.
+[R6::R6Class] object.
 }
 \description{
 Finds the transformation models that result in distributions that come closest to a normal distribution.
@@ -14,7 +14,7 @@ Analysis is performed individually on each attribute.
 This object is used by the shiny based gui and is not for use in individual R-scripts!
 }
 \author{
-Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
+Sebastian Malkusch
 }
 \section{Active bindings}{
 \if{html}{\out{<div class="r6-active-bindings">}}
@@ -45,29 +45,29 @@ Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
 \section{Methods}{
 \subsection{Public methods}{
 \itemize{
-\item \href{#method-new}{\code{pgu.optimizer$new()}}
-\item \href{#method-finalize}{\code{pgu.optimizer$finalize()}}
-\item \href{#method-print}{\code{pgu.optimizer$print()}}
-\item \href{#method-resetFeatures}{\code{pgu.optimizer$resetFeatures()}}
-\item \href{#method-resetOptParameter}{\code{pgu.optimizer$resetOptParameter()}}
-\item \href{#method-resetOptTypes}{\code{pgu.optimizer$resetOptTypes()}}
-\item \href{#method-resetOptimizer}{\code{pgu.optimizer$resetOptimizer()}}
-\item \href{#method-featureIdx}{\code{pgu.optimizer$featureIdx()}}
-\item \href{#method-modelParameterIsBigger}{\code{pgu.optimizer$modelParameterIsBigger()}}
-\item \href{#method-modelParameterIsSmaller}{\code{pgu.optimizer$modelParameterIsSmaller()}}
-\item \href{#method-updateTrafoType}{\code{pgu.optimizer$updateTrafoType()}}
-\item \href{#method-updateMirrorLogic}{\code{pgu.optimizer$updateMirrorLogic()}}
-\item \href{#method-updateOptParameter}{\code{pgu.optimizer$updateOptParameter()}}
-\item \href{#method-optimize}{\code{pgu.optimizer$optimize()}}
-\item \href{#method-trafoAlpahbetTblDf}{\code{pgu.optimizer$trafoAlpahbetTblDf()}}
-\item \href{#method-clone}{\code{pgu.optimizer$clone()}}
+\item \href{#method-pgu.optimizer-new}{\code{pgu.optimizer$new()}}
+\item \href{#method-pgu.optimizer-finalize}{\code{pgu.optimizer$finalize()}}
+\item \href{#method-pgu.optimizer-print}{\code{pgu.optimizer$print()}}
+\item \href{#method-pgu.optimizer-resetFeatures}{\code{pgu.optimizer$resetFeatures()}}
+\item \href{#method-pgu.optimizer-resetOptParameter}{\code{pgu.optimizer$resetOptParameter()}}
+\item \href{#method-pgu.optimizer-resetOptTypes}{\code{pgu.optimizer$resetOptTypes()}}
+\item \href{#method-pgu.optimizer-resetOptimizer}{\code{pgu.optimizer$resetOptimizer()}}
+\item \href{#method-pgu.optimizer-featureIdx}{\code{pgu.optimizer$featureIdx()}}
+\item \href{#method-pgu.optimizer-modelParameterIsBigger}{\code{pgu.optimizer$modelParameterIsBigger()}}
+\item \href{#method-pgu.optimizer-modelParameterIsSmaller}{\code{pgu.optimizer$modelParameterIsSmaller()}}
+\item \href{#method-pgu.optimizer-updateTrafoType}{\code{pgu.optimizer$updateTrafoType()}}
+\item \href{#method-pgu.optimizer-updateMirrorLogic}{\code{pgu.optimizer$updateMirrorLogic()}}
+\item \href{#method-pgu.optimizer-updateOptParameter}{\code{pgu.optimizer$updateOptParameter()}}
+\item \href{#method-pgu.optimizer-optimize}{\code{pgu.optimizer$optimize()}}
+\item \href{#method-pgu.optimizer-trafoAlpahbetTblDf}{\code{pgu.optimizer$trafoAlpahbetTblDf()}}
+\item \href{#method-pgu.optimizer-clone}{\code{pgu.optimizer$clone()}}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-new"></a>}}
-\if{latex}{\out{\hypertarget{method-new}{}}}
+\if{html}{\out{<a id="method-pgu.optimizer-new"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.optimizer-new}{}}}
 \subsection{Method \code{new()}}{
-Creates and returns a new \code{pgu.optimizer} object.
+Creates and returns a new `pgu.optimizer` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.optimizer$new(data = "tbl_df")}\if{html}{\out{</div>}}
 }
@@ -81,26 +81,26 @@ Creates and returns a new \code{pgu.optimizer} object.
 \if{html}{\out{</div>}}
 }
 \subsection{Returns}{
-A new \code{pgu.optimizer} object.
+A new `pgu.optimizer` object.
 (pguIMP::pgu.optimizer)
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-finalize"></a>}}
-\if{latex}{\out{\hypertarget{method-finalize}{}}}
+\if{html}{\out{<a id="method-pgu.optimizer-finalize"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.optimizer-finalize}{}}}
 \subsection{Method \code{finalize()}}{
 Clears the heap and
-indicates that instance of \code{pgu.optimizer} is removed from heap.
+indicates that instance of `pgu.optimizer` is removed from heap.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.optimizer$finalize()}\if{html}{\out{</div>}}
 }
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-print"></a>}}
-\if{latex}{\out{\hypertarget{method-print}{}}}
+\if{html}{\out{<a id="method-pgu.optimizer-print"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.optimizer-print}{}}}
 \subsection{Method \code{print()}}{
-Prints instance variables of a \code{pgu.optimizer} object.
+Prints instance variables of a `pgu.optimizer` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.optimizer$print()}\if{html}{\out{</div>}}
 }
@@ -110,8 +110,8 @@ string
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-resetFeatures"></a>}}
-\if{latex}{\out{\hypertarget{method-resetFeatures}{}}}
+\if{html}{\out{<a id="method-pgu.optimizer-resetFeatures"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.optimizer-resetFeatures}{}}}
 \subsection{Method \code{resetFeatures()}}{
 Extract the attribute names from the given data frame
 and stores them in the class' instance variable
@@ -130,8 +130,8 @@ features,
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-resetOptParameter"></a>}}
-\if{latex}{\out{\hypertarget{method-resetOptParameter}{}}}
+\if{html}{\out{<a id="method-pgu.optimizer-resetOptParameter"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.optimizer-resetOptParameter}{}}}
 \subsection{Method \code{resetOptParameter()}}{
 Initializes the instance variable optParameter.
 \subsection{Usage}{
@@ -140,8 +140,8 @@ Initializes the instance variable optParameter.
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-resetOptTypes"></a>}}
-\if{latex}{\out{\hypertarget{method-resetOptTypes}{}}}
+\if{html}{\out{<a id="method-pgu.optimizer-resetOptTypes"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.optimizer-resetOptTypes}{}}}
 \subsection{Method \code{resetOptTypes()}}{
 Initializes the instance variable optTypes.
 \subsection{Usage}{
@@ -150,8 +150,8 @@ Initializes the instance variable optTypes.
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-resetOptimizer"></a>}}
-\if{latex}{\out{\hypertarget{method-resetOptimizer}{}}}
+\if{html}{\out{<a id="method-pgu.optimizer-resetOptimizer"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.optimizer-resetOptimizer}{}}}
 \subsection{Method \code{resetOptimizer()}}{
 Initializes the optimizer instance variables.
 Here, initialization defines a consecutive sequence of the class' functions:
@@ -170,8 +170,8 @@ resetFeatures, setTrafoAlphabet, setMirror, resetOptParameter and resetOptTypes.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-featureIdx"></a>}}
-\if{latex}{\out{\hypertarget{method-featureIdx}{}}}
+\if{html}{\out{<a id="method-pgu.optimizer-featureIdx"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.optimizer-featureIdx}{}}}
 \subsection{Method \code{featureIdx()}}{
 Determines the numerical index of the column of an attribute based on the attribute name.
 \subsection{Usage}{
@@ -192,8 +192,8 @@ The attributes column index.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-modelParameterIsBigger"></a>}}
-\if{latex}{\out{\hypertarget{method-modelParameterIsBigger}{}}}
+\if{html}{\out{<a id="method-pgu.optimizer-modelParameterIsBigger"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.optimizer-modelParameterIsBigger}{}}}
 \subsection{Method \code{modelParameterIsBigger()}}{
 Compares a model parameter to a reference parameter and tests, if the model parameter is bigger.
 \subsection{Usage}{
@@ -220,8 +220,8 @@ Test Result
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-modelParameterIsSmaller"></a>}}
-\if{latex}{\out{\hypertarget{method-modelParameterIsSmaller}{}}}
+\if{html}{\out{<a id="method-pgu.optimizer-modelParameterIsSmaller"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.optimizer-modelParameterIsSmaller}{}}}
 \subsection{Method \code{modelParameterIsSmaller()}}{
 Compares a model parameter to a reference parameter and tests, if the model parameter is smaller.
 \subsection{Usage}{
@@ -248,8 +248,8 @@ Test Result
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-updateTrafoType"></a>}}
-\if{latex}{\out{\hypertarget{method-updateTrafoType}{}}}
+\if{html}{\out{<a id="method-pgu.optimizer-updateTrafoType"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.optimizer-updateTrafoType}{}}}
 \subsection{Method \code{updateTrafoType()}}{
 Takes an instance of the pgu.transfromator class and
 sets the transformation type to a user defined value.
@@ -277,8 +277,8 @@ An updated instance of the pgu.transformator class
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-updateMirrorLogic"></a>}}
-\if{latex}{\out{\hypertarget{method-updateMirrorLogic}{}}}
+\if{html}{\out{<a id="method-pgu.optimizer-updateMirrorLogic"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.optimizer-updateMirrorLogic}{}}}
 \subsection{Method \code{updateMirrorLogic()}}{
 Takes an instance of the pgu.transfromator class and
 sets the mirrorLogic parameter to a user defined value.
@@ -306,8 +306,8 @@ An updated instance of the pgu.transformator class
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-updateOptParameter"></a>}}
-\if{latex}{\out{\hypertarget{method-updateOptParameter}{}}}
+\if{html}{\out{<a id="method-pgu.optimizer-updateOptParameter"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.optimizer-updateOptParameter}{}}}
 \subsection{Method \code{updateOptParameter()}}{
 Takes an instance of the pgu.model class and analyzes it.
 Keeps track of the optimal model parameters during optimization
@@ -336,8 +336,8 @@ and stores them in the instance variables optTypes and optParameter.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-optimize"></a>}}
-\if{latex}{\out{\hypertarget{method-optimize}{}}}
+\if{html}{\out{<a id="method-pgu.optimizer-optimize"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.optimizer-optimize}{}}}
 \subsection{Method \code{optimize()}}{
 Permutates all possible variations of data transfromations and iterates through them.
 Analysis the optimal transformation parameters for each attribute in the data frame and stores them
@@ -359,8 +359,8 @@ in the instance variables optParameter, optTypes.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-trafoAlpahbetTblDf"></a>}}
-\if{latex}{\out{\hypertarget{method-trafoAlpahbetTblDf}{}}}
+\if{html}{\out{<a id="method-pgu.optimizer-trafoAlpahbetTblDf"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.optimizer-trafoAlpahbetTblDf}{}}}
 \subsection{Method \code{trafoAlpahbetTblDf()}}{
 Returns information on the optimization progress
 \subsection{Usage}{
@@ -373,8 +373,8 @@ The data frame comprizing analysis information.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-clone"></a>}}
-\if{latex}{\out{\hypertarget{method-clone}{}}}
+\if{html}{\out{<a id="method-pgu.optimizer-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.optimizer-clone}{}}}
 \subsection{Method \code{clone()}}{
 The objects of this class are cloneable with this method.
 \subsection{Usage}{

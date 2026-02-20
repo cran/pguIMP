@@ -19,7 +19,7 @@
 #' @include pguLimitsOfQuantification.R
 #' @include pguFilter.R
 #'
-#' @author Sebastian Malkusch, \email{malkusch@@med.uni-frankfurt.de}
+#' @author Sebastian Malkusch
 #'
 #' @export
 #'
@@ -92,22 +92,22 @@ pgu.reporter <- R6::R6Class("pgu.reporter",
                               #' t.b.a.
                               write_report = function(obj){
                                 report_dir <- tempdir()
-
-                                report_file <- system.file("inst", "rmarkdown", "report.Rmd", package = "pguIMP")
-                                header_file <- system.file("inst", "rmarkdown", "header.tex", package = "pguIMP")
-                                impressum_file <- system.file("inst", "rmarkdown", "impressum.tex", package = "pguIMP")
-                                title_file <- system.file("inst", "rmarkdown", "title_page.tex", package = "pguIMP")
-
+                                
+                                report_file <- system.file("rmarkdown", "report.Rmd", package = "pguIMP")
+                                header_file <- system.file("rmarkdown", "header.tex", package = "pguIMP")
+                                impressum_file <- system.file("rmarkdown", "impressum.tex", package = "pguIMP")
+                                title_file <- system.file("rmarkdown", "title_page.tex", package = "pguIMP")
+                                
                                 report_file_tmp <- file.path(report_dir, "report.Rmd")
                                 header_file_tmp <- file.path(report_dir, "header.tex")
                                 impressum_file_tmp <- file.path(report_dir, "impressum.tex")
                                 title_file_tmp <- file.path(report_dir, "title_page.tex")
-
+                                
                                 file.copy(report_file, report_file_tmp, overwrite = TRUE)
                                 file.copy(header_file, header_file_tmp, overwrite = TRUE)
                                 file.copy(impressum_file, impressum_file_tmp, overwrite = TRUE)
                                 file.copy(title_file, title_file_tmp, overwrite = TRUE)
-
+                                
                                 rmarkdown::render(report_file,
                                                   output_format = "pdf_document",
                                                   output_file = self$filename,

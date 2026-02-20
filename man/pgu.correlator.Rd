@@ -4,7 +4,7 @@
 \alias{pgu.correlator}
 \title{pgu.correlator}
 \format{
-\link[R6:R6Class]{R6::R6Class} object.
+[R6::R6Class] object.
 }
 \description{
 An R6 class that performs pairwise correlation on the pguIMP data set.
@@ -24,7 +24,7 @@ data_df <- iris \%>\%
 correlator = pguIMP::pgu.correlator$new(data_df)
 }
 \author{
-Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
+Sebastian Malkusch
 }
 \section{Active bindings}{
 \if{html}{\out{<div class="r6-active-bindings">}}
@@ -76,32 +76,32 @@ intercept, pIntercept, slope, pSlope.
 \section{Methods}{
 \subsection{Public methods}{
 \itemize{
-\item \href{#method-new}{\code{pgu.correlator$new()}}
-\item \href{#method-finalize}{\code{pgu.correlator$finalize()}}
-\item \href{#method-print}{\code{pgu.correlator$print()}}
-\item \href{#method-resetCorrelator}{\code{pgu.correlator$resetCorrelator()}}
-\item \href{#method-resetMatrix}{\code{pgu.correlator$resetMatrix()}}
-\item \href{#method-featureIdx}{\code{pgu.correlator$featureIdx()}}
-\item \href{#method-calcCorrelationNumeric}{\code{pgu.correlator$calcCorrelationNumeric()}}
-\item \href{#method-createCorrelationMatrixPearson}{\code{pgu.correlator$createCorrelationMatrixPearson()}}
-\item \href{#method-createCorrelationMatrixKendall}{\code{pgu.correlator$createCorrelationMatrixKendall()}}
-\item \href{#method-createCorrelationMatrixSpearman}{\code{pgu.correlator$createCorrelationMatrixSpearman()}}
-\item \href{#method-correlate}{\code{pgu.correlator$correlate()}}
-\item \href{#method-printFeature}{\code{pgu.correlator$printFeature()}}
-\item \href{#method-printRTbl}{\code{pgu.correlator$printRTbl()}}
-\item \href{#method-printPPearsonTbl}{\code{pgu.correlator$printPPearsonTbl()}}
-\item \href{#method-printTauTbl}{\code{pgu.correlator$printTauTbl()}}
-\item \href{#method-printPKendallTbl}{\code{pgu.correlator$printPKendallTbl()}}
-\item \href{#method-printRhoTbl}{\code{pgu.correlator$printRhoTbl()}}
-\item \href{#method-printPSpearmanTbl}{\code{pgu.correlator$printPSpearmanTbl()}}
-\item \href{#method-clone}{\code{pgu.correlator$clone()}}
+\item \href{#method-pgu.correlator-new}{\code{pgu.correlator$new()}}
+\item \href{#method-pgu.correlator-finalize}{\code{pgu.correlator$finalize()}}
+\item \href{#method-pgu.correlator-print}{\code{pgu.correlator$print()}}
+\item \href{#method-pgu.correlator-resetCorrelator}{\code{pgu.correlator$resetCorrelator()}}
+\item \href{#method-pgu.correlator-resetMatrix}{\code{pgu.correlator$resetMatrix()}}
+\item \href{#method-pgu.correlator-featureIdx}{\code{pgu.correlator$featureIdx()}}
+\item \href{#method-pgu.correlator-calcCorrelationNumeric}{\code{pgu.correlator$calcCorrelationNumeric()}}
+\item \href{#method-pgu.correlator-createCorrelationMatrixPearson}{\code{pgu.correlator$createCorrelationMatrixPearson()}}
+\item \href{#method-pgu.correlator-createCorrelationMatrixKendall}{\code{pgu.correlator$createCorrelationMatrixKendall()}}
+\item \href{#method-pgu.correlator-createCorrelationMatrixSpearman}{\code{pgu.correlator$createCorrelationMatrixSpearman()}}
+\item \href{#method-pgu.correlator-correlate}{\code{pgu.correlator$correlate()}}
+\item \href{#method-pgu.correlator-printFeature}{\code{pgu.correlator$printFeature()}}
+\item \href{#method-pgu.correlator-printRTbl}{\code{pgu.correlator$printRTbl()}}
+\item \href{#method-pgu.correlator-printPPearsonTbl}{\code{pgu.correlator$printPPearsonTbl()}}
+\item \href{#method-pgu.correlator-printTauTbl}{\code{pgu.correlator$printTauTbl()}}
+\item \href{#method-pgu.correlator-printPKendallTbl}{\code{pgu.correlator$printPKendallTbl()}}
+\item \href{#method-pgu.correlator-printRhoTbl}{\code{pgu.correlator$printRhoTbl()}}
+\item \href{#method-pgu.correlator-printPSpearmanTbl}{\code{pgu.correlator$printPSpearmanTbl()}}
+\item \href{#method-pgu.correlator-clone}{\code{pgu.correlator$clone()}}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-new"></a>}}
-\if{latex}{\out{\hypertarget{method-new}{}}}
+\if{html}{\out{<a id="method-pgu.correlator-new"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.correlator-new}{}}}
 \subsection{Method \code{new()}}{
-Creates and returns a new \code{pgu.correlator} object.
+Creates and returns a new `pgu.correlator` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.correlator$new(data = "tbl_df")}\if{html}{\out{</div>}}
 }
@@ -115,26 +115,26 @@ Creates and returns a new \code{pgu.correlator} object.
 \if{html}{\out{</div>}}
 }
 \subsection{Returns}{
-A new \code{pgu.correlator} object.
+A new `pgu.correlator` object.
 (pguIMP::pgu.correlator)
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-finalize"></a>}}
-\if{latex}{\out{\hypertarget{method-finalize}{}}}
+\if{html}{\out{<a id="method-pgu.correlator-finalize"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.correlator-finalize}{}}}
 \subsection{Method \code{finalize()}}{
 Clears the heap and
-indicates if instance of \code{pgu.correlator} is removed from heap.
+indicates if instance of `pgu.correlator` is removed from heap.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.correlator$finalize()}\if{html}{\out{</div>}}
 }
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-print"></a>}}
-\if{latex}{\out{\hypertarget{method-print}{}}}
+\if{html}{\out{<a id="method-pgu.correlator-print"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.correlator-print}{}}}
 \subsection{Method \code{print()}}{
-Prints instance variables of a \code{pgu.correlator} object.
+Prints instance variables of a `pgu.correlator` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.correlator$print()}\if{html}{\out{</div>}}
 }
@@ -144,8 +144,8 @@ string
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-resetCorrelator"></a>}}
-\if{latex}{\out{\hypertarget{method-resetCorrelator}{}}}
+\if{html}{\out{<a id="method-pgu.correlator-resetCorrelator"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.correlator-resetCorrelator}{}}}
 \subsection{Method \code{resetCorrelator()}}{
 Performes pair-wise correlation analysis on the attributes of the data frame.
 Progresse is indicated by the progress object passed to the function.
@@ -166,11 +166,11 @@ Progresse is indicated by the progress object passed to the function.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-resetMatrix"></a>}}
-\if{latex}{\out{\hypertarget{method-resetMatrix}{}}}
+\if{html}{\out{<a id="method-pgu.correlator-resetMatrix"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.correlator-resetMatrix}{}}}
 \subsection{Method \code{resetMatrix()}}{
 Creates a square matrix which dimension corresponds to the length
-of the instance variable featureNames. The matrix entries are set to a distict \code{value}.
+of the instance variable featureNames. The matrix entries are set to a distict `value`.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.correlator$resetMatrix(value = "numeric")}\if{html}{\out{</div>}}
 }
@@ -189,8 +189,8 @@ A square matrix.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-featureIdx"></a>}}
-\if{latex}{\out{\hypertarget{method-featureIdx}{}}}
+\if{html}{\out{<a id="method-pgu.correlator-featureIdx"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.correlator-featureIdx}{}}}
 \subsection{Method \code{featureIdx()}}{
 Determines the numerical index of the column of an attribute based on the attribute name.
 \subsection{Usage}{
@@ -211,8 +211,8 @@ The attributes column index.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-calcCorrelationNumeric"></a>}}
-\if{latex}{\out{\hypertarget{method-calcCorrelationNumeric}{}}}
+\if{html}{\out{<a id="method-pgu.correlator-calcCorrelationNumeric"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.correlator-calcCorrelationNumeric}{}}}
 \subsection{Method \code{calcCorrelationNumeric()}}{
 Creates a correlation test between two attributes of a dataframe.
 The test is stored as instance variable.
@@ -234,15 +234,15 @@ The test is stored as instance variable.
 (numeric)}
 
 \item{\code{method}}{The cname of the correlation test.
-Valid coiced are defined by the instance variable \code{method}.
+Valid coiced are defined by the instance variable `method`.
 (chatacter)}
 }
 \if{html}{\out{</div>}}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-createCorrelationMatrixPearson"></a>}}
-\if{latex}{\out{\hypertarget{method-createCorrelationMatrixPearson}{}}}
+\if{html}{\out{<a id="method-pgu.correlator-createCorrelationMatrixPearson"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.correlator-createCorrelationMatrixPearson}{}}}
 \subsection{Method \code{createCorrelationMatrixPearson()}}{
 Performs the actual correlation test routine after Pearson.
 Iteratively runs through the attributes known to the class
@@ -271,8 +271,8 @@ Displays the progress if shiny is loaded.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-createCorrelationMatrixKendall"></a>}}
-\if{latex}{\out{\hypertarget{method-createCorrelationMatrixKendall}{}}}
+\if{html}{\out{<a id="method-pgu.correlator-createCorrelationMatrixKendall"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.correlator-createCorrelationMatrixKendall}{}}}
 \subsection{Method \code{createCorrelationMatrixKendall()}}{
 Performs the actual correlation test routine after Kendall.
 Iteratively runs through the attributes known to the class
@@ -301,8 +301,8 @@ Displays the progress if shiny is loaded.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-createCorrelationMatrixSpearman"></a>}}
-\if{latex}{\out{\hypertarget{method-createCorrelationMatrixSpearman}{}}}
+\if{html}{\out{<a id="method-pgu.correlator-createCorrelationMatrixSpearman"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.correlator-createCorrelationMatrixSpearman}{}}}
 \subsection{Method \code{createCorrelationMatrixSpearman()}}{
 Performs the actual correlation test routine after Spearman.
 Iteratively runs through the attributes known to the class
@@ -331,11 +331,11 @@ Displays the progress if shiny is loaded.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-correlate"></a>}}
-\if{latex}{\out{\hypertarget{method-correlate}{}}}
+\if{html}{\out{<a id="method-pgu.correlator-correlate"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.correlator-correlate}{}}}
 \subsection{Method \code{correlate()}}{
 Performs the all three correlation test routines defined
-within the instance variable \code{method}.
+within the instance variable `method`.
 Displays the progress if shiny is loaded.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.correlator$correlate(data = "tbl_df", progress = "Progress")}\if{html}{\out{</div>}}
@@ -354,8 +354,8 @@ Displays the progress if shiny is loaded.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-printFeature"></a>}}
-\if{latex}{\out{\hypertarget{method-printFeature}{}}}
+\if{html}{\out{<a id="method-pgu.correlator-printFeature"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.correlator-printFeature}{}}}
 \subsection{Method \code{printFeature()}}{
 Transforms the results of the correlation procedure for a valid pair of attributes to a dataframe
 and returns it.
@@ -369,92 +369,92 @@ The analyis result as a dataframe.
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-printRTbl"></a>}}
-\if{latex}{\out{\hypertarget{method-printRTbl}{}}}
+\if{html}{\out{<a id="method-pgu.correlator-printRTbl"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.correlator-printRTbl}{}}}
 \subsection{Method \code{printRTbl()}}{
-Transfroms instance variable \code{r} to a dataframe and returns it.
+Transfroms instance variable `r` to a dataframe and returns it.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.correlator$printRTbl()}\if{html}{\out{</div>}}
 }
 
 \subsection{Returns}{
-Dataframe of instance variable \code{r}.
+Dataframe of instance variable `r`.
 (tibble::tibble)
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-printPPearsonTbl"></a>}}
-\if{latex}{\out{\hypertarget{method-printPPearsonTbl}{}}}
+\if{html}{\out{<a id="method-pgu.correlator-printPPearsonTbl"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.correlator-printPPearsonTbl}{}}}
 \subsection{Method \code{printPPearsonTbl()}}{
-Transfroms instance variable \code{pPearson} to a dataframe and returns it.
+Transfroms instance variable `pPearson` to a dataframe and returns it.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.correlator$printPPearsonTbl()}\if{html}{\out{</div>}}
 }
 
 \subsection{Returns}{
-Dataframe of instance variable \code{pPearson}.
+Dataframe of instance variable `pPearson`.
 (tibble::tibble)
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-printTauTbl"></a>}}
-\if{latex}{\out{\hypertarget{method-printTauTbl}{}}}
+\if{html}{\out{<a id="method-pgu.correlator-printTauTbl"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.correlator-printTauTbl}{}}}
 \subsection{Method \code{printTauTbl()}}{
-Transfroms instance variable \code{tau} to a dataframe and returns it.
+Transfroms instance variable `tau` to a dataframe and returns it.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.correlator$printTauTbl()}\if{html}{\out{</div>}}
 }
 
 \subsection{Returns}{
-Dataframe of instance variable \code{tau}.
+Dataframe of instance variable `tau`.
 (tibble::tibble)
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-printPKendallTbl"></a>}}
-\if{latex}{\out{\hypertarget{method-printPKendallTbl}{}}}
+\if{html}{\out{<a id="method-pgu.correlator-printPKendallTbl"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.correlator-printPKendallTbl}{}}}
 \subsection{Method \code{printPKendallTbl()}}{
-Transfroms instance variable \code{pKendall} to a dataframe and returns it.
+Transfroms instance variable `pKendall` to a dataframe and returns it.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.correlator$printPKendallTbl()}\if{html}{\out{</div>}}
 }
 
 \subsection{Returns}{
-Dataframe of instance variable \code{pKendall}.
+Dataframe of instance variable `pKendall`.
 (tibble::tibble)
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-printRhoTbl"></a>}}
-\if{latex}{\out{\hypertarget{method-printRhoTbl}{}}}
+\if{html}{\out{<a id="method-pgu.correlator-printRhoTbl"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.correlator-printRhoTbl}{}}}
 \subsection{Method \code{printRhoTbl()}}{
-Transfroms instance variable \code{rho} to a dataframe and returns it.
+Transfroms instance variable `rho` to a dataframe and returns it.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.correlator$printRhoTbl()}\if{html}{\out{</div>}}
 }
 
 \subsection{Returns}{
-Dataframe of instance variable \code{rho}.
+Dataframe of instance variable `rho`.
 (tibble::tibble)
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-printPSpearmanTbl"></a>}}
-\if{latex}{\out{\hypertarget{method-printPSpearmanTbl}{}}}
+\if{html}{\out{<a id="method-pgu.correlator-printPSpearmanTbl"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.correlator-printPSpearmanTbl}{}}}
 \subsection{Method \code{printPSpearmanTbl()}}{
-Transfroms instance variable \code{pSpearman} to a dataframe and returns it.
+Transfroms instance variable `pSpearman` to a dataframe and returns it.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.correlator$printPSpearmanTbl()}\if{html}{\out{</div>}}
 }
 
 \subsection{Returns}{
-Dataframe of instance variable \code{pSpearman}.
+Dataframe of instance variable `pSpearman`.
 (tibble::tibble)
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-clone"></a>}}
-\if{latex}{\out{\hypertarget{method-clone}{}}}
+\if{html}{\out{<a id="method-pgu.correlator-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.correlator-clone}{}}}
 \subsection{Method \code{clone()}}{
 The objects of this class are cloneable with this method.
 \subsection{Usage}{

@@ -27,5 +27,5 @@ given the expected value mu and the standard deviation sigma.
 y <- pguIMP::normalDistribution(x=5, mu=0.0, sigma=1.0)
 }
 \author{
-Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
+Sebastian Malkusch
 }

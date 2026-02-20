@@ -14,7 +14,7 @@ Comprises all needed classes from the pguIMP package and manages the communicati
 This object is used by the shiny based gui and is not for use in individual R-scripts!
 }
 \author{
-Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
+Sebastian Malkusch
 }
 \section{Active bindings}{
 \if{html}{\out{<div class="r6-active-bindings">}}
@@ -991,35 +991,34 @@ Updates loq class.
 
 \item{\code{output}}{Pointer to shiny output}
 
-\item{\code{session}}{Pointer to shiny session
-#' @description
-#' Imports uploaded data from the R server into the instance variable loqData.
-#' Updates the instance class status.
-#' @param input
-#' Pointer to shiny input
-#' @param output
-#' Pointer to shiny output
-#' @param session
-#' Pointer to shiny session
-importLoq = function(input, output, session){
-if (private$.status$query(processName = "dataImported")){
-tryCatch({
-private$.loq$setLoq <- private$.importer$importLoq(self$fileName)
-private$.status$update(processName = "loqImported", value = TRUE)
-},
-error = function(e) {
-private$.status$update(processName = "loqImported", value = FALSE)
-shiny::showNotification(paste(e),type = "error", duration = 10)
-}#error
-)#tryCatch
-}#if
-else{
-private$.status$update(processName = "loqImported", value = FALSE)
-shiny::showNotification(paste("No file uploaded to import. Please upload a valid file first."),type = "error", duration = 10)
-}#else
-}, #function}
+\item{\code{session}}{Pointer to shiny session}
 }
 \if{html}{\out{</div>}}
+}
+\subsection{Details}{
+Imports uploaded data from the R server into the instance variable loqData.
+Updates the instance class status.
+
+Example code:
+\preformatted{
+importLoq = function(input, output, session)\{
+  if (private$.status$query(processName = "dataImported"))\{
+    tryCatch(\{
+      private$.loq$setLoq <- private$.importer$importLoq(self$fileName)
+      private$.status$update(processName = "loqImported", value = TRUE)
+    \},
+    error = function(e) \{
+      private$.status$update(processName = "loqImported", value = FALSE)
+      shiny::showNotification(paste(e),type = "error", duration = 10)
+    \}#error
+    )#tryCatch
+  \}#if
+  else\{
+    private$.status$update(processName = "loqImported", value = FALSE)
+    shiny::showNotification(paste("No file uploaded to import. Please upload a valid file first."),type = "error", duration = 10)
+  \}#else
+\}, #function
+}
 }
 }
 \if{html}{\out{<hr>}}
@@ -1030,19 +1029,17 @@ Updates the gui.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.delegate$update_loq_detect_gui(input, output, session)}\if{html}{\out{</div>}}
 }
-
 \subsection{Arguments}{
 \if{html}{\out{<div class="arguments">}}
 \describe{
 \item{\code{input}}{Pointer to shiny input}
-
 \item{\code{output}}{Pointer to shiny output}
-
 \item{\code{session}}{Pointer to shiny session}
 }
 \if{html}{\out{</div>}}
 }
 }
+
 \if{html}{\out{<hr>}}
 \if{html}{\out{<a id="method-update_loq_na_handling"></a>}}
 \if{latex}{\out{\hypertarget{method-update_loq_na_handling}{}}}
@@ -2232,14 +2229,7 @@ Updates the tbl.imputeDetectDetail table.
 
 \item{\code{output}}{Pointer to shiny output}
 
-\item{\code{session}}{Pointer to shiny session\preformatted{                        #' @description
-                        #' Updates the tbl.imputeDetectData table.
-                        #' @param input
-                        #' Pointer to shiny input
-                        #' @param output
-                        #' Pointer to shiny output
-                        #' @param session
-                        #' Pointer to shiny session
+\item{\code{session}}{Pointer to shiny session\preformatted{
                         updateImputeMissingsDataTbl = function(input, output, session)\{
                           if(self$status$query(processName = "naDetected"))\{
                             output$tbl.imputeMissingsData <- DT::renderDataTable(

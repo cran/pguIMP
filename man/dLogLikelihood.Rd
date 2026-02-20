@@ -24,5 +24,5 @@ Calculates the log Likelihood of a normally distributed event.
 y <- pguIMP::dLogLikelihood(x=5, pars = c(mu=0.0, sigma=1.0))
 }
 \author{
-Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
+Sebastian Malkusch
 }

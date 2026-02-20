@@ -12,7 +12,7 @@
 #' @importFrom R6 R6Class
 #' @importFrom  tools file_path_sans_ext file_ext
 #'
-#' @author Sebastian Malkusch, \email{malkusch@@med.uni-frankfurt.de}
+#' @author Sebastian Malkusch
 #'
 #' @export
 #'

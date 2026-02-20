@@ -15,7 +15,7 @@
 #' @importFrom magrittr %>%
 #' @importFrom tibble as_tibble tibble
 #'
-#' @author Sebastian Malkusch, \email{malkusch@@med.uni-frankfurt.de}
+#' @author Sebastian Malkusch
 #'
 #' @export
 #'

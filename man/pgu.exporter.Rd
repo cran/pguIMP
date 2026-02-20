@@ -4,7 +4,7 @@
 \alias{pgu.exporter}
 \title{pgu.exporter}
 \format{
-\link[R6:R6Class]{R6::R6Class} object.
+[R6::R6Class] object.
 }
 \description{
 A class that writes the results of the pguIMP analysis to an Excel file.
@@ -15,7 +15,7 @@ Each tibble is written to a separate sheet.
 This object is used by the shiny based gui and is not for use in individual R-scripts!
 }
 \author{
-Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
+Sebastian Malkusch
 }
 \section{Active bindings}{
 \if{html}{\out{<div class="r6-active-bindings">}}
@@ -34,44 +34,44 @@ Sebastian Malkusch, \email{malkusch@med.uni-frankfurt.de}
 \section{Methods}{
 \subsection{Public methods}{
 \itemize{
-\item \href{#method-new}{\code{pgu.exporter$new()}}
-\item \href{#method-finalize}{\code{pgu.exporter$finalize()}}
-\item \href{#method-print}{\code{pgu.exporter$print()}}
-\item \href{#method-extractSuffix}{\code{pgu.exporter$extractSuffix()}}
-\item \href{#method-writeDataToExcel}{\code{pgu.exporter$writeDataToExcel()}}
-\item \href{#method-clone}{\code{pgu.exporter$clone()}}
+\item \href{#method-pgu.exporter-new}{\code{pgu.exporter$new()}}
+\item \href{#method-pgu.exporter-finalize}{\code{pgu.exporter$finalize()}}
+\item \href{#method-pgu.exporter-print}{\code{pgu.exporter$print()}}
+\item \href{#method-pgu.exporter-extractSuffix}{\code{pgu.exporter$extractSuffix()}}
+\item \href{#method-pgu.exporter-writeDataToExcel}{\code{pgu.exporter$writeDataToExcel()}}
+\item \href{#method-pgu.exporter-clone}{\code{pgu.exporter$clone()}}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-new"></a>}}
-\if{latex}{\out{\hypertarget{method-new}{}}}
+\if{html}{\out{<a id="method-pgu.exporter-new"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.exporter-new}{}}}
 \subsection{Method \code{new()}}{
-Creates and returns a new \code{pgu.exporter} object.
+Creates and returns a new `pgu.exporter` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.exporter$new()}\if{html}{\out{</div>}}
 }
 
 \subsection{Returns}{
-A new \code{pgu.exporter} object.
+A new `pgu.exporter` object.
 (pguIMP::pgu.exporter)
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-finalize"></a>}}
-\if{latex}{\out{\hypertarget{method-finalize}{}}}
+\if{html}{\out{<a id="method-pgu.exporter-finalize"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.exporter-finalize}{}}}
 \subsection{Method \code{finalize()}}{
 Clears the heap and
-indicates if instance of \code{pgu.exporter} is removed from heap.
+indicates if instance of `pgu.exporter` is removed from heap.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.exporter$finalize()}\if{html}{\out{</div>}}
 }
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-print"></a>}}
-\if{latex}{\out{\hypertarget{method-print}{}}}
+\if{html}{\out{<a id="method-pgu.exporter-print"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.exporter-print}{}}}
 \subsection{Method \code{print()}}{
-Prints instance variables of a \code{pgu.exporter} object.
+Prints instance variables of a `pgu.exporter` object.
 \subsection{Usage}{
 \if{html}{\out{<div class="r">}}\preformatted{pgu.exporter$print()}\if{html}{\out{</div>}}
 }
@@ -81,8 +81,8 @@ string
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-extractSuffix"></a>}}
-\if{latex}{\out{\hypertarget{method-extractSuffix}{}}}
+\if{html}{\out{<a id="method-pgu.exporter-extractSuffix"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.exporter-extractSuffix}{}}}
 \subsection{Method \code{extractSuffix()}}{
 extracts the suffix from the fileName
 \subsection{Usage}{
@@ -91,8 +91,8 @@ extracts the suffix from the fileName
 
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-writeDataToExcel"></a>}}
-\if{latex}{\out{\hypertarget{method-writeDataToExcel}{}}}
+\if{html}{\out{<a id="method-pgu.exporter-writeDataToExcel"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.exporter-writeDataToExcel}{}}}
 \subsection{Method \code{writeDataToExcel()}}{
 writes tibble to an excel file of the name fileName.
 \subsection{Usage}{
@@ -109,8 +109,8 @@ If obj is a list, each member will be written to a seperate sheet.}
 }
 }
 \if{html}{\out{<hr>}}
-\if{html}{\out{<a id="method-clone"></a>}}
-\if{latex}{\out{\hypertarget{method-clone}{}}}
+\if{html}{\out{<a id="method-pgu.exporter-clone"></a>}}
+\if{latex}{\out{\hypertarget{method-pgu.exporter-clone}{}}}
 \subsection{Method \code{clone()}}{
 The objects of this class are cloneable with this method.
 \subsection{Usage}{
